@@ -274,3 +274,97 @@ public class ArmstrongNumber {
                             
 ```
 ---
+
+# Print all Divisors of a given Number
+
+
+Problem Statement: Given an integer N, return all divisors of N.
+
+A divisor of an integer N is a positive integer that divides N without leaving a remainder. In other words, if N is divisible by another integer without any remainder, then that integer is considered a divisor of N.
+
+
+## Example 1:
+Input:N = 36
+Output:[1, 2, 3, 4, 6, 9, 12, 18, 36]
+Explanation: The divisors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, 36.
+## Example 2:
+Input:N =12
+Output: [1, 2, 3, 4, 6, 12]
+Explanation: The divisors of 12 are 1, 2, 3, 4, 6, 12.
+
+
+## Optimal Approach
+
+Algorithm / Intuition
+We can optimise the previous approach by using the property that for any non-negative integer n, if d is a divisor of n then n/d is also a divisor of n.
+
+![image](https://assets.leetcode.com/users/images/b9c12c5c-c17c-4400-9629-df58affdae6b_1739207422.1479151.png)
+
+
+This property is symmetric about the square root of n by traversing just the first half we can avoid redundant iteration and computations improving the efficiency of the algorithm.
+
+
+Algorithm
+
+Step 1: Initialise an array to store the divisors.
+
+Step 2: Iterate from 1 to square root of n using a loop variable ‘i’. For each value of ‘i’:
+
+Check if ‘i’ is a divisor of ‘n’ by checking if ‘n’ is divisible by ‘i’ without a remainder (‘n’%i == 0).
+If i is a divisor, add it to the vectors of divisors.
+If i is different from n/i add the counterpart divisor n/i to the vector of divisors.
+Step 3: After the loop, return the array of divisors.
+
+# Code
+```java []
+                                
+import java.util.ArrayList;
+
+public class Main {
+    public static ArrayList<Integer> findDivisors(int n) {
+        // Initialize an empty
+        // ArrayList to store the divisors
+        ArrayList<Integer> divisors = new ArrayList<>();
+
+        // Iterate up to the square
+        // root of n to find divisors
+        // Calculate the square root of n
+        int sqrtN = (int) Math.sqrt(n);
+
+        // Loop from 1 to the
+        // square root of n
+        for (int i = 1; i <= sqrtN; ++i) {
+            // Check if i divides n
+            // without leaving a remainder
+            if (n % i == 0) {
+                // Add divisor i to the list
+                divisors.add(i);
+
+                // Add the counterpart divisor
+                // if it's different from i
+                if (i != n / i) {
+                    // Add the counterpart
+                    // divisor to the list
+                    divisors.add(n / i);
+                }
+            }
+        }
+
+        // Return the list of divisors
+        return divisors;
+    }
+
+    public static void main(String[] args) {
+        int number = 12;
+        ArrayList<Integer> divisors = findDivisors(number);
+
+        System.out.print("Divisors of " + number + " are: ");
+        for (int divisor : divisors) {
+            System.out.print(divisor + " ");
+        }
+        System.out.println();
+    }
+}
+```
+---
+
