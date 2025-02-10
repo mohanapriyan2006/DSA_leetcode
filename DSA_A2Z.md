@@ -367,4 +367,67 @@ public class Main {
 }
 ```
 ---
+# Problem Statement: Given an integer N, check whether it is prime or not. A prime number is a number that is only divisible by 1 and itself and the total number of divisors is 2.
+
+### Example 1:
+Input:N = 2
+Output:True
+Explanation: 2 is a prime number because it has two divisors: 1 and 2 (the number itself).
+### Example 2:
+Input:N =10
+Output: False
+Explanation: 10 is not prime, it is a composite number because it has 4 divisors: 1, 2, 5 and 10.
+
+# Code
+```java []
+                                
+import java.util.ArrayList;
+
+public class Main {
+    public static ArrayList<Integer> findDivisors(int n) {
+        // Initialize an empty
+        // ArrayList to store the divisors
+        ArrayList<Integer> divisors = new ArrayList<>();
+
+        // Iterate up to the square
+        // root of n to find divisors
+        // Calculate the square root of n
+        int sqrtN = (int) Math.sqrt(n);
+
+        // Loop from 1 to the
+        // square root of n
+        for (int i = 1; i <= sqrtN; ++i) {
+            // Check if i divides n
+            // without leaving a remainder
+            if (n % i == 0) {
+                // Add divisor i to the list
+                divisors.add(i);
+
+                // Add the counterpart divisor
+                // if it's different from i
+                if (i != n / i) {
+                    // Add the counterpart
+                    // divisor to the list
+                    divisors.add(n / i);
+                }
+            }
+        }
+
+        // Return the list of divisors
+        return divisors;
+    }
+
+    public static void main(String[] args) {
+        int number = 12;
+        ArrayList<Integer> divisors = findDivisors(number);
+
+        System.out.print("Divisors of " + number + " are: ");
+        for (int divisor : divisors) {
+            System.out.print(divisor + " ");
+        }
+        System.out.println();
+    }
+}
+```
+---
 
