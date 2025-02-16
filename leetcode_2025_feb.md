@@ -11,18 +11,18 @@ Return true if it is possible to make both strings equal by performing at most o
 Example 1:
 
 Input: s1 = "bank", s2 = "kanb"
-Output: true
-Explanation: For example, swap the first character with the last character of s2 to make "bank".
+<br/>Output: true
+<br/>Explanation: For example, swap the first character with the last character of s2 to make "bank".
 Example 2:
 
 Input: s1 = "attack", s2 = "defend"
-Output: false
-Explanation: It is impossible to make them equal with one string swap.
+<br/>Output: false
+<br/>Explanation: It is impossible to make them equal with one string swap.
 Example 3:
 
 Input: s1 = "kelb", s2 = "kelb"
-Output: true
-Explanation: The two strings are already equal, so no string swap operation is required.
+<br/>Output: true
+<br/>Explanation: The two strings are already equal, so no string swap operation is required.
 
 # Complexity
 - Time complexity: o(n)
@@ -63,16 +63,16 @@ You can return the answer in any order.
 Example 1:
 
 Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+<br/>Output: [0,1]
+<br/>Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 Example 2:
 
 Input: nums = [3,2,4], target = 6
-Output: [1,2]
+<br/>Output: [1,2]
 Example 3:
 
 Input: nums = [3,3], target = 6
-Output: [0,1]
+<br/>Output: [0,1]
 
 # Complexity
 - Time complexity: O(n)
@@ -114,15 +114,15 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 Example 1:
 
 Input: n = 2
-Output: 2
-Explanation: There are two ways to climb to the top.
+<br/>Output: 2
+<br/>Explanation: There are two ways to climb to the top.
 1. 1 step + 1 step
 2. 2 steps
 Example 2:
 
 Input: n = 3
-Output: 3
-Explanation: There are three ways to climb to the top.
+<br/>Output: 3
+<br/>Explanation: There are three ways to climb to the top.
 1. 1 step + 1 step + 1 step
 2. 1 step + 2 steps
 3. 2 steps + 1 step
@@ -165,18 +165,18 @@ Given n, calculate F(n).
 Example 1:
 
 Input: n = 2
-Output: 1
-Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.
+<br/>Output: 1
+<br/>Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.
 Example 2:
 
 Input: n = 3
-Output: 2
-Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
+<br/>Output: 2
+<br/>Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
 Example 3:
 
 Input: n = 4
-Output: 3
-Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
+<br/>Output: 3
+<br/>Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 
 # Complexity
 - Time complexity:
@@ -215,14 +215,14 @@ Given n, return the value of Tn.
 Example 1:
 
 Input: n = 4
-Output: 4
-Explanation:
+<br/>Output: 4
+<br/>Explanation:
 T_3 = 0 + 1 + 1 = 2
 T_4 = 1 + 1 + 2 = 4
 Example 2:
 
 Input: n = 25
-Output: 1389537
+<br/>Output: 1389537
 
 # Complexity
 - Time complexity: O(n)
@@ -266,15 +266,15 @@ Return the minimum cost to reach the top of the floor.
 Example 1:
 
 Input: cost = [10,15,20]
-Output: 15
-Explanation: You will start at index 1.
+<br/>Output: 15
+<br/>Explanation: You will start at index 1.
 - Pay 15 and climb two steps to reach the top.
 The total cost is 15.
 Example 2:
 
 Input: cost = [1,100,1,1,1,100,1,1,100,1]
-Output: 6
-Explanation: You will start at index 0.
+<br/>Output: 6
+<br/>Explanation: You will start at index 0.
 - Pay 1 and climb two steps to reach index 2.
 - Pay 1 and climb two steps to reach index 4.
 - Pay 1 and climb two steps to reach index 6.
@@ -318,14 +318,14 @@ Given an integer array nums representing the amount of money of each house, retu
 Example 1:
 
 Input: nums = [1,2,3,1]
-Output: 4
-Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
+<br/>Output: 4
+<br/>Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
 Total amount you can rob = 1 + 3 = 4.
 Example 2:
 
 Input: nums = [2,7,9,3,1]
-Output: 12
-Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
+<br/>Output: 12
+<br/>Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
 Total amount you can rob = 2 + 9 + 1 = 12.
 
 # Complexity
@@ -371,16 +371,16 @@ Return the maximum number of points you can earn by applying the above operation
 Example 1:
 
 Input: nums = [3,4,2]
-Output: 6
-Explanation: You can perform the following operations:
+<br/>Output: 6
+<br/>Explanation: You can perform the following operations:
 - Delete 4 to earn 4 points. Consequently, 3 is also deleted. nums = [2].
 - Delete 2 to earn 2 points. nums = [].
 You earn a total of 6 points.
 Example 2:
 
 Input: nums = [2,2,3,3,3,4]
-Output: 9
-Explanation: You can perform the following operations:
+<br/>Output: 9
+<br/>Explanation: You can perform the following operations:
 - Delete a 3 to earn 3 points. All 2's and 4's are also deleted. nums = [3,3].
 - Delete a 3 again to earn 3 points. nums = [3].
 - Delete a 3 once more to earn 3 points. nums = [].
@@ -432,12 +432,12 @@ Example 1:
 
 
 Input: m = 3, n = 7
-Output: 28
+<br/>Output: 28
 Example 2:
 
 Input: m = 3, n = 2
-Output: 3
-Explanation: From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
+<br/>Output: 3
+<br/>Explanation: From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
 1. Right -> Down -> Down
 2. Down -> Down -> Right
 3. Down -> Right -> Down
@@ -484,12 +484,12 @@ Example 1:
 
 
 Input: grid = [[1,3,1],[1,5,1],[4,2,1]]
-Output: 7
-Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
+<br/>Output: 7
+<br/>Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
 Example 2:
 
 Input: grid = [[1,2,3],[4,5,6]]
-Output: 12
+<br/>Output: 12
 
 # Complexity
 - Time complexity: O(n)
@@ -547,8 +547,8 @@ Example 1:
 
 
 Input: obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
-Output: 2
-Explanation: There is one obstacle in the middle of the 3x3 grid above.
+<br/>Output: 2
+<br/>Explanation: There is one obstacle in the middle of the 3x3 grid above.
 There are two ways to reach the bottom-right corner:
 1. Right -> Right -> Down -> Down
 2. Down -> Down -> Right -> Right
@@ -556,7 +556,7 @@ Example 2:
 
 
 Input: obstacleGrid = [[0,1],[0,0]]
-Output: 1
+<br/>Output: 1
 
 # Complexity
 - Time complexity: O(n)
@@ -602,18 +602,18 @@ palindrome
 Example 1:
 
 Input: x = 121
-Output: true
-Explanation: 121 reads as 121 from left to right and from right to left.
+<br/>Output: true
+<br/>Explanation: 121 reads as 121 from left to right and from right to left.
 Example 2:
 
 Input: x = -121
-Output: false
-Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+<br/>Output: false
+<br/>Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 Example 3:
 
 Input: x = 10
-Output: false
-Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+<br/>Output: false
+<br/>Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 # Complexity
 - Time complexity: O(n)
@@ -659,20 +659,20 @@ The final sorted array should not be returned by the function, but instead be st
 Example 1:
 
 Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
-Output: [1,2,2,3,5,6]
-Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
+<br/>Output: [1,2,2,3,5,6]
+<br/>Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
 The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
 Example 2:
 
 Input: nums1 = [1], m = 1, nums2 = [], n = 0
-Output: [1]
-Explanation: The arrays we are merging are [1] and [].
+<br/>Output: [1]
+<br/>Explanation: The arrays we are merging are [1] and [].
 The result of the merge is [1].
 Example 3:
 
 Input: nums1 = [0], m = 0, nums2 = [1], n = 1
-Output: [1]
-Explanation: The arrays we are merging are [] and [1].
+<br/>Output: [1]
+<br/>Explanation: The arrays we are merging are [] and [1].
 The result of the merge is [1].
 Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
 
@@ -712,15 +712,15 @@ Given an array nums of distinct positive integers, return the number of tuples (
 Example 1:
 
 Input: nums = [2,3,4,6]
-Output: 8
-Explanation: There are 8 valid tuples:
+<br/>Output: 8
+<br/>Explanation: There are 8 valid tuples:
 (2,6,3,4) , (2,6,4,3) , (6,2,3,4) , (6,2,4,3)
 (3,4,2,6) , (4,3,2,6) , (3,4,6,2) , (4,3,6,2)
 Example 2:
 
 Input: nums = [1,2,4,5,10]
-Output: 16
-Explanation: There are 16 valid tuples:
+<br/>Output: 16
+<br/>Explanation: There are 16 valid tuples:
 (1,10,2,5) , (1,10,5,2) , (10,1,2,5) , (10,1,5,2)
 (2,5,1,10) , (2,5,10,1) , (5,2,1,10) , (5,2,10,1)
 (2,10,4,5) , (2,10,5,4) , (10,2,4,5) , (10,2,5,4)
@@ -775,9 +775,9 @@ Example 1:
 
 Input: limit = 4, queries = [[1,4],[2,5],[1,3],[3,4]]
 
-Output: [1,2,2,3]
+<br/>Output: [1,2,2,3]
 
-Explanation:
+<br/>Explanation:
 
 
 
@@ -789,9 +789,9 @@ Example 2:
 
 Input: limit = 4, queries = [[0,1],[1,2],[2,2],[3,4],[4,5]]
 
-Output: [1,2,2,3,4]
+<br/>Output: [1,2,2,3,4]
 
-Explanation:
+<br/>Explanation:
 
 
 
@@ -866,14 +866,14 @@ If all assertions pass, then your solution will be accepted.
 Example 1:
 
 Input: nums = [3,2,2,3], val = 3
-Output: 2, nums = [2,2,_,_]
-Explanation: Your function should return k = 2, with the first two elements of nums being 2.
+<br/>Output: 2, nums = [2,2,_,_]
+<br/>Explanation: Your function should return k = 2, with the first two elements of nums being 2.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 Example 2:
 
 Input: nums = [0,1,2,2,3,0,4,2], val = 2
-Output: 5, nums = [0,1,4,0,3,_,_,_]
-Explanation: Your function should return k = 5, with the first five elements of nums containing 0, 0, 1, 3, and 4.
+<br/>Output: 5, nums = [0,1,4,0,3,_,_,_]
+<br/>Explanation: Your function should return k = 5, with the first five elements of nums containing 0, 0, 1, 3, and 4.
 Note that the five elements can be returned in any order.
 It does not matter what you leave beyond the returned k (hence they are underscores).
  
@@ -920,10 +920,10 @@ Example 1:
 Input
 ["NumberContainers", "find", "change", "change", "change", "change", "find", "change", "find"]
 [[], [10], [2, 10], [1, 10], [3, 10], [5, 10], [10], [1, 20], [10]]
-Output
+<br/>Output
 [null, -1, null, null, null, null, 1, null, 2]
 
-Explanation
+<br/>Explanation
 NumberContainers nc = new NumberContainers();
 nc.find(10); // There is no index that is filled with number 10. Therefore, we return -1.
 nc.change(2, 10); // Your container at index 2 will be filled with number 10.
@@ -981,9 +981,9 @@ Example 1:
 
 Input: nums = [1]
 
-Output: true
+<br/>Output: true
 
-Explanation:
+<br/>Explanation:
 
 There is only one element. So the answer is true.
 
@@ -991,9 +991,9 @@ Example 2:
 
 Input: nums = [2,1,4]
 
-Output: true
+<br/>Output: true
 
-Explanation:
+<br/>Explanation:
 
 There is only two pairs: (2,1) and (1,4), and both of them contain numbers with different parity. So the answer is true.
 
@@ -1001,9 +1001,9 @@ Example 3:
 
 Input: nums = [4,3,1,6]
 
-Output: false
+<br/>Output: false
 
-Explanation:
+<br/>Explanation:
 
 nums[1] and nums[2] are both odd. So the answer is false.
 
@@ -1039,8 +1039,8 @@ Return the total number of bad pairs in nums.
 Example 1:
 
 Input: nums = [4,1,3,3]
-Output: 5
-Explanation: The pair (0, 1) is a bad pair since 1 - 0 != 1 - 4.
+<br/>Output: 5
+<br/>Explanation: The pair (0, 1) is a bad pair since 1 - 0 != 1 - 4.
 The pair (0, 2) is a bad pair since 2 - 0 != 3 - 4, 2 != -1.
 The pair (0, 3) is a bad pair since 3 - 0 != 3 - 4, 3 != -1.
 The pair (1, 2) is a bad pair since 2 - 1 != 3 - 1, 1 != 2.
@@ -1049,8 +1049,8 @@ There are a total of 5 bad pairs, so we return 5.
 Example 2:
 
 Input: nums = [1,2,3,4,5]
-Output: 0
-Explanation: There are no bad pairs.
+<br/>Output: 0
+<br/>Explanation: There are no bad pairs.
 
 # Complexity
 - Time complexity: O(n)
@@ -1092,9 +1092,9 @@ Example 1:
 
 Input: s = "abc"
 
-Output: "abc"
+<br/>Output: "abc"
 
-Explanation:
+<br/>Explanation:
 
 There is no digit in the string.
 
@@ -1102,9 +1102,9 @@ Example 2:
 
 Input: s = "cb34"
 
-Output: ""
+<br/>Output: ""
 
-Explanation:
+<br/>Explanation:
 
 First, we apply the operation on s[2], and s becomes "c4".
 
@@ -1146,15 +1146,15 @@ Assume the environment does not allow you to store 64-bit integers (signed or un
 Example 1:
 
 Input: x = 123
-Output: 321
+<br/>Output: 321
 Example 2:
 
 Input: x = -123
-Output: -321
+<br/>Output: -321
 Example 3:
 
 Input: x = 120
-Output: 21
+<br/>Output: 21
  
 
 Constraints:
@@ -1195,8 +1195,8 @@ A substring is a contiguous sequence of characters in a string.
 ### Example 1:
 
 Input: s = "daabcbaabcbc", part = "abc"
-Output: "dab"
-Explanation: The following operations are done:
+<br/>Output: "dab"
+<br/>Explanation: The following operations are done:
 - s = "daabcbaabcbc", remove "abc" starting at index 2, so s = "dabaabcbc".
 - s = "dabaabcbc", remove "abc" starting at index 4, so s = "dababc".
 - s = "dababc", remove "abc" starting at index 3, so s = "dab".
@@ -1205,8 +1205,8 @@ Now s has no occurrences of "abc".
 ### Example 2:
 
 Input: s = "axxxxyyyyb", part = "xy"
-Output: "ab"
-Explanation: The following operations are done:
+<br/>Output: "ab"
+<br/>Explanation: The following operations are done:
 - s = "axxxxyyyyb", remove "xy" starting at index 4 so s = "axxxyyyb".
 - s = "axxxyyyb", remove "xy" starting at index 3 so s = "axxyyb".
 - s = "axxyyb", remove "xy" starting at index 2 so s = "axyb".
@@ -1250,20 +1250,20 @@ Given a string s, return true if it is a palindrome, or false otherwise.
 ### Example 1:
 
 Input: s = "A man, a plan, a canal: Panama"
-Output: true
-Explanation: "amanaplanacanalpanama" is a palindrome.
+<br/>Output: true
+<br/>Explanation: "amanaplanacanalpanama" is a palindrome.
 
 ### Example 2:
 
 Input: s = "race a car"
-Output: false
-Explanation: "raceacar" is not a palindrome.
+<br/>Output: false
+<br/>Explanation: "raceacar" is not a palindrome.
 
 ### Example 3:
 
 Input: s = " "
-Output: true
-Explanation: s is an empty string "" after removing non-alphanumeric characters.
+<br/>Output: true
+<br/>Explanation: s is an empty string "" after removing non-alphanumeric characters.
 Since an empty string reads the same forward and backward, it is a palindrome.
  
 
@@ -1311,8 +1311,8 @@ Return the maximum value of nums[i] + nums[j] that you can obtain over all possi
 ### Example 1:
 
 Input: nums = [18,43,36,13,7]
-Output: 54
-Explanation: The pairs (i, j) that satisfy the conditions are:
+<br/>Output: 54
+<br/>Explanation: The pairs (i, j) that satisfy the conditions are:
 - (0, 2), both numbers have a sum of digits equal to 9, and their sum is 18 + 36 = 54.
 - (1, 4), both numbers have a sum of digits equal to 7, and their sum is 43 + 7 = 50.
 So the maximum sum that we can obtain is 54.
@@ -1320,8 +1320,8 @@ So the maximum sum that we can obtain is 54.
 ### Example 2:
 
 Input: nums = [10,12,19,14]
-Output: -1
-Explanation: There are no two numbers that satisfy the conditions, so we return -1.
+<br/>Output: -1
+<br/>Explanation: There are no two numbers that satisfy the conditions, so we return -1.
  
 
 Constraints:
@@ -1377,11 +1377,11 @@ The majority element is the element that appears more than ⌊n / 2⌋ times. Yo
 ### Example 1:
 
 Input: nums = [3,2,3]
-Output: 3
+<br/>Output: 3
 Example 2:
 
 Input: nums = [2,2,1,1,1,2,2]
-Output: 2
+<br/>Output: 2
  
 
 Constraints:
@@ -1444,15 +1444,15 @@ If all assertions pass, then your solution will be accepted.
 ### Example 1:
 
 Input: nums = [1,1,2]
-Output: 2, nums = [1,2,_]
-Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
+<br/>Output: 2, nums = [1,2,_]
+<br/>Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 
 ### Example 2:
 
 Input: nums = [0,0,1,1,1,2,2,3,3,4]
-Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
-Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
+<br/>Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+<br/>Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
  
 
@@ -1511,15 +1511,15 @@ If all assertions pass, then your solution will be accepted.
 ### Example 1:
 
 Input: nums = [1,1,1,2,2,3]
-Output: 5, nums = [1,1,2,2,3,_]
-Explanation: Your function should return k = 5, with the first five elements of nums being 1, 1, 2, 2 and 3 respectively.
+<br/>Output: 5, nums = [1,1,2,2,3,_]
+<br/>Explanation: Your function should return k = 5, with the first five elements of nums being 1, 1, 2, 2 and 3 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 
 ### Example 2:
 
 Input: nums = [0,0,1,1,1,1,2,3,3]
-Output: 7, nums = [0,0,1,1,2,3,3,_,_]
-Explanation: Your function should return k = 7, with the first seven elements of nums being 0, 0, 1, 1, 2, 3 and 3 respectively.
+<br/>Output: 7, nums = [0,0,1,1,2,3,3,_,_]
+<br/>Explanation: Your function should return k = 7, with the first seven elements of nums being 0, 0, 1, 1, 2, 3 and 3 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
  
 
@@ -1564,8 +1564,8 @@ Return the minimum number of operations needed so that all elements of the array
 ### Example 1:
 
 Input: nums = [2,11,10,1,3], k = 10
-Output: 2
-Explanation: In the first operation, we remove elements 1 and 2, then add 1 * 2 + 2 to nums. nums becomes equal to [4, 11, 10, 3].
+<br/>Output: 2
+<br/>Explanation: In the first operation, we remove elements 1 and 2, then add 1 * 2 + 2 to nums. nums becomes equal to [4, 11, 10, 3].
 In the second operation, we remove elements 3 and 4, then add 3 * 2 + 4 to nums. nums becomes equal to [10, 11, 10].
 At this stage, all the elements of nums are greater than or equal to 10 so we can stop.
 It can be shown that 2 is the minimum number of operations needed so that all elements of the array are greater than or equal to 10.
@@ -1573,8 +1573,8 @@ It can be shown that 2 is the minimum number of operations needed so that all el
 ### Example 2:
 
 Input: nums = [1,1,2,4,9], k = 20
-Output: 4
-Explanation: After one operation, nums becomes equal to [2, 4, 9, 3].
+<br/>Output: 4
+<br/>Explanation: After one operation, nums becomes equal to [2, 4, 9, 3].
 After two operations, nums becomes equal to [7, 4, 9].
 After three operations, nums becomes equal to [15, 9].
 After four operations, nums becomes equal to [33].
@@ -1632,10 +1632,10 @@ Input
 ["ProductOfNumbers","add","add","add","add","add","getProduct","getProduct","getProduct","add","getProduct"]
 [[],[3],[0],[2],[5],[4],[2],[3],[4],[8],[2]]
 
-Output
+<br/>Output
 [null,null,null,null,null,null,20,40,0,null,32]
 
-##### Explanation
+##### <br/>Explanation
 ProductOfNumbers productOfNumbers = new ProductOfNumbers();
 productOfNumbers.add(3);        // [3]
 productOfNumbers.add(0);        // [3,0]
@@ -1694,8 +1694,8 @@ The decimal representation of i * i can be partitioned into contiguous substring
 #### Example 1:
 
 Input: n = 10
-Output: 182
-Explanation: There are exactly 3 integers i in the range [1, 10] that satisfy the conditions in the statement:
+<br/>Output: 182
+<br/>Explanation: There are exactly 3 integers i in the range [1, 10] that satisfy the conditions in the statement:
 - 1 since 1 * 1 = 1
 - 9 since 9 * 9 = 81 and 81 can be partitioned into 8 and 1 with a sum equal to 8 + 1 == 9.
 - 10 since 10 * 10 = 100 and 100 can be partitioned into 10 and 0 with a sum equal to 10 + 0 == 10.
@@ -1704,8 +1704,8 @@ Hence, the punishment number of 10 is 1 + 81 + 100 = 182
 #### Example 2:
 
 Input: n = 37
-Output: 1478
-Explanation: There are exactly 4 integers i in the range [1, 37] that satisfy the conditions in the statement:
+<br/>Output: 1478
+<br/>Explanation: There are exactly 4 integers i in the range [1, 37] that satisfy the conditions in the statement:
 - 1 since 1 * 1 = 1. 
 - 9 since 9 * 9 = 81 and 81 can be partitioned into 8 + 1. 
 - 10 since 10 * 10 = 100 and 100 can be partitioned into 10 + 0. 
@@ -1736,6 +1736,81 @@ class Solution {
     final int d = numChars.charAt(s) - '0';
     return isPossible(accumulate, running * 10 + d, numChars, s + 1, target) ||
         isPossible(accumulate + running, d, numChars, s + 1, target);
+  }
+}
+```
+---
+# 1718. Construct the Lexicographically Largest Valid Sequence
+Solved
+Medium
+
+Given an integer n, find a sequence that satisfies all of the following:
+
+The integer 1 occurs once in the sequence.
+Each integer between 2 and n occurs twice in the sequence.
+For every integer i between 2 and n, the distance between the two occurrences of i is exactly i.
+The distance between two numbers on the sequence, a[i] and a[j], is the absolute difference of their indices, |j - i|.
+
+Return the lexicographically largest sequence. It is guaranteed that under the given constraints, there is always a solution.
+
+A sequence a is lexicographically larger than a sequence b (of the same length) if in the first position where a and b differ, sequence a has a number greater than the corresponding number in b. For example, [0,1,9,0] is lexicographically larger than [0,1,5,6] because the first position they differ is at the third number, and 9 is greater than 5.
+
+ 
+
+#### Example 1:
+
+Input: n = 3 
+<br/>Output: [3,1,2,3,2] 
+
+<br/>Explanation: [2,3,2,1,3] is also a valid sequence, but [3,1,2,3,2] is the lexicographically largest valid sequence.
+
+#### Example 2:
+
+Input: n = 5
+<br/>Output: [5,3,1,4,3,5,2,4,2]
+ 
+
+Constraints:
+
+1 <= n <= 20
+
+# Code
+```java []
+class Solution {
+  public int[] constructDistancedSequence(int n) {
+    int[] ans = new int[2 * n - 1];
+    dfs(n, 0, 0, ans);
+    return ans;
+  }
+
+  private boolean dfs(int n, int i, int mask, int[] ans) {
+    if (i == ans.length)
+      return true;
+    if (ans[i] > 0)
+      return dfs(n, i + 1, mask, ans);
+
+    // Greedily fill in `ans` in descending order.
+    for (int num = n; num >= 1; --num) {
+      if ((mask >> num & 1) == 1)
+        continue;
+      if (num == 1) {
+        ans[i] = num;
+        if (dfs(n, i + 1, mask | 1 << num, ans))
+          return true;
+        ans[i] = 0;
+      } else { // num in [2, n]
+        if (i + num >= ans.length || ans[i + num] > 0)
+          continue;
+        ans[i] = num;
+        ans[i + num] = num;
+        if (dfs(n, i + 1, mask | 1 << num, ans))
+          return true;
+        ans[i + num] = 0;
+        ans[i] = 0;
+      }
+    }
+
+    return false;
   }
 }
 ```
