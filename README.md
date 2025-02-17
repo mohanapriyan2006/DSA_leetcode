@@ -7,6 +7,6 @@
 
 ### and
 
-## *DSA* problems :) ..
+## *DSA* problems :) ...
 
 ---
