@@ -2004,5 +2004,60 @@ class Solution {
 }
 ```
 ---
+# 1980. Find Unique Binary String
+Solved
+Medium
+
+Given an array of strings nums containing n unique binary strings each of length n, return a binary string of length n that does not appear in nums. If there are multiple answers, you may return any of them.
+
+ 
+
+### Example 1:
+
+Input: nums = ["01","10"] <br/>
+Output: "11" <br/>
+Explanation: "11" does not appear in nums. "00" would also be correct.
+
+### Example 2:
+
+Input: nums = ["00","01"] <br/>
+Output: "11" <br/>
+Explanation: "11" does not appear in nums. "10" would also be correct.
+
+### Example 3:
+
+Input: nums = ["111","011","001"] <br/>
+Output: "101" <br/>
+Explanation: "101" does not appear in nums. "000", "010", "100", and "110" would also be correct.
+ 
+
+Constraints:
+
+n == nums.length
+1 <= n <= 16
+nums[i].length == n
+nums[i] is either '0' or '1'.
+All the strings of nums are unique.
+
+# Code
+```java []
+class Solution {
+  public String findDifferentBinaryString(String[] nums) {
+    final int bitSize = nums[0].length();
+    final int maxNum = 1 << bitSize;
+    Set<Integer> numsSet = Arrays.stream(nums)
+                               .mapToInt(num -> Integer.parseInt(num, 2))
+                               .boxed()
+                               .collect(Collectors.toSet());
+
+    for (int num = 0; num < maxNum; ++num)
+      if (!numsSet.contains(num))
+        return String.format("%" + bitSize + "s", Integer.toBinaryString(num)).replace(' ', '0');
+
+    throw new IllegalArgumentException();
+  }
+}
+```
+---
 
 
