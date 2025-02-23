@@ -2219,3 +2219,88 @@ class Solution {
 }
 ```
 ---
+# 1028. Recover a Tree From Preorder Traversal
+Solved
+Hard
+
+We run a preorder depth-first search (DFS) on the root of a binary tree.
+
+At each node in this traversal, we output D dashes (where D is the depth of this node), then we output the value of this node.  If the depth of a node is D, the depth of its immediate child is D + 1.  The depth of the root node is 0.
+
+If a node has only one child, that child is guaranteed to be the left child.
+
+Given the output traversal of this traversal, recover the tree and return its root.
+
+ 
+
+#### Example 1:
+
+
+Input: traversal = "1-2--3--4-5--6--7" <br/>
+Output: [1,2,5,3,4,6,7] <br/>
+
+#### Example 2:
+
+
+Input: traversal = "1-2--3---4-5--6---7" <br/>
+Output: [1,2,5,3,null,6,null,4,null,7] <br/>
+
+#### Example 3:
+
+
+Input: traversal = "1-401--349---90--88" <br/>
+Output: [1,401,null,349,88,90] <br/>
+ 
+
+Constraints:
+
+The number of nodes in the original tree is in the range [1, 1000].
+1 <= Node.val <= 109
+
+# Code
+```java []
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ }
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left =inla left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+
+
+class Solution {
+      public TreeNode recoverFromPreorder(String traversal) {
+          return recoverFromPreorder(traversal, 0);
+            }
+
+              private int i = 0;
+
+                private TreeNode recoverFromPreorder(final String traversal, int depth) {
+                    int nDashes = 0;
+                        while (i + nDashes < traversal.length() && traversal.charAt(i + nDashes) == '-')
+                              ++nDashes;
+                                  if (nDashes != depth)
+                                        return null;
+
+                                            i += depth;
+                                                final int start = i;
+                                                    while (i < traversal.length() && Character.isDigit(traversal.charAt(i)))
+                                                          ++i;
+
+                                                              return new TreeNode(Integer.valueOf(traversal.substring(start, i)),
+                                                                                      recoverFromPreorder(traversal, depth + 1),
+                                                                                                              recoverFromPreorder(traversal, depth + 1));
+                                                                                                                }
+                                                                                                                }
+
+```
+---
+
