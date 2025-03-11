@@ -552,3 +552,59 @@ class Solution {
 }
 ```
 -----
+
+# 1358. Number of Substrings Containing All Three Characters
+Medium
+
+Given a string s consisting only of characters a, b and c.
+
+Return the number of substrings containing at least one occurrence of all these characters a, b and c.
+
+ 
+
+#### Example 1:
+
+Input: s = "abcabc" <br/>
+Output: 10 <br/>
+Explanation: The substrings containing at least one occurrence of the characters a, b and c are "abc", "abca", "abcab", "abcabc", "bca", "bcab", "bcabc", "cab", "cabc" and "abc" (again).  <br/>
+
+#### Example 2:
+
+Input: s = "aaacb" <br/>
+Output: 3 <br/>
+Explanation: The substrings containing at least one occurrence of the characters a, b and c are "aaacb", "aacb" and "acb".  <br/>
+
+#### Example 3:
+
+Input: s = "abc" <br/>
+Output: 1 <br/>
+ 
+
+Constraints:
+
+3 <= s.length <= 5 x 10^4 <br/>
+s only consists of a, b or c characters.
+
+# Code
+```java []
+class Solution {
+  // Similar to 3. Longest SubString Without Repeating Characters
+  public int numberOfSubstrings(String s) {
+    int ans = 0;
+    int[] count = new int[3];
+
+    int l = 0;
+    for (final char c : s.toCharArray()) {
+      ++count[c - 'a'];
+      while (count[0] > 0 && count[1] > 0 && count[2] > 0)
+        --count[s.charAt(l++) - 'a'];
+      // s[0..r], s[1..r], ..., s[l - 1..r] are satified strings.
+      ans += l;
+    }
+
+    return ans;
+  }
+}
+```
+-----
+
