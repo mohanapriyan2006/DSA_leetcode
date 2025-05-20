@@ -1159,3 +1159,78 @@ class Solution {
 
 ```
 ---
+# Highest Occurring Element in an Array
+Easy
+
+Given an array of n integers, find the most frequent element in it i.e., the element that occurs the maximum number of times. If there are multiple elements that appear a maximum number of times, find the smallest of them.
+
+### Examples:
+
+Input: arr = [1, 2, 2, 3, 3, 3] <br/>
+
+Output: 3 <br/>
+
+Explanation: The number 3 appears the most (3 times). It is the most frequent element. <br/>
+
+
+Input: arr = [4, 4, 5, 5, 6] <br/>
+
+Output: 4 <br/>
+
+Explanation: Both 4 and 5 appear twice, but 4 is smaller. So, 4 is the most frequent element. <br/>
+
+
+```class Solution {
+
+public:
+
+    int mostFrequentElement(vector<int>& nums) {
+
+        unordered_map<int,int> mp;
+
+
+
+        for(int i =0 ; i<nums.size() ; ++i){
+
+            mp[nums[i]]++;
+
+        }
+
+
+
+        int maxEle = 0;
+
+        int maxFreq = 0;
+
+
+
+        for(auto it:mp){
+
+            int curEle = it.first;
+
+            int curFreq = it.second;
+
+
+
+            if(maxFreq < curFreq) {
+
+                maxFreq = curFreq;
+
+                maxEle = curEle;
+
+            }
+
+        }
+
+
+
+        return maxEle;
+
+    }
+
+};
+
+```
+
+----
+
