@@ -1180,7 +1180,8 @@ Output: 4 <br/>
 Explanation: Both 4 and 5 appear twice, but 4 is smaller. So, 4 is the most frequent element. <br/>
 
 
-```class Solution {
+```java []
+class Solution {
 
 public:
 
