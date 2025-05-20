@@ -53,3 +53,63 @@ public:
 };
 ```
 ------
+
+# 217. Contains Duplicate
+
+Easy
+
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+ 
+
+#### Example 1:
+
+Input: nums = [1,2,3,1] <br/>
+
+Output: true <br/>
+
+Explanation: <br/>
+
+The element 1 occurs at the indices 0 and 3.
+
+
+#### Example 2:
+
+Input: nums = [1,2,3,4] <br/>
+
+Output: false <br/>
+
+Explanation: <br/>
+
+All elements are distinct.
+
+#### Example 3:
+
+Input: nums = [1,1,1,3,3,4,3,2,4,2] <br/>
+
+Output: true <br/>
+
+ 
+Constraints:
+
+1 <= nums.length <= 105
+-109 <= nums[i] <= 109
+
+# Code
+```cpp []
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        unordered_set<int> num;
+
+        for(int i=0 ; i<nums.size() ; ++i){
+            num.insert(nums[i]);
+        }
+
+        if( num.size() != nums.size()) return true;
+
+        return false;
+    }
+};
+```
+-----
