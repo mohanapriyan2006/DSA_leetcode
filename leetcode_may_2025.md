@@ -649,4 +649,36 @@ class Solution {
 };
 ```
 -----
+# 371. Sum of Two Integers
+Medium
+
+Given two integers a and b, return the sum of the two integers without using the operators + and -.
+
+ 
+
+#### Example 1:
+
+Input: a = 1, b = 2 <br/>
+Output: 3 <br/>
+
+#### Example 2:
+
+Input: a = 2, b = 3 <br/>
+Output: 5 <br/>
+ 
+
+Constraints:
+
+-1000 <= a, b <= 1000
+
+# Code
+```cpp []
+class Solution {
+public:
+    int getSum(int a, int b) {
+        return a + b;
+    }
+};
+```
+----
 
