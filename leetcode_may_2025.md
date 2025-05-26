@@ -649,7 +649,7 @@ class Solution {
 };
 ```
 -----
-# 371. Sum of Two Integers
+# 371. Sum of Two Integers [Link🚀](https://leetcode.com/problems/sum-of-two-integers/description/)
 Medium
 
 Given two integers a and b, return the sum of the two integers without using the operators + and -.
@@ -676,7 +676,7 @@ Constraints:
 class Solution {
  public:
   int getSum(unsigned a, unsigned b) {
-    while (b > 0) {                 
+    while (b != 0) {                 
       const unsigned carry = a & b;  
       a ^= b;  
       b = carry << 1;
