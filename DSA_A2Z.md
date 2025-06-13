@@ -1423,3 +1423,106 @@ public:
 
 ```
 ----
+# 1752. Check if Array Is Sorted and Rotated 
+Easy
+
+Given an array nums, return true if the array was originally sorted in non-decreasing order, then rotated some number of positions (including zero). Otherwise, return false.
+
+There may be duplicates in the original array.
+
+Note: An array A rotated by x positions results in an array B of the same length such that B[i] == A[(i+x) % A.length] for every valid index i.
+
+Example 1:
+
+Input: nums = [3,4,5,1,2] Output: true Explanation: [1,2,3,4,5] is the original sorted array. You can rotate the array by x = 3 positions to begin on the element of value 3: [3,4,5,1,2]. Example 2:
+
+Input: nums = [2,1,3,4] Output: false Explanation: There is no sorted array once rotated that can make nums. Example 3:
+
+Input: nums = [1,2,3] Output: true Explanation: [1,2,3] is the original sorted array. You can rotate the array by x = 0 positions (i.e. no rotation) to make nums.
+
+Constraints:
+
+1 <= nums.length <= 100 1 <= nums[i] <= 100
+
+Code
+
+```cpp []
+class Solution {
+public:
+    bool check(vector<int>& nums) {
+        int n = nums.size();
+        int r = 0;
+        for(int i=0 ; i<n ; ++i){
+            if(nums[i] > nums[(i+1) % n] && ++r > 1) return false;
+        }
+        return true;
+    }
+};
+```
+----
+
+# 26. Remove Duplicates from Sorted Array -> [LINK](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
+
+Easy
+
+Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+
+Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:
+
+Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The remaining elements of nums are not important as well as the size of nums.
+Return k.
+Custom Judge:
+
+The judge will test your solution with the following code:
+
+int[] nums = [...]; // Input array
+int[] expectedNums = [...]; // The expected answer with correct length
+
+int k = removeDuplicates(nums); // Calls your implementation
+
+assert k == expectedNums.length;
+for (int i = 0; i < k; i++) {
+    assert nums[i] == expectedNums[i];
+}
+If all assertions pass, then your solution will be accepted.
+
+ 
+
+Example 1:
+
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2,_]
+Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+
+Example 2:
+
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+ 
+
+Constraints:
+
+1 <= nums.length <= 3 * 104
+-100 <= nums[i] <= 100
+nums is sorted in non-decreasing order.
+
+# Code
+```cpp []
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        int i =0 ;
+        for(int j = 1  ; j<nums.size() ; ++j){
+            if(nums[i] != nums[j]){
+                i++;
+                nums[i] = nums[j];
+            }
+        }
+        return i +1;
+    }
+};
+```
+----
