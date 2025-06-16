@@ -956,7 +956,7 @@ class Solution {
 
 ```
 ---
-# Insertion Sort (GFG)
+# Insertion Sort [(GFG)](https://www.geeksforgeeks.org/problems/insertion-sort/1)
 Difficulty: Easy
 
 The task is to complete the insertsort() function which is used to implement Insertion Sort.
@@ -1113,7 +1113,7 @@ class Solution {
 ```
 ---
 
-# Insertion Sort using Recursive (GFG)
+# Insertion Sort using Recursive [(GFG)](https://www.geeksforgeeks.org/problems/insertion-sort/1)
 Difficulty: Easy
 
 The task is to complete the insertsort() function which is used to implement Insertion Sort.
