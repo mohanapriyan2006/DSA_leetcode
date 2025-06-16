@@ -909,7 +909,7 @@ class Solution {
 ```
 ---
 
-# Bubble Sort (GFG)
+# Bubble Sort [(GFG)](https://www.geeksforgeeks.org/problems/bubble-sort/1)
 Difficulty: Easy
 
 Given an array, arr[]. Sort the array using bubble sort algorithm.
@@ -1062,7 +1062,7 @@ class Solution {
 
 ```
 ---
-# Bubble Sort using Recursive (GFG)
+# Bubble Sort using Recursive [(GFG)](https://www.geeksforgeeks.org/problems/bubble-sort/1)
 Difficulty: Easy
 
 Given an array, arr[]. Sort the array using bubble sort algorithm.
