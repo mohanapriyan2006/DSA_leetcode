@@ -6,7 +6,6 @@
 [Click-here](https://leetcode.com/u/Mohanapriyan_M/)
 
 -----
-- [x] todo
 
 # 📘 Java/c++ DSA Practice
 
