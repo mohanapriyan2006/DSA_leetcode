@@ -5,7 +5,7 @@
 **My Leetcode link**
 [Click-here](https://leetcode.com/u/Mohanapriyan_M/)
 
-### and
+-----
 
 # 📘 Java/c++ DSA Practice
 
