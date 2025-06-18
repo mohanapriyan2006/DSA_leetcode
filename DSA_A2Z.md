@@ -1569,3 +1569,55 @@ class Solution {
 };
 ```
 ----
+
+# Rotate Array -> [GFG](https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1)
+Difficulty: Medium
+
+Given an array arr[]. Rotate the array to the left (counter-clockwise direction) by d steps, where d is a positive integer. Do the mentioned change in the array in place.
+
+Note: Consider the array as circular.
+
+Examples :
+
+Input: arr[] = [1, 2, 3, 4, 5], d = 2
+Output: [3, 4, 5, 1, 2]
+Explanation: when rotated by 2 elements, it becomes 3 4 5 1 2.
+
+Input: arr[] = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20], d = 3
+Output: [8, 10, 12, 14, 16, 18, 20, 2, 4, 6]
+Explanation: when rotated by 3 elements, it becomes 8 10 12 14 16 18 20 2 4 6.
+
+Input: arr[] = [7, 3, 9, 1], d = 9
+Output: [3, 9, 1, 7]
+Explanation: when we rotate 9 times, we'll get 3 9 1 7 as resultant array.
+
+Constraints:
+1 <= arr.size(), d <= 105
+0 <= arr[i] <= 105
+
+
+Company Tags
+AmazonMicrosoftMAQ Software
+
+# Code
+```cpp []
+class Solution {
+    private:
+    void reverse(vector<int>& arr,int l,int h){
+        while(l<=h) swap(arr[l++],arr[h--]);
+    }
+  public:
+    // Function to rotate an array by d elements in counter-clockwise direction.
+    void rotateArr(vector<int>& a, int k) {
+        int len = a.size();
+        k = k%len;
+        if(k<0){
+          k = k+len;
+        }
+        reverse(a,0,k-1);
+        reverse(a,k,len-1);
+        reverse(a,0,len-1);
+    }
+};
+```
+----
