@@ -1876,6 +1876,7 @@ class Solution {
 
 # Longest Subarray With Sum K -> [CodingNinja](https://www.naukri.com/code360/problems/longest-subarray-with-sum-k_6682399?leftPanelTabValue=PROBLEM)
 Easy
+
 You are given an array 'a' of size 'n' and an integer 'k'.
 Find the length of the longest subarray of 'a' whose sum is equal to 'k'.
 
