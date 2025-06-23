@@ -753,7 +753,9 @@ class Solution {
 };
 ```
 ------
-# 66. Plus One -> LeetCode
+
+
+# 66. Plus One -> [LeetCode](https://leetcode.com/problems/plus-one/description/)
 
 Easy
 
