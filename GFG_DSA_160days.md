@@ -1,7 +1,8 @@
 # Geeks For Geeks - 160 Days ( DSA challenge )
 -----------------------------------------------
 
-## Second Largest
+## Second Largest -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/second-largest3735)
+
 Difficulty: Easy
 
 Given an array of positive integers arr[], return the second largest element from the array. If the second largest element doesn't exist then return -1.
