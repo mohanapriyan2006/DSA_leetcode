@@ -321,3 +321,60 @@ class Solution {
 ------
 
 
+
+## Majority Element II -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/majority-vote)
+Difficulty: Medium
+
+You are given an array of integer arr[] where each number represents a vote to a candidate. Return the candidates that have votes greater than one-third of the total votes, If there's not a majority vote, return an empty array. 
+
+Note: The answer should be returned in an increasing format.
+
+Examples:
+
+Input: arr[] = [2, 1, 5, 5, 5, 5, 6, 6, 6, 6, 6]
+Output: [5, 6]
+Explanation: 5 and 6 occur more n/3 times.
+
+Input: arr[] = [1, 2, 3, 4, 5]
+Output: []
+Explanation: o candidate occur more than n/3 times.
+
+Constraint:
+
+1 <= arr.size() <= 106
+-109 <= arr[i] <= 109
+
+Expected Complexities
+
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+
+# Code
+```cpp []
+class Solution {
+  public:
+    vector<int> findMajority(vector<int>& arr) {
+        
+        vector<int> ans;
+        
+        map<int,int> freq;
+        
+        for(int num:arr){
+            freq[num]++;
+        }
+        
+        int n = arr.size()/3;
+        
+        for(auto it:freq){
+            if(it.second > n) ans.push_back(it.first);
+        }
+        
+        return ans;
+        
+    }
+};
+```
+
+------
+
+
