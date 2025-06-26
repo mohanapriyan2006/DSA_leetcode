@@ -2,7 +2,6 @@
 
 
 
-
 # Quick Sort -> [link](https://www.geeksforgeeks.org/problems/quick-sort/1) (GFG)
 
 Difficulty: Medium
