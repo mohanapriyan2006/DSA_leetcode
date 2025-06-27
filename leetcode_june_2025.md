@@ -1062,4 +1062,105 @@ class Solution {
 ------
 
 
+# 2014. Longest Subsequence Repeated k Times -> [LeetCode](https://leetcode.com/problems/longest-subsequence-repeated-k-times/description/)
+
+Hard
+
+You are given a string s of length n, and an integer k. You are tasked to find the longest subsequence repeated k times in string s.
+
+A subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
+
+A subsequence seq is repeated k times in the string s if seq * k is a subsequence of s, where seq * k represents a string constructed by concatenating seq k times.
+
+For example, "bba" is repeated 2 times in the string "bababcba", because the string "bbabba", constructed by concatenating "bba" 2 times, is a subsequence of the string "bababcba".
+Return the longest subsequence repeated k times in string s. If multiple such subsequences are found, return the lexicographically largest one. If there is no such subsequence, return an empty string.
+
+ 
+
+Example 1:
+
+example 1
+
+Input: s = "letsleetcode", k = 2
+Output: "let"
+Explanation: There are two longest subsequences repeated 2 times: "let" and "ete".
+"let" is the lexicographically largest one.
+
+Example 2:
+
+Input: s = "bb", k = 2
+Output: "b"
+Explanation: The longest subsequence repeated 2 times is "b".
+
+Example 3:
+
+Input: s = "ab", k = 2
+Output: ""
+Explanation: There is no subsequence repeated 2 times. Empty string is returned.
+ 
+
+Constraints:
+
+n == s.length
+2 <= n, k <= 2000
+2 <= n < k * 8
+s consists of lowercase English letters.
+
+# Code
+```cpp []
+#include <iostream>
+#include <queue>
+#include <string>
+#include <vector>
+
+class Solution {
+ public:
+  std::string longestSubsequenceRepeatedK(const std::string& s, int k) {
+    std::string ans;
+    std::vector<int> count(26);
+    std::vector<char> possibleChars;
+    std::queue<std::string> q{{""}};
+
+    for (const char c : s)
+      ++count[c - 'a'];
+
+    for (char c = 'a'; c <= 'z'; ++c)
+      if (count[c - 'a'] >= k)
+        possibleChars.push_back(c);
+
+    while (!q.empty()) {
+      const std::string currSubseq = q.front();
+      q.pop();
+      if (currSubseq.length() * k > s.length())
+        return ans;
+      for (const char c : possibleChars) {
+        const std::string& newSubseq = currSubseq + c;
+        if (isSubsequence(newSubseq, s, k)) {
+          q.push(newSubseq);
+          ans = newSubseq;
+        }
+      }
+    }
+
+    return ans;
+  }
+
+ private:
+  bool isSubsequence(const std::string& subseq, const std::string& s, int k) {
+    int i = 0;
+    for (const char c : s)
+      if (c == subseq[i])
+        if (++i == subseq.length()) {
+          if (--k == 0)
+            return true;
+          i = 0;
+        }
+    return false;
+  }
+};
+```
+
+-----
+
+
 
