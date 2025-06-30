@@ -449,3 +449,74 @@ class Solution {
 ------
 
 
+
+
+## Partition Equal Subset Sum -> [GFG](https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1)
+Difficulty: Medium
+
+Given an array arr[], determine if it can be partitioned into two subsets such that the sum of elements in both parts is the same.
+
+Note: Each element must be in exactly one subset.
+
+Examples:
+
+Input: arr = [1, 5, 11, 5]
+Output: true
+Explanation: The two parts are [1, 5, 5] and [11].
+
+Input: arr = [1, 3, 5]
+Output: false
+Explanation: This array can never be partitioned into two such parts.
+
+Constraints:
+
+1 ≤ arr.size ≤ 100
+1 ≤ arr[i] ≤ 200
+
+Expected Complexities
+
+Time Complexity: O(sum(arr) * n)
+Auxiliary Space: O(sum(arr))
+
+Company Tags
+
+AccoliteAmazonMicrosoftOYO RoomsAdobeDrishti-Soft
+
+Topic Tags
+
+Dynamic ProgrammingsubsetAlgorithms
+
+# Code
+```cpp []
+class Solution {
+  public:
+    bool equalPartition(vector<int>& arr) {
+        int total = 0 ;
+        
+        for(const int num:arr){
+            total+=num;
+        }
+        
+        if(total % 2 != 0) return false;
+        
+        int target = total / 2;
+        
+        vector<bool> dp(target+1 , false);
+        
+        dp[0] = true;
+        
+        for(int i=0 ; i < arr.size() ; ++i){
+            for(int j = target ; j>= arr[i] ; --j){
+                dp[j] = dp[j] || dp[ j - arr[i] ];
+            }
+        }
+        
+        return dp[target];
+        
+    }
+};
+```
+
+------
+
+
