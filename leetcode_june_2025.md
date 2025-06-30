@@ -1455,7 +1455,7 @@ class Solution {
 
 -------------
 
-# 594. Longest Harmonious Subsequence
+# 594. Longest Harmonious Subsequence -> [LeetCode](https://leetcode.com/problems/longest-harmonious-subsequence/description/)
 
 Easy
 
