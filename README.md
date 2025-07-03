@@ -2,7 +2,6 @@
 
 
 
-
 # 💻 Leetcode
 
 ### I have uploaded my leetcode problem solved by myself.
