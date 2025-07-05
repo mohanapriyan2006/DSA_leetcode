@@ -984,7 +984,7 @@ private:
 
 ----
 
-# 1394. Find Lucky Integer in an Array
+# 1394. Find Lucky Integer in an Array -> [LeetCode](https://leetcode.com/problems/find-lucky-integer-in-an-array/description/)
 
 Easy
 
