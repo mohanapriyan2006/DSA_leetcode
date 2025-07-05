@@ -1044,7 +1044,59 @@ public:
 
 -----------
 
+# 169. Majority Element -> [LeetCode](https://leetcode.com/problems/majority-element/description/)
 
+Easy
 
+### amazon
+
+Given an array nums of size n, return the majority element.
+
+The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+
+ 
+
+Example 1:
+
+Input: nums = [3,2,3]
+Output: 3
+Example 2:
+
+Input: nums = [2,2,1,1,1,2,2]
+Output: 2
+ 
+
+Constraints:
+
+n == nums.length
+1 <= n <= 5 * 104
+-109 <= nums[i] <= 109
+ 
+
+Follow-up: Could you solve the problem in linear time and in O(1) space?
+
+# Code
+```cpp []
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int x = nums.size()/2;
+        unordered_map<int,int> freq;
+        for(const int num:nums){
+            freq[num]++;
+        }
+
+        int ans = -1;
+
+        for(auto it:freq){
+            if(it.second > x) ans = it.first;
+        }
+
+        return ans;
+    }
+};
+```
+
+-----
 
 
