@@ -858,7 +858,23 @@ StringsSortingData StructuresAlgorithms
 # Code
 ```cpp []
 
-
+class Solution {
+  public:
+    bool areAnagrams(string& s1, string& s2) {
+        if(s1.size() != s2.size()) return false;
+        
+        vector<int> freq(26,0);
+        
+        for(const char c:s1) freq[c - 'a']++;
+        for(const char c:s2) freq[c - 'a']--;
+        
+        for(const int n:freq){
+            if(n != 0) return false;
+        }
+        
+        return true;
+    }
+};
 ```
 
 ------
