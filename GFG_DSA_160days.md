@@ -994,15 +994,35 @@ ArraysSearchingData StructuresAlgorithms
 class Solution {
   public:
     int countFreq(vector<int>& arr, int target) {
-        int ans = 0;
-        for(const int n:arr){
-            if(n == target) ans++;
+        
+        int l1=0 , h1=arr.size() -1;
+        
+        int lowerBound =  arr.size();
+        while(l1<=h1){
+            int mid = (l1 + h1)/2;
+            if(arr[mid] >= target){ 
+                h1 = mid - 1;
+                lowerBound = mid;
+            }
+            else l1 = mid + 1;
         }
         
-        return ans;
+        
+        int l2=0 , h2=arr.size() -1;
+        
+        int upperBound =  arr.size();
+        while(l2<=h2){
+            int mid = (l2 + h2)/2;
+            if(arr[mid] > target){ 
+                h2 = mid - 1;
+                upperBound = mid;
+            }
+            else l2 = mid + 1;
+        }
+        
+        return (upperBound - lowerBound);
     }
 };
-
 ```
 
 ------
