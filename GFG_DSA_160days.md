@@ -1095,3 +1095,84 @@ class Solution {
 ------
 
 
+
+## Search in Rotated Sorted Array -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/searching-gfg-160/problem/search-in-a-rotated-array4618)
+Difficulty: Medium
+
+Given a sorted and rotated array arr[] of distinct elements, the task is to find the index of a target key. Return -1 if the key is not found.
+
+Examples :
+
+Input: arr[] = [5, 6, 7, 8, 9, 10, 1, 2, 3], key = 3
+Output: 8
+Explanation: 3 is found at index 8.
+
+Input: arr[] = [3, 5, 1, 2], key = 6
+Output: -1
+Explanation: There is no element that has value 6.
+
+Input: arr[] = [33, 42, 72, 99], key = 42
+Output: 1
+Explanation: 42 is found at index 1.
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 106
+0 ≤ arr[i] ≤ 106
+0 ≤ key ≤ 106
+
+
+Expected Complexities
+
+Time Complexity: O(log n)
+Auxiliary Space: O(1)
+
+
+Company Tags
+
+PaytmFlipkartAmazonMicrosoftSnapdealD-E-ShawFactSetHikeMakeMyTripIntuitAdobeGoogleBankBazaarTimes Internet
+
+
+Topic Tags
+
+SearchingDivide and ConquerAlgorithms
+
+
+# Code
+```cpp []
+class Solution {
+  public:
+    int search(vector<int>& arr, int key) {
+        
+        int l=0 , h = arr.size() -1;
+        
+        while(l<=h){
+            int mid = (l+h) / 2;
+            
+            if(arr[mid] == key) return mid;
+            
+            if(arr[l] <= arr[mid]){
+                if(arr[l] <= key && arr[mid] > key){
+                    h = mid - 1;
+                }else{
+                    l = mid + 1;
+                }
+            }
+            else{
+                if(arr[mid] < key && arr[h] >= key){
+                    l = mid + 1;
+                }else{
+                    h = mid - 1;
+                }
+            }
+        }
+        
+        return -1;
+    }
+};
+```
+
+------
+
+
