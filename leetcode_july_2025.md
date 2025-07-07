@@ -1257,5 +1257,62 @@ public:
 
 
 
+# 203. Remove Linked List Elements -> [LeetCode](https://leetcode.com/problems/remove-linked-list-elements/description/)
+Easy
+
+Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
+
+ 
+
+Example 1:
+
+
+Input: head = [1,2,6,3,4,5,6], val = 6
+Output: [1,2,3,4,5]
+
+
+Example 2:
+
+Input: head = [], val = 1
+Output: []
+
+
+Example 3:
+
+Input: head = [7,7,7,7], val = 7
+Output: []
+ 
+
+Constraints:
+
+The number of nodes in the list is in the range [0, 104].
+1 <= Node.val <= 50
+0 <= val <= 50
+
+# Code
+```cpp []
+class Solution {
+ public:
+  ListNode* removeElements(ListNode* head, int val) {
+    ListNode dummy(0, head);
+    ListNode* prev = &dummy;
+
+    for (; head; head = head->next)
+      if (head->val != val) {
+        prev->next = head;
+        prev = prev->next;
+      }
+    prev->next = nullptr;  // In case that the last value equals `val`.
+
+    return dummy.next;
+  }
+};
+```
+
+-------
+
+
+
+
 
 
