@@ -1183,5 +1183,79 @@ class FindSumPairs {
 
 -------
 
+# I1353. Maximum Number of Events That Can Be Attended -> [LeetCode](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/description/)
+
+Topics
+
+You are given an array of events where events[i] = [startDayi, endDayi]. Every event i starts at startDayi and ends at endDayi.
+
+You can attend an event i at any day d where startTimei <= d <= endTimei. You can only attend one event at any time d.
+
+Return the maximum number of events you can attend.
+
+ 
+
+Example 1:
+
+
+Input: events = [[1,2],[2,3],[3,4]]
+Output: 3
+Explanation: You can attend all the three events.
+One way to attend them all is as shown.
+Attend the first event on day 1.
+Attend the second event on day 2.
+Attend the third event on day 3.
+
+Example 2:
+
+Input: events= [[1,2],[2,3],[3,4],[1,2]]
+Output: 4
+ 
+
+Constraints:
+
+1 <= events.length <= 105
+events[i].length == 2
+1 <= startDayi <= endDayi <= 105
+
+# Code
+```cpp []
+class Solution {
+public:
+    int maxEvents(vector<vector<int>>& events) {
+        int ans = 0;
+        int d = 0; // the current day
+        int i = 0; // events' index
+        priority_queue<int, vector<int>, greater<>> minHeap;
+
+        ranges::sort(events);
+
+        while (!minHeap.empty() || i < events.size()) {
+            // If no events are available to attend today, let time flies to the
+            // next available event.
+            if (minHeap.empty())
+                d = events[i][0];
+            // All the events starting from today are newly available.
+            while (i < events.size() && events[i][0] == d)
+                minHeap.push(events[i++][1]);
+            // Greedily attend the event that'll end the earliest since it has
+            // higher chance can't be attended in the future.
+            minHeap.pop();
+            ++ans;
+            ++d;
+            // Pop the events that can't be attended.
+            while (!minHeap.empty() && minHeap.top() < d)
+                minHeap.pop();
+        }
+
+        return ans;
+    }
+};
+```
+
+-------
+
+
+
 
 
