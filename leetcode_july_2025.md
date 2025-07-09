@@ -1394,7 +1394,7 @@ private:
 ------
 
 
-# 735. Asteroid Collision
+# 735. Asteroid Collision -> [LeetCode](https://leetcode.com/problems/asteroid-collision/description/)
 
 Medium
 
