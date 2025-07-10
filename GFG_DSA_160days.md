@@ -1245,7 +1245,7 @@ class Solution {
 
 
 
-## Find the Frequency
+## Find the Frequency -> [LeetCode](https://www.geeksforgeeks.org/problems/find-the-frequency/1)
 Difficulty: Easy
 
 Given an array arr of positive integers and an integer x. Return the frequency of x in the array.
