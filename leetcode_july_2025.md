@@ -2824,7 +2824,7 @@ public:
 ------
 
 
-# 2410. Maximum Matching of Players With Trainers
+# 2410. Maximum Matching of Players With Trainers -> [LeetCode](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)
 
 Medium
 
