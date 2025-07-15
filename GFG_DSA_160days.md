@@ -1492,4 +1492,81 @@ class Solution {
 
 ------
 
+## Reverse a linked list -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/reverse-a-linked-list)
+Difficulty: Easy
+
+Given the head of a linked list, the task is to reverse this list and return the reversed head.
+
+Examples:
+
+Input: head: 1 -> 2 -> 3 -> 4 -> NULL
+Output: head: 4 -> 3 -> 2 -> 1 -> NULL
+Explanation:
+
+Input: head: 2 -> 7 -> 10 -> 9 -> 8 -> NULL
+Output: head: 8 -> 9 -> 10 -> 7 -> 2 -> NULL
+Explanation:
+
+Input: head: 2 -> NULL
+Output: 2 -> NULL
+Explanation:
+
+Constraints:
+
+1 <= number of nodes, data of nodes <= 105
+
+
+Expected Complexities
+
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+
+
+Company Tags
+
+PaytmVMWareZohoAccoliteAmazonMicrosoftSamsungSnapdealD-E-ShawMakeMyTripTeradataWalmartGoldman SachsIntuitAdobeSAP LabsTejas NetworkCiscoQualcommCognizantMahindra ComvivaIgniteWorld
+
+
+Topic Tags
+
+Linked ListData Structures
+
+# Code
+```cpp []
+/* Linked List Node structure:
+
+struct Node
+{
+    int data;
+    struct Node *next;
+}
+
+*/
+
+class Solution {
+  public:
+    Node* reverseList(struct Node* head) {
+        Node* temp = head;
+        stack<Node*> st;
+        while(temp->next){
+            st.push(temp);
+            temp = temp->next;
+        }
+        
+        head = temp;
+        
+        while(!st.empty()){
+            temp->next = st.top(); st.pop();
+            temp = temp->next;
+        }
+        
+        temp->next = nullptr;
+        
+        return head;
+    }
+};
+```
+
+------
+
 
