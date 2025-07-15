@@ -3400,7 +3400,7 @@ public:
 
 
 
-# 224. Basic Calculator -> LeetCode
+# 224. Basic Calculator -> [LeetCode](https://leetcode.com/problems/basic-calculator/)
 Hard
 
 Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation.
