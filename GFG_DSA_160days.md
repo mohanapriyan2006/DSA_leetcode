@@ -1570,3 +1570,81 @@ class Solution {
 ------
 
 
+## Remove all occurences of duplicates in a linked list -> [GFG](https://www.geeksforgeeks.org/problems/remove-all-occurences-of-duplicates-in-a-linked-list/1)
+Difficulty: Medium
+
+Given a sorted linked list, delete all nodes that have duplicate numbers (all occurrences), leaving only numbers that appear once in the original list, and return the head of the modified linked list. 
+
+Examples:
+
+Input: Linked List = 23->28->28->35->49->49->53->53
+Output: 23 35
+Explanation: 
+
+The duplicate numbers are 28, 49 and 53 which are removed from the list.
+Input: Linked List = 11->11->11->11->75->75
+Output: Empty list
+Explanation: 
+
+All the nodes in the linked list have duplicates. Hence the resultant list would be empty.
+
+Expected Time Complexity: O(n)
+
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+list.data>0
+1 ≤ size(list) ≤ 105
+
+
+Company Tags
+
+Microsoft
+
+
+Topic Tags
+
+Linked ListData Structures
+
+# Code
+```cpp []
+// User function Template for C++
+
+/* Linked List node structure
+
+struct Node {
+    int data;
+    struct Node *next;
+};
+
+*/
+
+class Solution {
+  public:
+    Node* removeAllDuplicates(struct Node* head) {
+        Node* dummy = new Node(-1);
+        dummy->next = head;
+        Node* prev = dummy;
+        Node *cur = head;
+        
+        while(cur){
+            while(cur->next && prev->next->data == cur->next->data)
+                cur = cur->next;
+            if(prev->next == cur)
+                prev = cur;
+            else{
+                prev->next = cur->next;
+            }
+            cur = cur->next;
+        }
+        
+        return dummy->next;
+    }
+};
+```
+
+------
+
+
