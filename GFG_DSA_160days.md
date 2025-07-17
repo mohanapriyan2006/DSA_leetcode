@@ -1972,3 +1972,95 @@ class Solution {
 ```
 
 ------
+
+
+## Count Inversions -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/sorting-gfg-160/problem/inversion-of-array-1587115620)
+Difficulty: Medium
+
+Given an array of integers arr[]. You have to find the Inversion Count of the array. 
+Note : Inversion count is the number of pairs of elements (i, j) such that i < j and arr[i] > arr[j].
+
+Examples:
+
+Input: arr[] = [2, 4, 1, 3, 5]
+Output: 3
+Explanation: The sequence 2, 4, 1, 3, 5 has three inversions (2, 1), (4, 1), (4, 3).
+
+Input: arr[] = [2, 3, 4, 5, 6]
+Output: 0
+Explanation: As the sequence is already sorted so there is no inversion count.
+
+Input: arr[] = [10, 10, 10]
+Output: 0
+Explanation: As all the elements of array are same, so there is no inversion count.
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 105
+1 ≤ arr[i] ≤ 104
+
+
+Expected Complexities
+
+Time Complexity: O(n log n)
+Auxiliary Space: O(n)
+
+
+Company Tags
+
+FlipkartAmazonMicrosoftMakeMyTripAdobeBankBazaarMyntra
+
+
+Topic Tags
+
+ArraysDivide and ConquerSortingData StructuresAlgorithms
+
+
+
+# Code
+```cpp []
+class Solution {
+  private:
+    int conquer(vector<int> &arr , int l , int m , int r){
+        int res = 0;
+        int i=l , j=m+1;
+        vector<int> temp;
+        while(i<=m && j<=r){
+            if(arr[i] <= arr[j]) temp.push_back(arr[i++]);
+            else{
+                res += (m - i + 1);
+                temp.push_back(arr[j++]);
+            }
+        }
+        
+        while(i<=m) temp.push_back(arr[i++]);
+        while(j<=r) temp.push_back(arr[j++]);
+        
+        for(int k=l ; k<=r ; ++k){
+            arr[k] = temp[k-l];
+        }
+        
+        return res;
+        
+    }
+  
+    int divide(vector<int> &arr , int l , int r){
+        int res = 0;
+        if(l<r){
+            int m = (l + r) / 2;
+            res += divide(arr,l , m);
+            res += divide(arr,m+1 , r);
+            res += conquer(arr,l,m,r);
+        }
+        return res;
+    }
+  public:
+    int inversionCount(vector<int> &arr) {
+        int n = arr.size();
+        return divide(arr , 0, n-1);
+    }
+};
+```
+
+------
