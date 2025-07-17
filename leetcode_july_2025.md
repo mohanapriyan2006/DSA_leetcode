@@ -4190,7 +4190,7 @@ public:
 
 -----
 
-# 141. Linked List Cycle -> LeetCode
+# 141. Linked List Cycle -> [LeetCode](https://leetcode.com/problems/linked-list-cycle/description)
 
 Easy
 
