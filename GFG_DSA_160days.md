@@ -1804,4 +1804,90 @@ class Solution {
 ------
 
 
+## Level order traversal -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal)
+Difficulty: Easy
+
+Given a root of a binary tree with n nodes, the task is to find its level order traversal. Level order traversal of a tree is breadth-first traversal for the tree.
+
+Examples:
+
+Input: root[] = [1, 2, 3]
+
+Output: [[1], [2, 3]]
+Input: root[] = [10, 20, 30, 40, 50]
+
+Output: [[10], [20, 30], [40, 50]]
+Input: root[] = [1, 3, 2, N, N, N, 4, 6, 5]
+
+Output: [[1], [3, 2], [4], [6, 5]]
+
+
+Constraints:
+
+1 ≤ number of nodes ≤ 105
+0 ≤ node->data ≤ 109
+
+
+Expected Complexities
+
+Time Complexity: O(n)
+Auxiliary Space: O(n)
+
+
+Company Tags
+
+FlipkartMorgan StanleyAccoliteAmazonMicrosoftSamsungD-E-ShawOla CabsPayuAdobeCiscoQualcomm
+
+
+Topic Tags
+
+TreeData Structures
+
+
+# Code
+```cpp []
+/* A binary tree Node
+class Node {
+  public:
+    int data;
+    Node* left;
+    Node* right;
+
+    // Constructor
+    Node(int val) {
+        data = val;
+        left = nullptr;
+        right = nullptr;
+    }
+};
+*/
+
+class Solution {
+  public:
+    vector<vector<int>> levelOrder(Node *root) {
+        vector<vector<int>> ans;
+        queue<Node*> q;
+        q.push(root);
+        
+        while(!q.empty()){
+            int n = q.size();
+            vector<int> level;
+            for(int i=0 ; i<n ; ++i){
+                Node* cur = q.front(); q.pop();
+                level.push_back(cur->data);
+                if(cur->left) q.push(cur->left);
+                if(cur->right) q.push(cur->right);
+            }
+            
+            ans.push_back(level);
+        }
+        
+        return ans;
+        
+    }
+};
+```
+
+------
+
 
