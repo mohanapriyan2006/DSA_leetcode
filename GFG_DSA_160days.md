@@ -1739,7 +1739,7 @@ class Solution {
 
 ------
 
-## Merge two sorted linked lists -> 
+## Merge two sorted linked lists ->  [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/merge-two-sorted-linked-lists)
 Difficulty: Medium
 
 Given the head of two sorted linked lists consisting of nodes respectively. The task is to merge both lists and return the head of the sorted merged list.
