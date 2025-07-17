@@ -3925,7 +3925,7 @@ class Solution {
 
 
 
-# 707. Design Linked List 
+# 707. Design Linked List -> [LeetCode](https://leetcode.com/problems/design-linked-list/description/)
 
 Medium
 
