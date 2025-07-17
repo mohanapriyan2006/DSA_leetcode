@@ -1648,7 +1648,7 @@ class Solution {
 ------
 
 
-## Rotate a Linked List
+## Rotate a Linked List -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/rotate-a-linked-list)
 Difficulty: Medium
 
 Given the head of a singly linked list, your task is to left rotate the linked list k times.
