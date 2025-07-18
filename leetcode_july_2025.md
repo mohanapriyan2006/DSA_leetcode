@@ -4540,7 +4540,7 @@ class Solution {
 ------
 
 
-# 72. Edit Distance -> LeetCode
+# 72. Edit Distance -> [LeetCode](https://leetcode.com/problems/edit-distance/)
 
 Medium
 
