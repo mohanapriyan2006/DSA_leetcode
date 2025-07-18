@@ -4452,7 +4452,7 @@ public:
 
 
 
-# 2163. Minimum Difference in Sums After Removal of Elements -> Leetcode
+# 2163. Minimum Difference in Sums After Removal of Elements -> [Leetcode](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/)
 
 Hard
 
