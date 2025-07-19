@@ -23,6 +23,7 @@ To master problem-solving and prepare for top-tier tech interviews by consistent
 - ⚖️ Stack, Queue, and Heaps
 - 🚀 Binary Search & Sliding Window
 - 🧩 Two Pointers & Greedy
+- etc...
 
 ## 📂 Structure
 Each file contains:
