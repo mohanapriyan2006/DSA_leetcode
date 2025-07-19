@@ -5289,7 +5289,7 @@ public:
 ---------
 
 
-# 1233. Remove Sub-Folders from the Filesystem 
+# 1233. Remove Sub-Folders from the Filesystem -> [LeetCode](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/description/)
 Medium
 
 Given a list of folders folder, return the folders after removing all sub-folders in those folders. You may return the answer in any order.
