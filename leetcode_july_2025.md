@@ -6051,7 +6051,7 @@ public:
 
 
 
-# 24. Swap Nodes in Pairs
+# 24. Swap Nodes in Pairs -> [LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
 
 Medium
 
