@@ -5518,7 +5518,9 @@ public:
 
 ------
 
-# 1948. Delete Duplicate Folders in System
+
+
+# 1948. Delete Duplicate Folders in System -> [LeetCode](https://leetcode.com/problems/delete-duplicate-folders-in-system/description/)
 
 Hard
 
