@@ -6255,7 +6255,7 @@ public:
 -----
 
 
-# 589. N-ary Tree Preorder Traversal -> LeetCode
+# 589. N-ary Tree Preorder Traversal -> [LeetCode](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)
 
 Easy
 
