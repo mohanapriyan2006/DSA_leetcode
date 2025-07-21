@@ -6183,7 +6183,7 @@ public:
 
 
 
-# 590. N-ary Tree Postorder Traversal -> LeetCode
+# 590. N-ary Tree Postorder Traversal -> [LeetCode](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)
 
 Easy
 
