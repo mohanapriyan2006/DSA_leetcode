@@ -6128,7 +6128,7 @@ public:
 -------
 
 
-# 42. Trapping Rain Water -> LeetCode
+# 42. Trapping Rain Water -> [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/)
 
 Hard
 
