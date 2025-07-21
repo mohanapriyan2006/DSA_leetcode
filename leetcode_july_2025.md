@@ -6435,7 +6435,7 @@ public:
 
 
 
-# 67. Add Binary -> 
+# 67. Add Binary -> [LeetCode](https://leetcode.com/problems/add-binary/description/)
 
 Easy
 
