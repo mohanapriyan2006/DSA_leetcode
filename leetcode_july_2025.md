@@ -6485,7 +6485,7 @@ public:
 
 
 
-# 1695. Maximum Erasure Value -> 
+# 1695. Maximum Erasure Value ->  [LeetCode](https://leetcode.com/problems/maximum-erasure-value/description)
 
 Medium
 
