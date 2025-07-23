@@ -2067,7 +2067,7 @@ class Solution {
 
 
 
-## Longest Increasing Subsequence
+## Longest Increasing Subsequence -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/dynamic-programming-gfg-160/problem/longest-increasing-subsequence-1587115620)
 Difficulty: Medium
 
 Given an array arr[] of non-negative integers, the task is to find the length of the Longest Strictly Increasing Subsequence (LIS).
