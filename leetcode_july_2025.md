@@ -6544,5 +6544,86 @@ class Solution {
 
 
 
+# 1717. Maximum Score From Removing Substrings
+
+Medium
+
+You are given a string s and two integers x and y. You can perform two types of operations any number of times.
+
+Remove substring "ab" and gain x points.
+For example, when removing "ab" from "cabxbae" it becomes "cxbae".
+Remove substring "ba" and gain y points.
+For example, when removing "ba" from "cabxbae" it becomes "cabxe".
+Return the maximum points you can gain after applying the above operations on s.
+
+ 
+
+Example 1:
+
+Input: s = "cdbcbbaaabab", x = 4, y = 5
+Output: 19
+Explanation:
+- Remove the "ba" underlined in "cdbcbbaaabab". Now, s = "cdbcbbaaab" and 5 points are added to the score.
+- Remove the "ab" underlined in "cdbcbbaaab". Now, s = "cdbcbbaa" and 4 points are added to the score.
+- Remove the "ba" underlined in "cdbcbbaa". Now, s = "cdbcba" and 5 points are added to the score.
+- Remove the "ba" underlined in "cdbcba". Now, s = "cdbc" and 5 points are added to the score.
+Total score = 5 + 4 + 5 + 5 = 19.
+
+
+Example 2:
+
+Input: s = "aabbaaxybbaabb", x = 5, y = 4
+Output: 20
+ 
+
+Constraints:
+
+1 <= s.length <= 105
+1 <= x, y <= 104
+s consists of lowercase English letters.
+
+# Code
+```cpp []
+class Solution {
+ public:
+  int maximumGain(string s, int x, int y) {
+    return x > y ? gain(s, "ab", x, "ba", y) : gain(s, "ba", y, "ab", x);
+  }
+
+ private:
+
+  int gain(const string& s, const string& sub1, int point1, const string& sub2,
+           int point2) {
+    int points = 0;
+    vector<char> stack1;
+    vector<char> stack2;
+
+    for (const char c : s)
+      if (!stack1.empty() && stack1.back() == sub1[0] && c == sub1[1]) {
+        stack1.pop_back();
+        points += point1;
+      } else {
+        stack1.push_back(c);
+      }
+
+    for (const char c : stack1)
+      if (!stack2.empty() && stack2.back() == sub2[0] && c == sub2[1]) {
+        stack2.pop_back();
+        points += point2;
+      } else {
+        stack2.push_back(c);
+      }
+
+    return points;
+  }
+};
+```
+
+
+---------
+
+
+
+
 
 
