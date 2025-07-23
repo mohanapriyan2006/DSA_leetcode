@@ -2136,7 +2136,7 @@ class Solution {
 ------
 
 
-## Longest String Chain
+## Longest String Chain -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/dynamic-programming-gfg-160/problem/longest-string-chain)
 Difficulty: Medium
 
 You are given an array of words where each word consists of lowercase English letters.
