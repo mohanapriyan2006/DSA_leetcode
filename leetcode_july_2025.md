@@ -6626,7 +6626,7 @@ class Solution {
 
 
 
-# 1048. Longest String Chain
+# 1048. Longest String Chain -> [LeetCode](https://leetcode.com/problems/longest-string-chain/description/)
 
 Medium
 
