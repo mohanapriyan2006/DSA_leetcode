@@ -2206,7 +2206,7 @@ class Solution {
 ------
 
 
-## Longest Common Subsequence
+## Longest Common Subsequence -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/dynamic-programming-gfg-160/problem/longest-common-subsequence-1587115620)
 Difficulty: Medium
 
 Given two strings s1 and s2, return the length of their longest common subsequence (LCS). If there is no common subsequence, return 0.
