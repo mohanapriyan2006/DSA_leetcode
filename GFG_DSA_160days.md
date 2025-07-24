@@ -2548,4 +2548,91 @@ class Solution {
 --------
 
 
+## Palindrome SubStrings
+Difficulty: Medium
+
+Given a string s, count all palindromic sub-strings present in the string. The length of the palindromic sub-string must be greater than or equal to 2.
+
+Note: A substring is palindromic if it reads the same forwards and backwards.
+
+Examples:
+
+Input: s = "abaab"
+Output: 3
+Explanation: All palindromic substrings (of length > 1) are: "aba", "aa", "baab".
+
+Input: s = "aaa"
+Output: 3
+Explanation: All palindromic substrings (of length > 1) are: "aa", "aa", "aaa".
+
+Input: s = "abbaeae"
+Output: 4
+Explanation: All palindromic substrings (of length > 1) are: "bb", "abba", "aea", "eae".
+
+
+Constraints:
+
+2 ≤ s.size() ≤ 103
+s contains only lowercase english characters
+
+
+Expected Complexities
+
+Time Complexity: O(n^2)
+Auxiliary Space: O(1)
+
+
+Company Tags
+
+Morgan StanleyAmazonOla CabsSAP Labs
+
+
+Topic Tags
+
+StringsDynamic ProgrammingData StructuresAlgorithms
+
+
+# Code
+```cpp []
+class Solution {
+  public:
+    int countPS(string &s) {
+        int res = 0;
+        
+        int len = s.size();
+        
+        vector<vector<bool>> dp(len , vector<bool>(len , false) );
+        
+        
+        for(int i=0 ; i<len ; ++i) {
+            dp[i][i] = true;
+           
+        }
+        
+        for(int i=0 ; i<len-1 ; ++i){
+            if(s[i] == s[i+1]){
+                dp[i][i+1] = true;
+                res++;
+            }
+        }
+        
+        for(int k=3 ; k<=len ; ++k){
+            for(int i=0 ; i<len-k+1 ; ++i){
+                int j = i + k - 1;
+                if(s[i] == s[j] && dp[i+1][j-1]){
+                    dp[i][j] = true;
+                    res++;
+                }
+            }
+        }
+        
+        return res;
+        
+    } 
+};
+```
+
+--------
+
+
 
