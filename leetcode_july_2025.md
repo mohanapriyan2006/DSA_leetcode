@@ -6883,7 +6883,7 @@ private:
 
 
 
-# 5. Longest Palindromic Substring
+# 5. Longest Palindromic Substring -> [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/description/)
  
 Medium
  
