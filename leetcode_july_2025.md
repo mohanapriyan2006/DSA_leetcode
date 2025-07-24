@@ -6951,7 +6951,7 @@ public:
 
 --------------
 
-# 647. Palindromic Substrings 
+# 647. Palindromic Substrings  -> [LeetCode](https://leetcode.com/problems/palindromic-substrings/description/)
  
 Medium
 
