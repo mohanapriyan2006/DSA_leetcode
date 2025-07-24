@@ -2548,7 +2548,7 @@ class Solution {
 --------
 
 
-## Palindrome SubStrings -> GFG
+## Palindrome SubStrings -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/dynamic-programming-gfg-160/problem/count-palindrome-sub-strings-of-a-string0652)
 Difficulty: Medium
 
 Given a string s, count all palindromic sub-strings present in the string. The length of the palindromic sub-string must be greater than or equal to 2.
