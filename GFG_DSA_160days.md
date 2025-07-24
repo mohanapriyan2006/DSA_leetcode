@@ -2366,7 +2366,7 @@ class Solution {
 
 
 
-## Longest Palindrome in a String
+## Longest Palindrome in a String -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/dynamic-programming-gfg-160/problem/longest-palindrome-in-a-string3411)
 Difficulty: Medium
 
 Given a string s, your task is to find the longest palindromic substring within s.
