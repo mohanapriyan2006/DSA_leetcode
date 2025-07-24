@@ -2635,7 +2635,7 @@ class Solution {
 --------
 
 
-## Ways to Reach the n'th Stair
+## Ways to Reach the n'th Stair -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/dynamic-programming-gfg-160/problem/count-ways-to-reach-the-nth-stair-1587115620)
 Difficulty: Medium
 
 There are n stairs, a person standing at the bottom wants to reach the top. The person can climb either 1 stair or 2 stairs at a time. Your task is to count the number of ways, the person can reach the top (order does matter).
