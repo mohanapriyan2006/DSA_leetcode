@@ -7166,7 +7166,7 @@ public:
 
 
 
-# 55. Jump Game -> 
+# 55. Jump Game -> [LeetCode](https://leetcode.com/problems/jump-game/description/)
  
 Medium
  
