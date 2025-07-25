@@ -3,7 +3,7 @@
 # *LEETCODE* - **july-2025**
 ------------------------------------
 
-<h6>Hello</h6>
+
 
 # 3330. Find the Original Typed String I -> [Leetcode](https://leetcode.com/problems/find-the-original-typed-string-i/description/)
 
