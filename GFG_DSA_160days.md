@@ -3312,3 +3312,75 @@ class Solution {
 --------
 
 
+## Equilibrium Point -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/equilibrium-point-1587115620)
+Difficulty: Easy
+
+Given an array of integers arr[], the task is to find the first equilibrium point in the array.
+
+The equilibrium point in an array is an index (0-based indexing) such that the sum of all elements before that index is the same as the sum of elements after it. Return -1 if no such point exists. 
+
+Examples:
+
+Input: arr[] = [1, 2, 0, 3]
+Output: 2 
+Explanation: The sum of left of index 2 is 1 + 2 = 3 and sum on right of index 2 is 3.
+
+Input: arr[] = [1, 1, 1, 1]
+Output: -1
+Explanation: There is no equilibrium index in the array.
+
+Input: arr[] = [-7, 1, 5, 2, -4, 3, 0]
+Output: 3
+Explanation: The sum of left of index 3 is -7 + 1 + 5 = -1 and sum on right of index 3 is -4 + 3 + 0 = -1.
+
+
+Constraints:
+
+3 <= arr.size() <= 105
+-104 <= arr[i] <= 104
+
+
+Expected Complexities
+
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+
+
+Company Tags
+
+AmazonAdobeGoogleFacebookMicrosoftUber
+
+
+Topic Tags
+
+prefix-sumArraysData StructuresAlgorithms
+
+
+# Code
+```cpp []
+class Solution {
+  public:
+    // Function to find equilibrium point in the array.
+    int findEquilibrium(vector<int> &arr) {
+        int n = arr.size();
+        
+        int prefixSum = 0 , total = 0;
+        
+        
+        for(const int& i:arr) total += i;
+        
+        for(int i=0 ; i<n ; ++i){
+            int suffixSum = total - prefixSum - arr[i];
+            if(prefixSum == suffixSum) return i;
+            prefixSum += arr[i];
+        }
+        
+        return -1;
+        
+    }
+};
+```
+
+--------
+
+
