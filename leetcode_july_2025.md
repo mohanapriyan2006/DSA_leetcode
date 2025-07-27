@@ -7368,5 +7368,94 @@ public:
 -----------------
 
 
+# 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+ 
+Medium
+ 
+Given an array of integers nums and an integer limit, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to limit.
+
+ 
+
+Example 1:
+
+Input: nums = [8,2,4,7], limit = 4
+Output: 2 
+Explanation: All subarrays are: 
+[8] with maximum absolute diff |8-8| = 0 <= 4.
+[8,2] with maximum absolute diff |8-2| = 6 > 4. 
+[8,2,4] with maximum absolute diff |8-2| = 6 > 4.
+[8,2,4,7] with maximum absolute diff |8-2| = 6 > 4.
+[2] with maximum absolute diff |2-2| = 0 <= 4.
+[2,4] with maximum absolute diff |2-4| = 2 <= 4.
+[2,4,7] with maximum absolute diff |2-7| = 5 > 4.
+[4] with maximum absolute diff |4-4| = 0 <= 4.
+[4,7] with maximum absolute diff |4-7| = 3 <= 4.
+[7] with maximum absolute diff |7-7| = 0 <= 4. 
+Therefore, the size of the longest subarray is 2.
+
+
+Example 2:
+
+Input: nums = [10,1,2,4,7,2], limit = 5
+Output: 4 
+Explanation: The subarray [2,4,7,2] is the longest since the maximum absolute diff is |2-7| = 5 <= 5.
+
+
+Example 3:
+
+Input: nums = [4,2,2,2,4,4,2,2], limit = 0
+Output: 3
+ 
+
+Constraints:
+
+1 <= nums.length <= 105
+1 <= nums[i] <= 109
+0 <= limit <= 109
+
+# Code
+```cpp []
+class Solution {
+public:
+    int longestSubarray(vector<int>& nums, int limit) {
+        int n = nums.size();
+        int st = 0, end = 0;
+        int stA = 0, endA = 0;
+
+        deque<int> minQ, maxQ;
+
+        while (end < n) {
+            while (!minQ.empty() && nums[end] < nums[minQ.back()])
+                minQ.pop_back();
+            while (!maxQ.empty() && nums[end] > nums[maxQ.back()])
+                maxQ.pop_back();
+            minQ.push_back(end);
+            maxQ.push_back(end);
+
+            while (nums[maxQ.front()] - nums[minQ.front()] > limit) {
+                if (st == minQ.front())
+                    minQ.pop_front();
+                if (st == maxQ.front())
+                    maxQ.pop_front();
+                st++;
+            }
+
+            if (end - st > endA - stA) {
+                stA = st;
+                endA = end;
+            }
+
+            end++;
+        }
+
+        return (endA - stA) + 1;
+    }
+};
+```
+
+
+--------------
+
+
 
 
