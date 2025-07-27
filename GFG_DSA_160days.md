@@ -3165,7 +3165,7 @@ class Solution {
 --------
 
 
-## Longest valid Parentheses
+## Longest valid Parentheses -> [GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160/problem/longest-valid-parentheses5657)
 Difficulty: Hard
 
 Given a string s consisting of opening and closing parenthesis '(' and ')'. Find the length of the longest valid parenthesis substring.
