@@ -7728,7 +7728,7 @@ private:
 
 --------------------
 
-# 41. First Missing Positive
+# 41. First Missing Positive -> [LeetCode](https://leetcode.com/problems/first-missing-positive/description/)
  
 Hard
  
