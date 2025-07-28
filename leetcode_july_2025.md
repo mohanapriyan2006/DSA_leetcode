@@ -7852,7 +7852,7 @@ public:
 ---------------
 
 
-# 14. Longest Common Prefix
+# 14. Longest Common Prefix -> [LeetCode](https://leetcode.com/problems/longest-common-prefix/description/)
  
 Easy
  
