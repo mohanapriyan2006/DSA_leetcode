@@ -7979,7 +7979,7 @@ public:
 ----------------
 
 
-# 232. Implement Queue using Stacks
+# 232. Implement Queue using Stacks -> [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/description/)
  
 Easy
  
