@@ -8074,7 +8074,7 @@ public:
 ---------------------
 
 
-# 118. Pascal's Triangle -> LeetCode
+# 118. Pascal's Triangle -> [LeetCode](https://leetcode.com/problems/pascals-triangle/description/)
  
 Easy
  
