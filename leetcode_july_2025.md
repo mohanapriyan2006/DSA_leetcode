@@ -8412,7 +8412,7 @@ public:
 
 
 
-# 257. Binary Tree Paths
+# 257. Binary Tree Paths -> [LeetCode](https://leetcode.com/problems/binary-tree-paths/description/)
  
 Easy
  
