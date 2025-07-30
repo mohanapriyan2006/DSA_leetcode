@@ -8479,7 +8479,7 @@ public:
 
 -------------
 
-# 263. Ugly Number -> LeetCode
+# 263. Ugly Number -> [LeetCode](https://leetcode.com/problems/ugly-number/description/)
  
 Easy
  
