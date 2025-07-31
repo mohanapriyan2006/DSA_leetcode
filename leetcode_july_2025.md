@@ -8704,7 +8704,7 @@ public:
 
 
 
-# 303. Range Sum Query - Immutable
+# 303. Range Sum Query - Immutable -> [LeetCode](https://leetcode.com/problems/range-sum-query-immutable/description/)
  
 Easy
  
