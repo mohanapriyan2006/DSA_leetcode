@@ -8653,7 +8653,7 @@ class Solution {
 -------------
 
 
-# 367. Valid Perfect Square
+# 367. Valid Perfect Square -> [LeetCode](https://leetcode.com/problems/valid-perfect-square/description/)
  
 Easy
   
