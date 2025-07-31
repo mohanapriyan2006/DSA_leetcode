@@ -8587,7 +8587,7 @@ public:
 ----------
 
 
-# 898. Bitwise ORs of Subarrays
+# 898. Bitwise ORs of Subarrays -> [LeetCode](https://leetcode.com/problems/bitwise-ors-of-subarrays/description/)
  
 Medium
  
