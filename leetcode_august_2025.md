@@ -3,7 +3,7 @@
 ---------------------------------------------------
 
 
-# 2561. Rearranging Fruits
+# 2561. Rearranging Fruits -> [LeetCode](https://leetcode.com/problems/rearranging-fruits/description/)
  
 Hard
  
