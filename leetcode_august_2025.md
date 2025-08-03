@@ -72,7 +72,7 @@ class Solution {
 ----------
 
 
-# 2106. Maximum Fruits Harvested After at Most K Steps
+# 2106. Maximum Fruits Harvested After at Most K Steps -> [LeetCode](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/description)
  
 Hard
  
