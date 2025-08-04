@@ -174,7 +174,7 @@ class Solution {
 ----------------
 
 
-# 904. Fruit Into Baskets
+# 904. Fruit Into Baskets -> [LeetCode](https://leetcode.com/problems/fruit-into-baskets/description)
  
 Medium
 
