@@ -594,7 +594,7 @@ Input: fruits = [[1,2,3,4],[5,6,8,7],[9,10,11,12],[13,14,15,16]]
 Output: 100
 
 Explanation:
-
+![example](https://assets.leetcode.com/uploads/2024/10/15/example_1.gif)
 
 
 In this example:
