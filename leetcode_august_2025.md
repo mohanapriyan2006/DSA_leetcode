@@ -697,7 +697,7 @@ class Solution {
 
 
 
-# 808. Soup Servings
+# 808. Soup Servings -> [LeetCode](https://leetcode.com/problems/soup-servings/description/)
  
 Medium
  
