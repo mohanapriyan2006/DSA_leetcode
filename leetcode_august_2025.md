@@ -775,7 +775,7 @@ class Solution {
 ------------
 
 
-# 2438. Range Product Queries of Powers
+# 2438. Range Product Queries of Powers -> [LeetCode](https://leetcode.com/problems/range-product-queries-of-powers/description/)
  
 Medium
  
