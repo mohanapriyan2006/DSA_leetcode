@@ -904,7 +904,7 @@ class Solution {
 
 
 
-# 2787. Ways to Express an Integer as Sum of Powers
+# 2787. Ways to Express an Integer as Sum of Powers -> [LeetCode](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/)
  
 Medium
  
