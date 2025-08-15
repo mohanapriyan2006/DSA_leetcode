@@ -1076,7 +1076,7 @@ public:
 --------
 
 
-# 342. Power of Four
+# 342. Power of Four -> [LeetCode](https://leetcode.com/problems/power-of-four/description)
  
 Easy
  
