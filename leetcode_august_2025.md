@@ -1188,7 +1188,7 @@ class Solution {
 
 
 
-# 837. New 21 Game
+# 837. New 21 Game -> [LeetCode](https://leetcode.com/problems/new-21-game/description)
  
 Medium
 
