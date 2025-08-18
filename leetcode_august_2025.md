@@ -1266,7 +1266,7 @@ class Solution {
 --------------------
 
 
-# 679. 24 Game
+# 679. 24 Game -> [LeetCode](https://leetcode.com/problems/24-game/description)
  
 Hard
  
