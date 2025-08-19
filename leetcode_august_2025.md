@@ -1348,7 +1348,7 @@ class Solution {
 
 
 
-# 2348. Number of Zero-Filled Subarrays
+# 2348. Number of Zero-Filled Subarrays -> [LeetCode](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)
  
 Medium
  
