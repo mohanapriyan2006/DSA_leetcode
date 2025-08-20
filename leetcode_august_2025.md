@@ -1414,7 +1414,7 @@ class Solution {
 
 
 
-# 1277. Count Square Submatrices with All Ones
+# 1277. Count Square Submatrices with All Ones -> [LeetCode](https://leetcode.com/problems/count-square-submatrices-with-all-ones/description)
  
 Medium
  
