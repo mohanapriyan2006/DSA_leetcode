@@ -1495,7 +1495,7 @@ Input: mat = [[1,0,1],[1,1,0],[1,1,0]]
 
 Output: 13
 
-
+![example](https://assets.leetcode.com/uploads/2021/10/27/ones1-grid.jpg)
 
 Explanation: 
 There are 6 rectangles of side 1x1.
