@@ -2406,13 +2406,18 @@ You are given a 2D matrix mat[][] of size n x m. The task is to modify the matri
 Examples:
 
 Input: 
-    
+    ![image](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/898467/Web/Other/blobid1_1751352682.jpg)
 Output: 
+    ![image](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/898467/Web/Other/blobid3_1751352733.jpg)
     
 Explanation: mat[1][1] = 0, so all elements in row 1 and column 1 are updated to zeroes.
+
+
 Input: 
+![image](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/874880/Web/Other/blobid0_1753182969.jpg)
     
 Output: 
+![image](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/874880/Web/Other/blobid1_1753183001.jpg)
     
 Explanation: mat[0][0] and mat[0][3] are 0s, so all elements in row 0, column 0 and column 3 are updated to zeroes.
 
