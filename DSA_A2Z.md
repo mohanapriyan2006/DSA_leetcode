@@ -2397,7 +2397,7 @@ public:
 ------------
 
 
-## Set Matrix Zeros
+## Set Matrix Zeros -> [GFG](https://www.geeksforgeeks.org/problems/set-matrix-zeroes/1)
 
 Difficulty: Medium 
 
