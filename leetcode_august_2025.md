@@ -1692,6 +1692,131 @@ class Solution {
 
 
 
+# 3197. Find the Minimum Area to Cover All Ones II
+ 
+Hard
+ 
+You are given a 2D binary array grid. You need to find 3 non-overlapping rectangles having non-zero areas with horizontal and vertical sides such that all the 1's in grid lie inside these rectangles.
+
+Return the minimum possible sum of the area of these rectangles.
+
+Note that the rectangles are allowed to touch.
+
+ 
+
+Example 1:
+
+Input: grid = [[1,0,1],[1,1,1]]
+
+Output: 5
+
+Explanation:
+
+
+
+The 1's at (0, 0) and (1, 0) are covered by a rectangle of area 2.
+The 1's at (0, 2) and (1, 2) are covered by a rectangle of area 2.
+The 1 at (1, 1) is covered by a rectangle of area 1.
+Example 2:
+
+Input: grid = [[1,0,1,0],[0,1,0,1]]
+
+Output: 5
+
+Explanation:
+
+
+
+The 1's at (0, 0) and (0, 2) are covered by a rectangle of area 3.
+The 1 at (1, 1) is covered by a rectangle of area 1.
+The 1 at (1, 3) is covered by a rectangle of area 1.
+ 
+
+Constraints:
+
+1 <= grid.length, grid[i].length <= 30
+grid[i][j] is either 0 or 1.
+The input is generated such that there are at least three 1's in grid.
+
+# Code
+```cpp []
+class Solution {
+ public:
+  int minimumSum(vector<vector<int>>& grid) {
+    const int m = grid.size();
+    const int n = grid[0].size();
+    int ans = m * n;
+
+    for (int i = 0; i < m; ++i) {
+      const int top = minimumArea(grid, 0, i, 0, n - 1);
+      for (int j = 0; j < n; ++j)
+        ans = min(ans,
+                  top + /*left*/ minimumArea(grid, i + 1, m - 1, 0, j) +
+                      /*right*/ minimumArea(grid, i + 1, m - 1, j + 1, n - 1));
+    }
+
+    for (int i = 0; i < m; ++i) {
+      const int bottom = minimumArea(grid, i, m - 1, 0, n - 1);
+      for (int j = 0; j < n; ++j)
+        ans = min(ans, bottom + /*left*/ minimumArea(grid, 0, i - 1, 0, j) +
+                           /*right*/ minimumArea(grid, 0, i - 1, j + 1, n - 1));
+    }
+
+    for (int j = 0; j < n; ++j) {
+      const int left = minimumArea(grid, 0, m - 1, 0, j);
+      for (int i = 0; i < m; ++i)
+        ans = min(ans,
+                  left + /*top*/ minimumArea(grid, 0, i, j + 1, n - 1) +
+                      /*bottom*/ minimumArea(grid, i + 1, m - 1, j + 1, n - 1));
+    }
+
+    for (int j = 0; j < n; ++j) {
+      const int right = minimumArea(grid, 0, m - 1, j, n - 1);
+      for (int i = 0; i < m; ++i)
+        ans =
+            min(ans, right + /*top*/ minimumArea(grid, 0, i, 0, j - 1) +
+                         /*bottom*/ minimumArea(grid, i + 1, m - 1, 0, j - 1));
+    }
+
+    for (int i1 = 0; i1 < m; ++i1)
+      for (int i2 = i1 + 1; i2 < m; ++i2)
+        ans =
+            min(ans, /*top*/ minimumArea(grid, 0, i1, 0, n - 1) +
+                         /*middle*/ minimumArea(grid, i1 + 1, i2, 0, n - 1) +
+                         /*bottom*/ minimumArea(grid, i2 + 1, m - 1, 0, n - 1));
+
+    for (int j1 = 0; j1 < n; ++j1)
+      for (int j2 = j1 + 1; j2 < n; ++j2)
+        ans =
+            min(ans, /*left*/ minimumArea(grid, 0, m - 1, 0, j1) +
+                         /*middle*/ minimumArea(grid, 0, m - 1, j1 + 1, j2) +
+                         /*right*/ minimumArea(grid, 0, m - 1, j2 + 1, n - 1));
+
+    return ans;
+  }
+
+ private:
+  int minimumArea(vector<vector<int>>& grid, int si, int ei, int sj, int ej) {
+    int x1 = INT_MAX;
+    int y1 = INT_MAX;
+    int x2 = 0;
+    int y2 = 0;
+    for (int i = si; i <= ei; ++i)
+      for (int j = sj; j <= ej; ++j)
+        if (grid[i][j] == 1) {
+          x1 = min(x1, i);
+          y1 = min(y1, j);
+          x2 = max(x2, i);
+          y2 = max(y2, j);
+        }
+    return x1 == INT_MAX ? 0 : (x2 - x1 + 1) * (y2 - y1 + 1);
+  }
+};
+```
+
+-----------
+
+
 
 
 
