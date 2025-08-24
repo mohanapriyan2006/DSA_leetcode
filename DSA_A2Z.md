@@ -2484,7 +2484,7 @@ class Solution {
 # Binary Search
 
 -----------
-# Implement Lower Bound
+# Implement Lower Bound -> [GFG](https://www.geeksforgeeks.org/problems/implement-lower-bound/1)
 
 Difficulty: Easy
 
@@ -2528,7 +2528,7 @@ Binary SearchArraysAlgorithms
 
 
 # code
-```cpp[]
+```cpp []
 class Solution {
   public:
     int lowerBound(vector<int>& arr, int target) {
