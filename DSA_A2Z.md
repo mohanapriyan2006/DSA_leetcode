@@ -2617,7 +2617,7 @@ class Solution {
 
 --------------------
 
-# Search insert position of K in a sorted array
+# Search insert position of K in a sorted array -> [GFG](https://www.geeksforgeeks.org/problems/search-insert-position-of-k-in-a-sorted-array/1)
 
 Difficulty: Easy
 
