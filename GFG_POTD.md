@@ -2,7 +2,8 @@
 # Geeks For Geeks - ***problem of the day*** (POTD)
 ----------------------------------------------------
 
-# Maximize median after doing k addition operation
+# Maximize median after doing k addition operation -> [GFG](https://www.geeksforgeeks.org/problems/maximize-median-after-doing-k-addition-operation/1)
+
 Difficulty: Medium
 
 Given an array arr[] consisting of positive integers and an integer k. You are allowed to perform at most k operations, where in each operation, you can increment any one element of the array by 1.
