@@ -2688,7 +2688,7 @@ class Solution {
 
 --------------------
 
-# Floor in a Sorted Array
+# Floor in a Sorted Array -> [GFG](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)
 
 Difficulty: Easy
 
