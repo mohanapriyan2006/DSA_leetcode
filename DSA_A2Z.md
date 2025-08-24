@@ -2550,7 +2550,7 @@ class Solution {
 --------------------
 
 
-# Implement Upper Bound
+# Implement Upper Bound -> [GFG](https://www.geeksforgeeks.org/problems/implement-upper-bound/1)
 
 Difficulty: Easy
 
