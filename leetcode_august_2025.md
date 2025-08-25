@@ -1936,7 +1936,7 @@ public:
 
 
 
-# 498. Diagonal Traverse
+# 498. Diagonal Traverse -> [LeetCode](https://leetcode.com/problems/diagonal-traverse/description/)
  
 Medium
  
