@@ -110,7 +110,7 @@ class Solution {
 --------------------------------
 
 
-# Check if a String is Subsequence of Other
+# Check if a String is Subsequence of Other -> [GFG](https://www.geeksforgeeks.org/problems/given-two-strings-find-if-first-string-is-a-subsequence-of-second/1)
 
 Difficulty: Easy
 
