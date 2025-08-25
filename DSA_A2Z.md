@@ -2906,6 +2906,93 @@ public:
 
 -------------
 
+# Find Kth Rotation
+Difficulty: Easy
+
+Given an increasing sorted rotated array arr[] of distinct integers. The array is right-rotated k times. Find the value of k.
+Let's suppose we have an array arr[] = [2, 4, 6, 9], if we rotate it by 2 times it will look like this:
+After 1st Rotation : [9, 2, 4, 6]
+After 2nd Rotation : [6, 9, 2, 4]
+
+Examples:
+
+Input: arr[] = [5, 1, 2, 3, 4]
+Output: 1
+Explanation: The given array is [5, 1, 2, 3, 4]. The original sorted array is [1, 2, 3, 4, 5]. We can see that the array was rotated 1 times to the right.
+
+
+Input: arr = [1, 2, 3, 4, 5]
+Output: 0
+Explanation: The given array is not rotated.
+
+
+Constraints:
+
+1 ≤ arr.size() ≤105
+1 ≤ arr[i] ≤ 107
+
+
+Expected Complexities
+
+Time Complexity: O(log n)
+Auxiliary Space: O(1)
+
+
+Company Tags
+
+FlipkartAmazonABCO
+
+
+Topic Tags
+
+ArraysSearchingData StructuresAlgorithms
+
+
+# Code
+```cpp []
+class Solution {
+  public:
+    int findKRotation(vector<int> &arr) {
+        int n = arr.size() , l = 0 , h = n - 1;
+        int low = INT_MAX, index = -1;
+        
+        while(l<=h){
+            int mid = l + (h-l)/2;
+            
+            if(arr[l] <= arr[h]){
+                if(arr[l] < low){
+                    low = arr[l];
+                    index = l;
+                }
+                break;
+            }
+            
+            if(arr[l] <= arr[mid]){
+                if(arr[l] < low){
+                    low = arr[l];
+                    index = l;
+                }
+                l = mid + 1;
+            }
+            else{
+                if(arr[mid] < low){
+                    low = arr[mid];
+                    index = mid;
+                }
+                h = mid - 1;
+            }
+            
+        }
+        
+        return index;
+    }
+};
+
+```
+
+
+-------------
+
 
 
 
