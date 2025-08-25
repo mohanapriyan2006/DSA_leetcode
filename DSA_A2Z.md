@@ -3333,7 +3333,7 @@ public:
 
 
 
-# 875. Koko Eating Bananas
+# 875. Koko Eating Bananas -> [LeetCode](https://leetcode.com/problems/koko-eating-bananas/description/)
  
 Medium
 
