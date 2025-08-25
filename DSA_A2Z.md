@@ -3113,7 +3113,7 @@ public:
 ------------------------
 
 
-# 69. Sqrt(x)
+# 69. Sqrt(x) -> [LeetCode](https://leetcode.com/problems/sqrtx/description/)
  
 Easy
 
