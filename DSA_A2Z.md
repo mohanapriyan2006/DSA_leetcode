@@ -2995,7 +2995,7 @@ class Solution {
 -------------
 
 
-# 540. Single Element in a Sorted Array
+# 540. Single Element in a Sorted Array -> [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)
  
 Medium
  
