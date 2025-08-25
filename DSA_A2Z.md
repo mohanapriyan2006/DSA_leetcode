@@ -3161,5 +3161,84 @@ public:
 ---------------
 
 
+# Find nth root of m -> GFG
+
+Difficulty: Medium
+
+You are given 2 numbers n and m, the task is to find n√m (nth root of m). If the root is not integer then returns -1.
+
+Examples :
+
+Input: n = 3, m = 27
+Output: 3
+Explanation: 33 = 27
+
+Input: n = 3, m = 9
+Output: -1
+Explanation: 3rd root of 9 is not integer.
+
+Input: n = 4, m = 625
+Output: 5
+Explanation: 54 = 625
+
+
+Constraints:
+
+1 ≤ n ≤ 30
+0 ≤ m ≤ 109
+
+
+Expected Complexities
+
+Time Complexity: O(n log m)
+Auxiliary Space: O(1)
+
+
+Company Tags
+
+DirectiAccenture
+
+
+Topic Tags
+
+MathematicalAlgorithmsBinary Search
+
+
+# Code
+```cpp []
+class Solution {
+    int findRoot(int b,int expo,int m){
+        long long ans = 1, base = b;
+        while(expo>0){
+            if(expo % 2){
+                expo--;
+                ans = ans * base;
+            }else{
+                expo/=2;
+                base *= base;
+            }
+            if(ans > m) return 2;
+        }
+        if(ans == m) return 1;
+        return 0;
+    }
+    
+  public:
+    int nthRoot(int n, int m) {
+        int l = 1 , h = m;
+        while(l<=h){
+            int mid = l + (h-l)/2;
+            int res = findRoot(mid,n ,m);
+            if(res == 1) return mid;
+            else if(res == 2) h = mid - 1;
+            else l = mid + 1;
+        }
+        return -1;
+    }
+};
+```
+
+---------------
+
 
 
