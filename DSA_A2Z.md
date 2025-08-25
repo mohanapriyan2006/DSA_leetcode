@@ -2906,7 +2906,8 @@ public:
 
 -------------
 
-# Find Kth Rotation
+# Find Kth Rotation -> [GFG](https://www.geeksforgeeks.org/problems/rotation4723/1)
+
 Difficulty: Easy
 
 Given an increasing sorted rotated array arr[] of distinct integers. The array is right-rotated k times. Find the value of k.
