@@ -3242,7 +3242,7 @@ class Solution {
 
 
 
-# 1482. Minimum Number of Days to Make m Bouquets
+# 1482. Minimum Number of Days to Make m Bouquets -> [LeetCode](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/)
  
 Medium
  
