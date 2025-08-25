@@ -3161,7 +3161,7 @@ public:
 ---------------
 
 
-# Find nth root of m -> GFG
+# Find nth root of m -> [GFG](https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1)
 
 Difficulty: Medium
 
