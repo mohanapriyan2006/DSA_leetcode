@@ -165,7 +165,7 @@ class Solution {
 --------------------------------
 
 
-# Count the number of possible triangles
+# Count the number of possible triangles -> [GFG](https://www.geeksforgeeks.org/problems/count-possible-triangles-1587115620/1)
 
 Difficulty: Medium
 
