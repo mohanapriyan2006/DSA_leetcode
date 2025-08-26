@@ -2122,7 +2122,7 @@ public:
 
 
 
-# 1011. Capacity To Ship Packages Within D Days
+# 1011. Capacity To Ship Packages Within D Days -> [LeetCode](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)
  
 Medium
  
