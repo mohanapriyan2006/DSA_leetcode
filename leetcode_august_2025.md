@@ -2004,7 +2004,7 @@ class Solution {
 
 
 
-# 3000. Maximum Area of Longest Diagonal Rectangle
+# 3000. Maximum Area of Longest Diagonal Rectangle -> [LeetCode](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/description)
  
 Easy
  
