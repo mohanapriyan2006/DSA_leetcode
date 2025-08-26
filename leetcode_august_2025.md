@@ -2059,7 +2059,7 @@ class Solution {
 
 
 
-# 1283. Find the Smallest Divisor Given a Threshold
+# 1283. Find the Smallest Divisor Given a Threshold -> [LeetCode](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/description/)
  
 Medium
  
