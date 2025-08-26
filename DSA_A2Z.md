@@ -3399,7 +3399,7 @@ public:
 -------------------
 
 
-# 1539. Kth Missing Positive Number ->
+# 1539. Kth Missing Positive Number -> [LeetCode](https://leetcode.com/problems/kth-missing-positive-number/description/)
  
 Easy
  
