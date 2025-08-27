@@ -3527,7 +3527,7 @@ public:
 
 
 
-# 1903. Largest Odd Number in String
+# 1903. Largest Odd Number in String -> [LeetCode](https://leetcode.com/problems/largest-odd-number-in-string/description/)
  
 Easy
  
