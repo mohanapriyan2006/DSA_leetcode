@@ -3459,7 +3459,7 @@ public:
 ---------------------
 
 
-# 1021. Remove Outermost Parentheses
+# 1021. Remove Outermost Parentheses -> [LeetCode](https://leetcode.com/problems/remove-outermost-parentheses/description/)
  
 Easy
  
