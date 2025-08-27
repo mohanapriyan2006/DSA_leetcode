@@ -3583,7 +3583,7 @@ public:
 -----------------
 
 
-# 205. Isomorphic Strings
+# 205. Isomorphic Strings -> [LeetCode](https://leetcode.com/problems/isomorphic-strings/description/)
  
 Easy
  
