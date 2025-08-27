@@ -3660,7 +3660,7 @@ public:
 -----------------
 
 
-# 796. Rotate String
+# 796. Rotate String -> [LeetCode](https://leetcode.com/problems/rotate-string/description/)
  
 Easy
 
