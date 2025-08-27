@@ -2222,6 +2222,8 @@ Starts along a diagonal direction (top-left to bottom-right, bottom-right to top
 Continues the sequence in the same diagonal direction.
 Makes at most one clockwise 90-degree turn to another diagonal direction while maintaining the sequence.
 
+![image](https://assets.leetcode.com/uploads/2025/01/11/length_of_longest3.jpg)
+
 
 Return the length of the longest V-shaped diagonal segment. If no valid segment exists, return 0.
 
@@ -2232,6 +2234,7 @@ Example 1:
 Input: grid = [[2,2,1,2,2],[2,0,2,2,0],[2,0,1,1,0],[1,0,2,2,2],[2,0,0,2,2]]
 
 Output: 5
+![image](https://assets.leetcode.com/uploads/2024/12/09/matrix_1-2.jpg)
 
 Explanation:
 
@@ -2243,6 +2246,7 @@ Example 2:
 Input: grid = [[2,2,2,2,2],[2,0,2,2,0],[2,0,1,1,0],[1,0,2,2,2],[2,0,0,2,2]]
 
 Output: 4
+![image](https://assets.leetcode.com/uploads/2024/12/09/matrix_2.jpg)
 
 Explanation:
 
@@ -2254,6 +2258,7 @@ Example 3:
 Input: grid = [[1,2,2,2,2],[2,2,2,2,0],[2,0,0,0,0],[0,0,2,2,2],[2,0,0,2,0]]
 
 Output: 5
+![image](https://assets.leetcode.com/uploads/2024/12/09/matrix_3.jpg)
 
 Explanation:
 
