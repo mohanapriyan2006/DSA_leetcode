@@ -3997,7 +3997,7 @@ public:
 
 
 
-# 8. String to Integer (atoi)
+# 8. String to Integer (atoi) -> [LeetCode](https://leetcode.com/problems/string-to-integer-atoi/description/)
  
 Medium
  
