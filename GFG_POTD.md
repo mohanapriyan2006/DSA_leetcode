@@ -253,7 +253,7 @@ class Solution {
 --------------------------------
 
 
-# Smallest window containing all characters
+# Smallest window containing all characters -> [GFG](https://www.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1)
 
 Difficulty: Hard
 
