@@ -2363,7 +2363,7 @@ Output: [[8,2,3],[9,6,7],[4,5,1]]
 
 Explanation:
 
-
+![image](https://assets.leetcode.com/uploads/2024/12/29/4052example1drawio.png)
 
 The diagonals with a black arrow (bottom-left triangle) should be sorted in non-increasing order:
 
@@ -2373,6 +2373,8 @@ The diagonals with a blue arrow (top-right triangle) should be sorted in non-dec
 
 [7, 2] becomes [2, 7].
 [3] remains unchanged.
+
+
 Example 2:
 
 Input: grid = [[0,1],[1,2]]
@@ -2381,6 +2383,7 @@ Output: [[2,1],[1,0]]
 
 Explanation:
 
+![image](https://assets.leetcode.com/uploads/2024/12/29/4052example2adrawio.png)
 
 
 The diagonals with a black arrow must be non-increasing, so [0, 2] is changed to [2, 0]. The other diagonals are already in the correct order.
