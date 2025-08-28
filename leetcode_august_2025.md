@@ -2345,7 +2345,7 @@ public:
 -----------------------------
 
 
-# 3446. Sort Matrix by Diagonals
+# 3446. Sort Matrix by Diagonals -> [LeetCode](https://leetcode.com/problems/sort-matrix-by-diagonals/description)
  
 Medium
 
