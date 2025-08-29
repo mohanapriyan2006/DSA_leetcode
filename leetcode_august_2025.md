@@ -2448,6 +2448,8 @@ Alice and Bob are playing a turn-based game on a field, with two lanes of flower
 
 The game proceeds as follows:
 
+![image](https://assets.leetcode.com/uploads/2025/08/27/3021.png)
+
 Alice takes the first turn.
 In each turn, a player must choose either one of the lane and pick one flower from that side.
 At the end of the turn, if there are no flowers left at all, the current player captures their opponent and wins the game.
