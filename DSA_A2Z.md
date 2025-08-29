@@ -4339,7 +4339,8 @@ public:
 -------------------
 
 
-# Find Length of Linked List
+# Find Length of Linked List -> [GFG](https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1)
+
 Difficulty: Basic
 
 Given head of a singly linked list. The task is to find the length of the linked list, where length is defined as the number of nodes in the linked list.
