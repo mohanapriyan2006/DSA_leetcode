@@ -4197,7 +4197,8 @@ class Solution {
 
 ----------------------------
 
-# Insertion at a Given Position in a Linked List
+# Insertion at a Given Position in a Linked List -> [GFG](https://www.geeksforgeeks.org/problems/insertion-at-a-given-position-in-a-linked-list/1)
+
 Difficulty: Easy
 
 You are given the head of a Singly Linked List, a position pos and value val. Insert the val data at the given position (1-based index) of the LinkedList and return the head of the modified Linked List.
