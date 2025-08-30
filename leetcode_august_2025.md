@@ -2499,7 +2499,7 @@ public:
 ------------------
 
 
-# 36. Valid Sudoku
+# 36. Valid Sudoku -> [LeetCode](https://leetcode.com/problems/valid-sudoku/description)
  
 Medium
  
