@@ -4605,4 +4605,93 @@ class Solution {
 -------------------------
 
 
+# Delete in a Doubly Linked List -> [GFG](https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1)
+
+Difficulty: Easy
+
+You are given a Doubly Linked List and an integer x. Remove the node at position x (positions are 1-indexed) from the list, and return the head of the updated list.
+
+Examples:
+
+Input: x = 3,
+   
+Output: 1 <-> 3
+
+Explanation: After deleting the node at position 3 (position starts from 1), the updated linked list is 1 <-> 3.
+   
+Input: x = 1,
+   
+Output: 5 <-> 2 <-> 9
+
+Explanation: After deleting the node at position 1, the updated linked list is 5 <-> 2 <-> 9.
+   
+
+Constraints:
+
+1 ≤ x ≤ size of the linked list ≤ 106
+0 ≤ node->data ≤ 104
+
+
+Expected Complexities
+
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+
+Company Tags
+
+AmazonWalmart
+
+```cpp []
+/* Structure of Node
+class Node {
+  public:
+    int data;
+    Node *next;
+    Node *prev;
+
+    Node(int val) {
+        data = val;
+        this->next = NULL;
+        this->prev = NULL;
+    }
+};
+*/
+
+class Solution {
+  public:
+    Node* delPos(Node* head, int x) {
+        if(!head) return nullptr;
+        
+        if(x == 1){
+            Node* del = head;
+            if(del->next) del->next->prev = del->prev;
+            head = del->next;
+            delete del;
+            return head;
+        }
+        
+        int pos = 1;
+        Node* cur = head;
+        while(cur){
+            if(x == pos++){
+                Node* del = cur;
+                if(del->prev) del->prev->next = del->next;
+                if(del->next) del->next->prev = del->prev;
+                delete del;
+                return head;
+            }
+            cur = cur->next;
+        }
+        
+        return head;
+        
+    }
+};
+```
+
+----------------------
+
+
+
+
 
