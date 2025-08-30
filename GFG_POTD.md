@@ -443,7 +443,8 @@ class Solution {
 --------------------------------
 
 
-# Container With Most Water
+# Container With Most Water -> [GFG](https://www.geeksforgeeks.org/problems/container-with-most-water0535/1)
+
 Difficulty: Medium
 
 Given an array arr[] of non-negative integers, where each element arr[i] represents the height of the vertical lines, find the maximum amount of water that can be contained between any two lines, together with the x-axis.
