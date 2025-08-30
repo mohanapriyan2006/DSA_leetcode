@@ -2580,6 +2580,86 @@ class Solution {
 
 ------------------
 
+# Reverse a Doubly Linked List -> [GFG](https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1)
+
+Difficulty: Easy
+
+You are given the head of a doubly linked list. You have to reverse the doubly linked list and return its head.
+
+Examples:
+
+Input: head = 3 <-> 4 <-> 5
+Output: 5 <-> 4 <-> 3
+
+Input: head = 75 <-> 122 <-> 59 <-> 196
+Output: 196 <-> 59 <-> 122 <-> 75
+
+
+Constraints:
+
+1 ≤ number of nodes ≤ 106
+0 ≤ node->data ≤ 104
+
+
+Expected Complexities
+
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+
+
+Company Tags
+
+D-E-ShawAdobe
+
+
+```cpp []
+/*
+class Node {
+  public:
+    int data;
+    Node *next;
+    Node *prev;
+    Node(int val) {
+        data = val;
+        next = NULL;
+        prev = NULL;
+    }
+};
+
+*/
+class Solution {
+  public:
+    Node *reverse(Node *head) {
+        Node* dummy = new Node(-1);
+        
+        Node* rev = dummy;
+        Node* cur = head;
+        
+        while(cur->next) cur = cur->next;
+        
+        while(cur->prev){
+            Node* pre = cur->prev;
+            rev->next = cur;
+            cur->prev = rev;
+            rev = cur;
+            cur = pre;
+        }
+        
+        rev->next = cur;
+        cur->prev = rev;
+        rev = cur;
+        rev->next = nullptr;
+        
+        return dummy->next;
+        
+        
+    }
+};
+```
+
+---------------------------------
+
+
 
 
 
