@@ -2726,7 +2726,7 @@ public:
 -----------
 
 
-# 37. Sudoku Solver
+# 37. Sudoku Solver -> [LeetCode](https://leetcode.com/problems/sudoku-solver/description)
  
 Hard
  
