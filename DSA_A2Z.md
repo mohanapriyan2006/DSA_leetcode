@@ -5435,6 +5435,7 @@ Input: intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
 
 Output: No intersection
 
+![img](https://assets.leetcode.com/uploads/2021/03/05/160_example_3.png)
 
 Explanation: From the head of A, it reads as [2,6,4]. From the head of B, it reads as [1,5]. Since the two lists do not intersect, intersectVal must be 0, while skipA and skipB can be arbitrary values.
 Explanation: The two lists do not intersect, so return null.
