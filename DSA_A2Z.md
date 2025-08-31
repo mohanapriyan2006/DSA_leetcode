@@ -5188,6 +5188,9 @@ Example 2:
 
 
 Input: head = [-1,5,3,4,0]
+
+![img2](https://assets.leetcode.com/uploads/2020/09/14/sort_list_2.jpg)
+
 Output: [-1,0,3,4,5]
 
 
