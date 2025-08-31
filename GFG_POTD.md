@@ -514,7 +514,8 @@ class Solution {
 
 -------------------
 
-# Sum of Mode
+# Sum of Mode -> [GFG](https://www.geeksforgeeks.org/problems/sum-of-mode/1)
+
 Difficulty: Hard
 
 Given an array arr[] of positive integers and an integer k. You have to find the sum of the modes of all the subarrays of size k.
