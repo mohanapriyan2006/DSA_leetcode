@@ -515,6 +515,55 @@ class Solution {
 -------------------
 
 
+```cpp []
+class Solution {
+  public:
+    int sumOfModes(vector<int>& arr, int k) {
+        int n = arr.size();
+        unordered_map<int, int> freq;          
+        map<int, set<int>> freqToVals;  
+        long long result = 0;
+    
+        auto add = [&](int x) {
+            int oldFreq = freq[x];
+            if (oldFreq > 0) {
+                freqToVals[oldFreq].erase(x);
+                if (freqToVals[oldFreq].empty())
+                    freqToVals.erase(oldFreq);
+            }
+            freq[x]++;
+            freqToVals[freq[x]].insert(x);
+        };
+    
+        auto remove = [&](int x) {
+            int oldFreq = freq[x];
+            freqToVals[oldFreq].erase(x);
+            if (freqToVals[oldFreq].empty())
+                freqToVals.erase(oldFreq);
+    
+            freq[x]--;
+            if (freq[x] > 0)
+                freqToVals[freq[x]].insert(x);
+        };
+    
+        
+        for (int i = 0; i < k; i++) add(arr[i]);
+        result += *freqToVals.rbegin()->second.begin();
+    
+        
+        for (int i = k; i < n; i++) {
+            add(arr[i]);
+            remove(arr[i - k]);
+            result += *freqToVals.rbegin()->second.begin();
+        }
+    
+        return result;
+    }
+};
+```
+
+------------------------
+
 
 
 
