@@ -3,7 +3,7 @@
 ----------------------------------
 
 
-# # 1792. Maximum Average Pass Ratio
+# # 1792. Maximum Average Pass Ratio -> [LEETCODE](https://leetcode.com/problems/maximum-average-pass-ratio/description/)
  
 Medium
  
