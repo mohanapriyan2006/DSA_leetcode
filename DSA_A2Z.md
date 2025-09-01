@@ -5680,4 +5680,50 @@ public:
 
 
 
+```cpp []
+// User function Template for C++
+
+/* a Node of the doubly linked list
+struct Node
+{
+  int data;
+  struct Node *next;
+  struct Node *prev;
+  Node(int x) { data = x; next = prev = NULL; }
+}; */
+
+class Solution {
+  public:
+    void deleteAllOccurOfX(struct Node** head, int x) {
+        if(!head) return;
+        Node* cur = *head;
+        while(cur && cur->data == x){
+            Node* del = cur;
+            cur = cur->next;
+            if(cur) cur->prev = nullptr;
+            delete del;
+        }
+        *head = cur;
+        while(cur){
+            if(cur->data == x){
+                Node* del = cur;
+                Node *nxt = cur->next;
+                Node *pre = cur->prev;
+            
+                if(pre) pre->next = nxt;
+                if(nxt) nxt->prev = pre;
+                
+                delete del;
+                
+                cur = nxt;
+            }else{
+                cur = cur->next;
+            }
+        }
+    }
+};
+```
+
+---------------
+
 
