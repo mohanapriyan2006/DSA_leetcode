@@ -621,10 +621,14 @@ Output: 5 -> 2 -> 3 -> 4 -> 1
 ![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/701070/Web/Other/blobid1_1755953433.webp)
 
 Explanation: Here k = 1, hence after swapping the 1st node from the beginning and end the new list will be 5 -> 2 -> 3 -> 4 -> 1.
-  
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/701070/Web/Other/blobid2_1755953453.webp)
+
 Input: k = 2,
   
 Output: 5 -> 9 -> 8 -> 5 -> 10 -> 3
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/701070/Web/Other/blobid3_1755953462.webp)
 
 Explanation: Here k = 2, hence after swapping the 2nd node from the beginning and end the new list will be 5 -> 9 -> 8 -> 5 -> 10 -> 3.
   
