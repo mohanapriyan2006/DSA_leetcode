@@ -5487,7 +5487,8 @@ public:
 -----------------
 
 
-#  Add 1 to a Linked List Number
+#  Add 1 to a Linked List Number -> [GFG](https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1)
+
 Difficulty: Medium
 
 You are given a linked list where each element in the list is a node and have an integer data. You need to add 1 to the number formed by concatinating all the list node numbers together and return the head of the modified linked list. 
