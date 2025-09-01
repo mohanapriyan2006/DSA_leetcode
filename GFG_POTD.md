@@ -613,8 +613,12 @@ Given the head of a singly linked list and an integer k. Swap the kth node (1-ba
 Examples:
 
 Input: k = 1,
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/701070/Web/Other/blobid0_1755953423.webp)
   
 Output: 5 -> 2 -> 3 -> 4 -> 1
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/701070/Web/Other/blobid1_1755953433.webp)
 
 Explanation: Here k = 1, hence after swapping the 1st node from the beginning and end the new list will be 5 -> 2 -> 3 -> 4 -> 1.
   
