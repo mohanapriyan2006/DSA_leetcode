@@ -5498,6 +5498,9 @@ Note: The head represents the first element of the given array.
 Examples :
 
 Input: LinkedList: 4->5->6
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700053/Web/Other/blobid0_1722278845.png)
+
 Output: 457
 
 Explanation: 4->5->6 represents 456 and when 1 is added it becomes 457. 
