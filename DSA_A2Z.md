@@ -5507,6 +5507,9 @@ Explanation: 4->5->6 represents 456 and when 1 is added it becomes 457.
 
 
 Input: LinkedList: 1->2->3
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700053/Web/Other/blobid1_1722278908.png)
+
 Output: 124
  
 Explanation:  1->2->3 represents 123 and when 1 is added it becomes 124. 
