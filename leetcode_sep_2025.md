@@ -116,6 +116,7 @@ Output: 2
 
 Explanation:
 
+![img](https://assets.leetcode.com/uploads/2024/06/25/t2.jpg)
 
 The left one is the pair (points[1], points[0]), where points[1] is on the upper left side of points[0] and the rectangle is empty.
 The middle one is the pair (points[2], points[1]), same as the left one it is a valid pair.
