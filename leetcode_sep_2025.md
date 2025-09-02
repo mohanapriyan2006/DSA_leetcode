@@ -102,7 +102,7 @@ Output: 0
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2024/01/04/example1alicebob.png)
 
 There is no way to choose A and B so A is on the upper left side of B.
 
