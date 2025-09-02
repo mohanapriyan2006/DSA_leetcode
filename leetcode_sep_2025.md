@@ -131,7 +131,7 @@ Output: 2
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2024/06/25/t3.jpg)
 
 The left one is the pair (points[2], points[0]), where points[2] is on the upper left side of points[0] and there are no other points on the line they form. Note that it is a valid state when the two points form a line.
 The middle one is the pair (points[1], points[2]), it is a valid pair same as the left one.
