@@ -5867,3 +5867,51 @@ class Solution {
 
 
 
+```cpp []
+/*
+struct Node
+{
+    int data;
+    Node * next;
+    Node * prev;
+    Node (int x)
+    {
+        data=x;
+        next=NULL;
+        prev=NULL;
+    }
+
+};
+*/
+
+class Solution {
+  public:
+
+    Node *removeDuplicates(struct Node *head) {
+        if(!head || !head->next) return head;
+
+        Node* cur = head;
+        
+        while(cur && cur->next){
+            if(cur->data == cur->next->data){
+                Node* dub = cur->next;
+                cur->next = dub->next;
+                if(dub->next) dub->next->prev = cur;
+                delete dub;
+            }else{
+                cur = cur->next;
+            }
+        }
+        
+        return head;
+        
+    }
+};
+```
+
+
+----------------------
+
+
+
+
