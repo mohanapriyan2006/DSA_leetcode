@@ -5866,7 +5866,7 @@ class Solution {
 -----------------------
 
 
-# Remove duplicates from a sorted doubly linked list
+# Remove duplicates from a sorted doubly linked list -> [GFG](https://www.geeksforgeeks.org/problems/remove-duplicates-from-a-sorted-doubly-linked-list/1)
 
 Difficulty: Easy
 
