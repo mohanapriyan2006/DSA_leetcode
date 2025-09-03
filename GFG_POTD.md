@@ -825,8 +825,12 @@ Note: If the number of nodes is not a multiple of k then the left-out nodes at t
 Examples:
 
 Input: k = 2,
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908192/Web/Other/blobid0_1756125226.webp)
    
 Output: 2 -> 1 -> 4 -> 3 -> 6 -> 5
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908192/Web/Other/blobid1_1756125284.webp)
 
 Explanation: Linked List is reversed in a group of size k = 2.
    
