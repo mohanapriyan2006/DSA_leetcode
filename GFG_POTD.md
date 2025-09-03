@@ -815,7 +815,8 @@ class Solution {
 ------------------------
 
 
-# Linked List Group Reverse
+# Linked List Group Reverse -> [GFG](https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1)
+
 Difficulty: Hard
 
 You are given the head of a Singly linked list. You have to reverse every k node in the linked list and return the head of the modified list.
