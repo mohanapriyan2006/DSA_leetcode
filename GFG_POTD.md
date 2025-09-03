@@ -731,11 +731,15 @@ You are given the head of a doubly linked list. You have to reverse the doubly l
 Examples:
 
 Input:
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908050/Web/Other/blobid0_1756123600.webp)
    
 Output: 5 <-> 4 <-> 3
 Explanation: After reversing the given doubly linked list the new list will be 5 <-> 4 <-> 3.
    
 Input: 
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908050/Web/Other/blobid1_1756123728.webp)
    
 Output: 196 <-> 59 <-> 122 <-> 75
 Explanation: After reversing the given doubly linked list the new list will be 196 <-> 59 <-> 122 <-> 75.
