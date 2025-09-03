@@ -816,3 +816,73 @@ class Solution {
 
 
 
+```cpp []
+/*
+class Node {
+  public:
+    int data;
+    Node* next;
+
+    Node(int x){
+        data = x;
+        next = NULL;
+    }
+};
+*/
+class Solution {
+  private:
+    Node* findKNode(Node* temp , int k){
+        k--;
+        while(temp->next && k>0){
+            k--;
+            temp = temp->next;
+        }
+        return temp;
+    }
+    
+    Node* revLL(Node* head){
+        Node* pre = nullptr , *temp = head;
+        while(temp){
+            Node* nxt = temp->next;
+            temp->next = pre;
+            pre = temp;
+            temp = nxt;
+        }
+        return pre;
+    }
+    
+  public:
+    Node *reverseKGroup(Node *head, int k) {
+        if(!head || !head->next) return head;
+        
+        Node* cur = head , *preNode = nullptr;
+        while(cur){
+            Node* kNode = findKNode(cur , k);
+            if(kNode == nullptr){
+                if(preNode) preNode->next = cur;
+                break;
+            }
+            Node* nxtNode = kNode->next;
+            kNode->next = nullptr;
+            
+            revLL(cur);
+            
+            if(cur == head) head = kNode;
+            else preNode->next = kNode;
+            
+            preNode = cur;
+            cur = nxtNode;
+        }
+        
+        return head;
+        
+    }
+};
+```
+
+---------------
+
+
+
+
+
