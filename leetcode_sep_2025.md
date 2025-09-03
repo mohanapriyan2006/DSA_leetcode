@@ -214,6 +214,7 @@ Explanation: There are two ways to place Alice and Bob such that Alice will not 
 - Place Alice at (2, 6) and Bob at (4, 4).
 You cannot place Alice at (2, 6) and Bob at (6, 2) because the person at (4, 4) will be inside the fence.
 
+![img](https://assets.leetcode.com/uploads/2024/02/04/example2alicebob.png)
 
 Example 3:
 
@@ -225,7 +226,9 @@ Explanation: There are two ways to place Alice and Bob such that Alice will not 
 - Place Alice at (1, 3) and Bob at (1, 1).
 You cannot place Alice at (1, 3) and Bob at (3, 1) because the person at (1, 1) will be on the fence.
 Note that it does not matter if the fence encloses any area, the first and second fences in the image are valid.
- 
+
+
+![img](https://assets.leetcode.com/uploads/2024/02/04/example4alicebob.png)
 
 Constraints:
 
