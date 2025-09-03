@@ -836,8 +836,12 @@ Explanation: Linked List is reversed in a group of size k = 2.
    
 
 Input: k = 4,
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908192/Web/Other/blobid2_1756125400.webp)
    
 Output: 4 -> 3 -> 2 -> 1 -> 6 -> 5
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908192/Web/Other/blobid3_1756125453.webp)
 
 Explanation: Linked List is reversed in a group of size k = 4.
    
