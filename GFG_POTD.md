@@ -735,13 +735,19 @@ Input:
 ![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908050/Web/Other/blobid0_1756123600.webp)
    
 Output: 5 <-> 4 <-> 3
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908050/Web/Other/blobid1_1756123728.webp)
+
 Explanation: After reversing the given doubly linked list the new list will be 5 <-> 4 <-> 3.
    
 Input: 
 
-![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908050/Web/Other/blobid1_1756123728.webp)
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908050/Web/Other/blobid2_1756123773.webp)
    
 Output: 196 <-> 59 <-> 122 <-> 75
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908050/Web/Other/blobid3_1756123876.webp)
+
 Explanation: After reversing the given doubly linked list the new list will be 196 <-> 59 <-> 122 <-> 75.
    
 
