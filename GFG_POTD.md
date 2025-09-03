@@ -725,3 +725,46 @@ class Solution {
 
 
 
+```cpp []
+
+/*
+class Node {
+  public:
+    int data;
+    Node *next;
+    Node *prev;
+    Node(int val) {
+        data = val;
+        next = NULL;
+        prev = NULL;
+    }
+};
+
+*/
+class Solution {
+  public:
+    Node *reverse(Node *head) {
+        if(!head || !head->next) return head;
+        
+        Node* cur = head;
+        Node* newHead = nullptr;
+        
+        while(cur){
+            Node* temp = cur->prev;
+            cur->prev = cur->next;
+            cur->next = temp;
+            newHead = cur;
+            cur = cur->prev;
+        }
+        
+        return newHead;
+    
+       
+    }
+};
+```
+
+------------------------
+
+
+
