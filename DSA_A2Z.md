@@ -6092,6 +6092,8 @@ Example 1:
 
 Input: head = [1,2,3,4,5], k = 2
 
+![img](https://assets.leetcode.com/uploads/2020/11/13/rotate1.jpg)
+
 Output: [4,5,1,2,3]
 
 
