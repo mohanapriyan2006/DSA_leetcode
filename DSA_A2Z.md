@@ -5987,6 +5987,8 @@ Example 2:
 
 Input: head = [1,2,3,4,5], k = 3
 
+![img](https://assets.leetcode.com/uploads/2020/10/03/reverse_ex2.jpg)
+
 Output: [3,2,1,4,5]
  
 
