@@ -3,7 +3,9 @@
 -----------
 
 # Count Digits (GeeksForGeeks)
+
 Difficulty: Easy
+
 Given a positive integer n, count the number of digits in n that divide n evenly (i.e., without leaving a remainder). Return the total number of such digits.
 
 A digit d of n divides n evenly if the remainder when n is divided by d is 0 (n % d == 0).
@@ -12,13 +14,23 @@ Digits of n should be checked individually. If a digit is 0, it should be ignore
 Examples :
 
 Input: n = 12
+
 Output: 2
+
 Explanation: 1, 2 when both divide 12 leaves remainder 0.
+
+
 Input: n = 2446
+
 Output: 1
+
 Explanation: Here among 2, 4, 6 only 2 divides 2446 evenly while 4 and 6 do not.
+
+
 Input: n = 23
+
 Output: 0
+
 Explanation: 2 and 3, none of them divide 23 evenly.
 
 ```java []
@@ -6064,4 +6076,63 @@ public:
     }
 };
 ```
+
+---------------------------
+
+# 
+
+
+# Code
+```cpp []
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* rotateRight(ListNode* head, int k) {
+        if(!head || !head->next) return head;
+
+        int len = 0;
+        ListNode* temp = head;
+        while(temp){
+            len++;
+            temp = temp->next;
+        }
+
+        if(k % len == 0) return head;
+
+        k %= len;
+
+        ListNode *slow = head, *fast = head;
+        for (int i = 0; i < k; ++i)
+            if (fast)
+                fast = fast->next;
+
+        while (fast && fast->next) {
+            slow = slow->next;
+            fast = fast->next;
+        }
+
+        if (fast) {
+            fast->next = head;
+        }
+        if(slow){
+            head = slow->next;
+            slow->next = nullptr;
+        }
+
+        return head;
+    }
+};
+```
+
+-------------------------------
+
 
