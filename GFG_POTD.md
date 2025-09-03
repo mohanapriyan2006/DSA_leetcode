@@ -722,7 +722,8 @@ class Solution {
 
 ----------------------------
 
-# Reverse a Doubly Linked List
+# Reverse a Doubly Linked List -> [GFG](https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1)
+
 Difficulty: Easy
 
 You are given the head of a doubly linked list. You have to reverse the doubly linked list and return its head.
