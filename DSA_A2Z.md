@@ -6079,7 +6079,8 @@ public:
 
 ---------------------------
 
-# 61. Rotate List
+# 61. Rotate List -> [LeetCode](https://leetcode.com/problems/rotate-list/)
+
  Medium
  
 Given the head of a linked list, rotate the list to the right by k places.
