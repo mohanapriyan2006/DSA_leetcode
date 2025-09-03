@@ -5776,3 +5776,46 @@ class Solution {
 ---------------
 
 
+```cpp []
+// User function Template for C++
+
+/* Doubly linked list node class
+class Node
+{
+public:
+    int data;
+    Node *next, *prev;
+    Node(int val) : data(val), next(NULL), prev(NULL)
+    {
+    }
+};
+*/
+
+class Solution {
+  private:
+    Node* findTail(Node* head){
+        Node* tail = head;
+        while(tail->next) tail = tail->next;
+        return tail;
+    }
+  public:
+    vector<pair<int, int>> findPairsWithGivenSum(Node *head, int target) {
+       vector<pair<int, int>> ans;
+       Node* lf = head , *rt = findTail(head);
+       while(lf->data < rt->data){
+           if(lf->data + rt->data == target){
+               ans.push_back({lf->data , rt->data});
+               lf = lf->next;
+               rt = rt->prev;
+           }else if(lf->data + rt->data < target) lf = lf->next;
+           else rt = rt->prev;
+       }
+       return ans;
+    }
+};
+```
+
+-----------------------
+
+
+
