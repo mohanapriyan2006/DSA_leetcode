@@ -6285,7 +6285,7 @@ class Solution {
 -----------------------
 
 
-# 138. Copy List with Random Pointer
+# 138. Copy List with Random Pointer -> [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
  
 Medium
  
@@ -6309,6 +6309,9 @@ Example 1:
 
 
 Input: head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
+
+![img](https://assets.leetcode.com/uploads/2019/12/18/e1.png)
+
 Output: [[7,null],[13,0],[11,4],[10,2],[1,0]]
 
 
@@ -6316,6 +6319,9 @@ Example 2:
 
 
 Input: head = [[1,1],[2,1]]
+
+![img](https://assets.leetcode.com/uploads/2019/12/18/e2.png)
+
 Output: [[1,1],[2,1]]
 
 
@@ -6323,6 +6329,9 @@ Example 3:
 
 
 Input: head = [[3,null],[3,0],[3,null]]
+
+![img](https://assets.leetcode.com/uploads/2019/12/18/e3.png)
+
 Output: [[3,null],[3,0],[3,null]]
  
 
