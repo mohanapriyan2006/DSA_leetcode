@@ -6183,6 +6183,8 @@ Examples:
 
 Input:
 
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700192/Web/Other/blobid0_1756383797.webp)
+
 Output: 5 -> 7 -> 8 -> 10 -> 19 -> 20 -> 22 -> 28 -> 40 -> 45.
 
 Explanation: 
@@ -6195,6 +6197,8 @@ So, after flattening the linked list the sorted list will be
 
 
 Input:
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700192/Web/Other/blobid1_1756383851.webp)
 
 Output: 5 -> 7 -> 8 -> 10 -> 19 -> 22 -> 28 -> 30 -> 50
 
