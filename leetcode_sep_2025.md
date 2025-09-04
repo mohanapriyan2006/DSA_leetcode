@@ -272,7 +272,7 @@ class Solution {
 --------------------
 
 
-# 3516. Find Closest Person
+# 3516. Find Closest Person -> [LeetCode](https://leetcode.com/problems/find-closest-person/description/)
  
 Easy
 
