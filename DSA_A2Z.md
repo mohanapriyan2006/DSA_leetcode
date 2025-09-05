@@ -6604,5 +6604,32 @@ public:
 
 
 
+```cpp []
+class MyStack {
+    int *arr;
+    int i;
+    
+  public:
+    MyStack(){
+        arr = new int[101];
+        i = 0 ;
+    }
+    void push(int x) {
+        arr[i++] = x;
+    }
+
+    int pop() {
+        return (i <= 0) ? -1 : arr[--i];
+    }
+};
+```
+
+-----------
+
+
+
+
+
+
 
 
