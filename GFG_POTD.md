@@ -946,15 +946,24 @@ Given the head of a linked list where nodes can contain values 0s, 1s, and 2s on
 Examples:
 
 Input: head = 1 → 2 → 2 → 1 → 2 → 0 → 2 → 2
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908245/Web/Other/blobid0_1756113569.jpg)
    
 Output: 0 → 1 → 1 → 2 → 2 → 2 → 2 → 2
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908245/Web/Other/blobid1_1756113598.jpg)
 
 Explanation: All the 0s are segregated to the left end of the linked list, 2s to the right end of the list, and 1s in between. The final list will be:
    
 
+
 Input: head = 2 → 2 → 0 → 1
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908245/Web/Other/blobid2_1756113607.jpg)
    
 Output: 0 → 1 → 2 → 2
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908245/Web/Other/blobid3_1756113615.jpg)
 
 Explanation: After arranging all the 0s, 1s and 2s in the given format, the output will be:
    
