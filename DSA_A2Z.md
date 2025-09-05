@@ -6598,7 +6598,9 @@ public:
 };
 ```
 
---------------
+----------------------------------------------------------------------
+# Stack and Queue
+----------------------------------------------------------------------
 
 
 # Implement stack using array -> [GFG](https://www.geeksforgeeks.org/problems/implement-stack-using-array/1)
