@@ -6534,7 +6534,7 @@ public:
 -----------------------
 
 
-# 50. Pow(x, n)
+# 50. Pow(x, n) -> [LeetCode](https://leetcode.com/problems/powx-n/description/)
  
 Medium
 
