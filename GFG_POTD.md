@@ -939,5 +939,63 @@ class Solution {
 
 
 
+```cpp []
+/* Node is defined as
+  class Node {
+  public:
+    int data;
+    Node* next;
+
+    Node(int x) {
+        data = x;
+        next = nullptr;
+    }
+};
+*/
+class Solution {
+  public:
+    Node* segregate(Node* head) {
+        
+        if(!head || !head->next) return head;
+        
+        Node* dummy0 = new Node(-1);
+        Node* dummy1 = new Node(-1);
+        Node* dummy2 = new Node(-1);
+        
+        Node* temp0 = dummy0;
+        Node* temp1 = dummy1;
+        Node* temp2 = dummy2;
+        
+        Node* cur = head;
+        
+        while(cur){
+            if(cur->data == 0){
+                temp0->next = cur;
+                temp0 = cur;
+            }
+            else if(cur->data == 1){
+                temp1->next = cur;
+                temp1 = cur;
+            }else{
+                temp2->next = cur;
+                temp2 = cur;
+            }
+            cur = cur->next;
+        }
+        
+        temp0->next = dummy1->next ? dummy1->next : dummy2->next;
+        temp1->next = dummy2->next;
+        temp2->next = nullptr;
+        
+        return dummy0->next;
+        
+    }
+};
+```
+
+-------------------------------
+
+
+
 
 
