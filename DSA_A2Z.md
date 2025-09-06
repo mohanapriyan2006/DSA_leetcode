@@ -7170,5 +7170,36 @@ int Queue::pop() {
 
 
 
+### code
+
+```cpp []
+class Solution {
+  public:
+    bool isBalanced(string& s) {
+        int top = -1;
+        int n = s.size();
+        for(int i=0 ; i<n ; ++i){
+            if(s[i] == '(' || s[i] == '{' || s[i] == '['){
+                s[++top] = s[i];
+            }else{
+                if(top == -1) return false;
+                if(s[i] == ')' && s[top] != '(' ||
+                s[i] == '}' && s[top] != '{' ||
+                s[i] == ']' && s[top] != '[' ){
+                    return false;
+                }else top--;
+            }
+        }
+        
+        return top == -1;
+    }
+};
+```
+
+-------------------------------
+
+
+
+
 
 
