@@ -1069,6 +1069,8 @@ Explanation: There exists a loop in the linked list and the length of the loop i
 
 
 Input: pos = 3,
+
+![img2](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/904501/Web/Other/blobid0_1756128118.webp)
    
 Output: 3
 
