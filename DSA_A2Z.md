@@ -6761,7 +6761,8 @@ int MyQueue ::pop() {
 
 --------------------
 
-# Stack using two queues
+# Stack using two queues -> [GFG](https://www.geeksforgeeks.org/problems/stack-using-two-queues/1)
+
 Difficulty: Easy
 
 Implement a Stack using two queues q1 and q2.
