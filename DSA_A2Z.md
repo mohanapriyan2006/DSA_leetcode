@@ -6761,7 +6761,66 @@ int MyQueue ::pop() {
 
 --------------------
 
+# Stack using two queues
+Difficulty: Easy
 
+Implement a Stack using two queues q1 and q2.
+
+Examples:
+
+Input:
+
+push(2)
+push(3)
+pop()
+push(4)
+pop()
+
+Output: 3 4
+
+Explanation:
+
+push(2) stack will be [2]
+push(3) stack will be [2 3]
+pop()   popped element will be 3 the stack will be [2] 
+push(4) the stack will be [2 4]
+pop()   popped element will be 4  
+
+
+Input:
+
+push(2)
+pop()
+pop()
+push(3)
+
+Output: 2 -1
+
+
+Explanation:
+push( 2 ) stack will be [ 2 ]
+pop( ) popped element will be 2
+pop( ) stack is empty so popped element will be -1
+push( ) stack will be [ 3 ]
+Constraints:
+1 ≤ queries.size ≤ 100
+1 ≤ stack.size ≤ 100 
+
+
+Expected Complexities
+
+Time Complexity: O(n) for push() and O(1) for pop() (or vice-versa).
+Auxiliary Space: O(1) for both push() and pop().
+
+
+Company Tags
+
+AccoliteAmazonMicrosoftOYO RoomsSnapdealD-E-ShawOracleAdobeCiscoGrofersCouponDuniaKritikal Solutions
+
+
+Topic Tags
+
+StackQueueDesign-PatternData Structures
 
 
 ### code 
