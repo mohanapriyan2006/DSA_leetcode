@@ -6951,6 +6951,37 @@ class Queue {
 
 
 
+### code
+
+```cpp []
+class MyStack {
+  private:
+    StackNode *top;
+
+  public:
+    void push(int x) {
+       StackNode *newNode = new StackNode(x);
+       newNode->next = top;
+       top = newNode;
+    }
+
+    int pop() {
+        if(!top) return -1;
+        StackNode* del = top;
+        int temp = del->data;
+        top = top->next;
+        delete del;
+        return temp;
+        
+    }
+
+    MyStack() { top = NULL; }
+};
+```
+
+------------------------------------------
+
+
 
 
 
