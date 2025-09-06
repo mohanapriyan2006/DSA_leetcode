@@ -1155,6 +1155,8 @@ Given an array arr[] of n sorted linked lists of different sizes. Your task is t
 Examples:
 
 Input:
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908368/Web/Other/blobid0_1756363954.webp)
    
 Output: 1 -> 2 -> 3 -> 4 -> 7 -> 8 -> 9
 
@@ -1163,10 +1165,13 @@ Explanation: The arr[] has 3 sorted linked list of size 3, 3, 1.
 2nd list: 2 -> 4 -> 8
 3rd list: 9
 The merged list will be: 
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700265/Web/Other/blobid2_1756115425.jpg)
     
 
 Input:
-   
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700265/Web/Other/blobid3_1756115435.jpg)
 
 Output: 1 -> 3 -> 4 -> 5 -> 6 -> 8
 
@@ -1176,7 +1181,8 @@ Explanation: The arr[] has 3 sorted linked list of size 2, 1, 3.
 2nd list: 8
 3rd list: 4 -> 5 -> 6
 The merged list will be: 
-    
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700265/Web/Other/blobid4_1756115445.jpg)
 
 Constraints
 
