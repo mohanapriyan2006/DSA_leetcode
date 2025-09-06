@@ -7168,7 +7168,8 @@ int Queue::pop() {
 
 --------------------------
 
-# Parenthesis Checker
+# Parenthesis Checker -> [GFG](https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1)
+
 Difficulty: Easy
 
 Given a string s, composed of different combinations of '(' , ')', '{', '}', '[', ']'. Determine whether the Expression is balanced or not.
