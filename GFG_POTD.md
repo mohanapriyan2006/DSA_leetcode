@@ -1060,6 +1060,8 @@ Note: Internally, pos(1 based index) is used to denote the position of the node 
 Examples:
 
 Input: pos = 2,
+
+![img1](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/904501/Web/Other/blobid0_1756186026.webp)
    
 Output: 4
 
