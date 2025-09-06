@@ -1049,7 +1049,8 @@ class Solution {
 -------------------------------
 
 
-# Find length of Loop
+# Find length of Loop -> [GFG](https://www.geeksforgeeks.org/problems/find-length-of-loop/1)
+
 Difficulty: Medium
 
 Given the head of a linked list, determine whether the list contains a loop. If a loop is present, return the number of nodes in the loop, otherwise return 0.
