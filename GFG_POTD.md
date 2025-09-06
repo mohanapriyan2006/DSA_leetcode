@@ -1078,6 +1078,8 @@ Explanation: The loop is from 19 to 10. So length of loop is 19 → 33 → 10 = 
 
 
 Input: pos = 0,
+
+![img3](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/904501/Web/Other/blobid1_1756128178.webp)
     
 Output: 0
 
