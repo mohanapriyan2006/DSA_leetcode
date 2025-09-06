@@ -6674,7 +6674,8 @@ class MyStack {
 -----------
 
 
-# Queue Using Array
+# Queue Using Array -> [GFG](https://www.geeksforgeeks.org/problems/implement-queue-using-array/1)
+
 Difficulty: Basic
 
 Implement a Queue using an Array. Queries in the Queue are of the following type:
