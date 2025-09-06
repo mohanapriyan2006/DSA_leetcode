@@ -7041,7 +7041,7 @@ class MyStack {
 ------------------------------------------
 
 
-# Problem statement
+# Problem statement -> [Code360](https://www.naukri.com/code360/problems/implement-queue-using-linked-list_8161235?leftPanelTabValue=PROBLEM)
 
 You are given ‘q’ queries, where each query can be of the following types:
 
