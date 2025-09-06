@@ -418,7 +418,7 @@ class Solution {
 ----------------------------------
 
 
-# 3495. Minimum Operations to Make Array Elements Zero
+# 3495. Minimum Operations to Make Array Elements Zero -> [Leetcode](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/description/)
  
 Hard
 
