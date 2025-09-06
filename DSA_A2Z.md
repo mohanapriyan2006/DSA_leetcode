@@ -6859,6 +6859,40 @@ int QueueStack ::pop() {
 ------------------
 
 
+### code 
+
+```cpp []
+// User function Template for C++
+
+class Queue {
+    stack<int> st;
+
+  public:
+    void enqueue(int x) {
+        st.push(x);
+    }
+
+    int dequeue() {
+        if(st.empty()) return -1;
+        
+        int x = st.top(); st.pop();
+        
+        if(st.empty()) return x;
+        
+        int temp = dequeue();
+        
+        st.push(x);
+        
+        return temp;
+        
+    }
+};
+```
+
+-----------------------------------------
+
+
+
 
 
 
