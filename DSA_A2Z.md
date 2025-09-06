@@ -7042,6 +7042,57 @@ class MyStack {
 
 
 
+### code
+
+```cpp []
+/**
+ * Definition of linked list
+ * class Node {
+ * 
+ * public:
+ *     int data;
+ *     Node* next;
+ *     Node() : data(0), next(nullptr) {}
+ *     Node(int x) : data(x), next(nullptr) {}
+ *     Node(int x, Node* next) : data(x), next(next) {}
+ * };
+ * 
+ * Definition of Queue
+ * struct Queue {
+ *   Node* front;
+ *   Node* rear;
+ *   void push(int);
+ *   int pop();
+ *   
+ *   Queue() {
+ *       front = rear = NULL;
+ *   }
+ * };
+ */
+
+void Queue::push(int x) {
+    Node *newNode = new Node(x);
+    if(front == NULL) front = rear = newNode;
+    else{
+        rear->next = newNode;
+        rear = newNode;
+    }
+
+}
+
+int Queue::pop() {
+    if(front == NULL) return -1;
+    Node *del = front;
+    int temp = del->data;
+    front = front->next;
+    delete del;
+    return temp;
+}
+```
+
+--------------------------
+
+
 
 
 
