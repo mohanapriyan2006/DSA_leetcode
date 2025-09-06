@@ -6858,7 +6858,7 @@ int QueueStack ::pop() {
 
 ------------------
 
-# Queue using stack
+# Queue using stack -> [GFG](https://www.geeksforgeeks.org/problems/queue-using-stack/1)
 
 Difficulty: Easy
 
