@@ -7261,6 +7261,45 @@ class Solution {
 
 
 
+### code 
+
+```cpp []
+class Solution {
+  public:
+ 
+    void push(int x) {
+        if(st.empty()) st.push({x,x});
+        else{
+            int mini = min(x,st.top().second);
+            st.push({x,mini});
+        }
+    }
+
+        
+    void pop() {
+        if(!st.empty()) st.pop();
+    }
+
+    int peek() {
+        if(st.empty()) return -1;
+        return st.top().first;
+    }
+
+    int getMin() {
+        if(st.empty()) return -1;
+        return st.top().second;
+    }
+    
+  private:
+    stack<pair<int,int>> st;
+    
+};
+```
+
+---------------------------------------
+
+
+
 
 
 
