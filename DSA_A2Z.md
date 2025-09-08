@@ -7379,7 +7379,8 @@ class Solution {
 
 ---------------------------------------
 
-# Sort a stack
+# Sort a stack -> [GFG](https://www.geeksforgeeks.org/problems/sort-a-stack/1)
+
 Difficulty: Medium
 
 Given a stack, the task is to sort it such that the top of the stack has the greatest element.
