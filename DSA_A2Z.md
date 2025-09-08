@@ -7535,3 +7535,37 @@ class Solution {
 
 
 
+### code
+
+```cpp []
+// User function Template for C++
+
+class Solution {
+  private:
+    void helper(int i, string s ,vector<string> &ans){
+        if(i>=s.size()){
+            ans.push_back(s);
+            return;
+        }
+        helper(i+1 , s , ans);
+        s[i] = '1';
+        helper(i+2 , s , ans);
+        s[i] = '0';
+    }
+  public:
+    vector<string> generateBinaryStrings(int num) {
+        vector<string> ans;
+        string s(num,'0');
+        helper(0,s,ans);
+        return ans;
+    }
+};
+
+```
+
+-------------------------
+
+
+
+
+
