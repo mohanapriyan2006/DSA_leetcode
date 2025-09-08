@@ -1275,6 +1275,48 @@ class Solution {
 ------------------------
 
 
+# Merge Sort for Linked List
+Difficulty: Medium
+
+You are given the head of a linked list. You have to sort the given linked list using Merge Sort.
+
+Examples:
+
+Input:
+    
+Output: 10 -> 20 -> 30 -> 40 -> 50 -> 60
+
+Explanation: After sorting the given linked list, the resultant list will be:
+    
+
+Input:
+    
+Output: 2 -> 5 -> 8 -> 9
+
+Explanation: After sorting the given linked list, the resultant list will be:
+    
+
+Constraints:
+
+1 ≤ number of nodes ≤ 105
+0 ≤ node->data ≤ 106
+
+
+Expected Complexities
+
+Time Complexity: O(n log n)
+Auxiliary Space: O(n)
+
+
+Company Tags
+
+PaytmAccoliteAmazonMicrosoftMAQ SoftwareAdobeVeritas
+
+
+Topic Tags
+
+Linked ListSortingMerge SortData StructuresAlgorithms
+
 
 ### code
 
