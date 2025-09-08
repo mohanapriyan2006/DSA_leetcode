@@ -7461,7 +7461,8 @@ void SortedStack ::sort() {
 
 --------------------------------
 
-# Reverse a Stack
+# Reverse a Stack -> [GFG](https://www.geeksforgeeks.org/problems/reverse-a-stack/1)
+
 Difficulty: Medium
 
 You are given a stack St. You have to reverse the stack using recursion.
