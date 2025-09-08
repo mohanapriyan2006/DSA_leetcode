@@ -1275,7 +1275,8 @@ class Solution {
 ------------------------
 
 
-# Merge Sort for Linked List
+# Merge Sort for Linked List -> [GFG](https://www.geeksforgeeks.org/problems/sort-a-linked-list/1)
+
 Difficulty: Medium
 
 You are given the head of a linked list. You have to sort the given linked list using Merge Sort.
