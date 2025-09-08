@@ -7464,4 +7464,33 @@ void SortedStack ::sort() {
 
 
 
+### code
+
+```cpp []
+
+class Solution {
+ private:
+    void helper(stack<int> &st , int x){
+        if(st.empty()){
+            st.push(x);
+            return;
+        }
+        int temp = st.top(); st.pop();
+        helper(st,x);
+        st.push(temp);
+    }
+  public:
+    void reverse(stack<int> &st) {
+        if(st.empty()) return;
+        int temp = st.top(); st.pop();
+        reverse(st);
+        helper(st,temp);
+    }
+};
+```
+
+-------------------------------
+
+
+
 
