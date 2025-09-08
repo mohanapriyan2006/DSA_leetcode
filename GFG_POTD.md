@@ -1284,15 +1284,23 @@ You are given the head of a linked list. You have to sort the given linked list 
 Examples:
 
 Input:
-    
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908586/Web/Other/blobid0_1756114630.jpg)
+
 Output: 10 -> 20 -> 30 -> 40 -> 50 -> 60
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908586/Web/Other/blobid1_1756114636.jpg)
 
 Explanation: After sorting the given linked list, the resultant list will be:
     
 
 Input:
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908586/Web/Other/blobid2_1756114643.jpg)
     
 Output: 2 -> 5 -> 8 -> 9
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908586/Web/Other/blobid3_1756114660.jpg)
 
 Explanation: After sorting the given linked list, the resultant list will be:
     
