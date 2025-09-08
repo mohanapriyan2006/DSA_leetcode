@@ -7532,7 +7532,7 @@ class Solution {
 
 -------------------------------
 
-# Generate all binary strings
+# Generate all binary strings -> [GFG](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1)
 
 Difficulty: Medium
 
