@@ -1276,5 +1276,63 @@ class Solution {
 
 
 
+### code
+
+```cpp []
+/*
+class Node {
+public:
+    int data;
+    Node* next;
+
+    Node(int x){
+        data = x;
+        next = NULL;
+    }
+};
+*/
+class Solution {
+  private:
+    Node* merge(Node* lf , Node* rt){
+        Node* dummy = new Node(-1);
+        Node *cur = dummy;
+        while(lf && rt){
+            if(lf->data < rt->data){
+                cur->next = lf;
+                lf = lf->next;
+            }else{
+                cur->next = rt;
+                rt = rt->next;
+            }
+            cur = cur->next;
+        }
+        
+        if(lf) cur->next = lf;
+        else cur->next = rt;
+        
+        return dummy->next;
+    }
+  public:
+    Node* mergeSort(Node* head) {
+        if(!head || !head->next) return head;
+        Node* slow = head , *fast = head->next;
+        while(fast && fast->next){
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        Node *lf = head , *rt = slow->next;
+        slow->next = nullptr;
+        lf = mergeSort(lf);
+        rt = mergeSort(rt);
+        return merge(lf,rt);
+    }
+};
+```
+
+--------------------
+
+
+
+
 
 
