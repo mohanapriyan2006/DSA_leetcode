@@ -7837,4 +7837,32 @@ class Solution {
 
 
 
+### code
+
+```cpp []
+// User function Template for C++
+
+class Solution {
+  public:
+    string postToPre(string s) {
+        stack<string> st;
+        int i = 0;
+        while(i<s.size()){
+            char c = s[i++];
+            if(isalnum(c)) st.push(string(1,c));
+            else{
+                string t1 = st.top(); st.pop();
+                string t2 = st.top(); st.pop();
+                st.push(c + t2 + t1);
+            }
+        }
+        return st.top();
+    }
+};
+```
+
+----------------------------------------------------
+
+
+
 
