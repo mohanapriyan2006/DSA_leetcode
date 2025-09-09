@@ -7836,7 +7836,8 @@ class Solution {
 --------------------------
 
 
-# Postfix to Prefix Conversion
+# Postfix to Prefix Conversion -> [GFG](https://www.geeksforgeeks.org/problems/postfix-to-prefix-conversion/1)
+
 Difficulty: Medium
 
 You are given a string that represents the postfix form of a valid mathematical expression. Convert it to its prefix form.
