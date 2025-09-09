@@ -7707,7 +7707,8 @@ class Solution {
 
 ----------------------------------------------
 
-# Postfix to Infix Conversion
+# Postfix to Infix Conversion -> [GFG](https://www.geeksforgeeks.org/problems/postfix-to-infix-conversion/1)
+
 Difficulty: Medium
 
 You are given a string that represents the postfix form of a valid mathematical expression. Convert it to its infix form.
