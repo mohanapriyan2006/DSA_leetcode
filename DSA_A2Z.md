@@ -7600,5 +7600,60 @@ class Solution {
 
 
 
+### code
+
+```cpp []
+class Solution {
+  private:
+    int priority(char c){
+        if(c == '^') return 3;
+        if(c == '*' || c == '/') return 2;
+        if(c == '+' || c == '-') return 1;
+        return -1;
+    }
+    
+  public:
+    string infixToPostfix(string& s) {
+        string ans;
+        int n = s.size();
+        
+        stack<char> st;
+        
+        for(int i=0 ; i<n ; ++i){
+            char c = s[i];
+            
+            if(c >= 'A' && c <= 'Z' ||
+            c >= 'a' && c <= 'z' ||
+            c >= '0' && c <= '9'){
+                ans += c;
+            }
+            else if(c == '(') st.push(c);
+            else if(c == ')'){
+                while( !st.empty() && st.top() != '('){
+                    ans += st.top();
+                    st.pop();
+                }
+                st.pop();
+            }else{
+                while(!st.empty() && priority(c) <= priority(st.top()) ){
+                    ans += st.top();
+                    st.pop();
+                }
+                st.push(c);
+            }
+        }
+        
+        while(!st.empty()) ans += st.top(), st.pop();
+        
+        return ans;
+    }
+};
+
+```
+
+----------------------------------------------
+
+
+
 
 
