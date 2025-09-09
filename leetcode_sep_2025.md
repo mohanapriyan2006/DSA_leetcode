@@ -631,7 +631,7 @@ public:
 ---------------------------------------------
 
 
-# 2327. Number of People Aware of a Secret
+# 2327. Number of People Aware of a Secret -> [LeetCode](https://leetcode.com/problems/number-of-people-aware-of-a-secret/description)
  
 Medium
  
