@@ -1384,6 +1384,33 @@ class Solution {
 
 
 
+### code
+
+```cpp []
+class Solution {
+  public:
+    int assignHole(vector<int>& mices, vector<int>& holes) {
+        int n = mices.size();
+        if(n != holes.size()) return -1;
+        
+        sort(mices.begin() , mices.end());
+        sort(holes.begin() , holes.end());
+        
+        int maxi = -1e9;
+        for(int i=0 ; i<n ; ++i){
+            maxi = max(maxi ,abs(holes[i] - mices[i]));
+        }
+        
+        return maxi;
+    }
+};
+```
+
+
+------------------------------------------------------------
+
+
+
 
 
 
