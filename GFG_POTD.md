@@ -1382,7 +1382,7 @@ class Solution {
 
 --------------------
 
-# Assign Mice Holes
+# Assign Mice Holes -> [GFG](https://www.geeksforgeeks.org/problems/assign-mice-holes3053/1)
 
 Difficulty: Easy
 
