@@ -7774,3 +7774,34 @@ class Solution {
 
 
 
+
+### code
+
+```cpp []
+// User function Template for C++
+
+class Solution {
+  public:
+    string preToInfix(string s) {
+        stack<string> st;
+        int i = s.size()-1;
+        while(i>=0){
+            char c = s[i--];
+            if(isalpha(c) || isdigit(c)) st.push(string(1,c));
+            else{
+                string t1 = st.top(); st.pop();
+                string t2 = st.top(); st.pop();
+                string combine = "(" + t1 + c + t2 + ")";
+                st.push(combine);
+            }
+        }
+        return st.top();
+    }
+};
+```
+
+--------------------------
+
+
+
+
