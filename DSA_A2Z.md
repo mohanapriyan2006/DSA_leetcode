@@ -7916,3 +7916,29 @@ class Solution {
 
 
 
+### code
+
+```cpp []
+// User function Template for C++
+
+class Solution {
+  public:
+    string preToPost(string s) {
+        stack<string> st;
+        int i=s.size() - 1;
+        while(i>=0){
+            char c = s[i--];
+            if(isalnum(c)) st.push(string(1,c));
+            else{
+                string t1 = st.top(); st.pop();
+                string t2 = st.top(); st.pop();
+                st.push(t1 + t2 + c);
+            }
+        }
+        return st.top();
+    }
+};
+```
+
+------------------------------
+
