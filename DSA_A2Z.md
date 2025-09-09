@@ -7710,4 +7710,32 @@ class Solution {
 
 
 
+### code
+
+```cpp []
+// User function Template for C++
+
+class Solution {
+  public:
+    string postToInfix(string exp) {
+        stack<string> st;
+        int n = exp.size(), i=0;
+        while(i<n){
+            char c = exp[i++];
+            if(isalpha(c) || isdigit(c)) st.push(string(1,c));
+            else{
+                string t1 = st.top(); st.pop();
+                string t2 = st.top(); st.pop();
+                string combine = '(' + t2 + c + t1 + ')';
+                st.push(combine);
+            }
+        }
+        return st.top();
+    }
+};
+```
+
+-------------------------------------
+
+
 
