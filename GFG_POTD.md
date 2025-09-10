@@ -1449,6 +1449,36 @@ class Solution {
 
 
 
+### code
+
+```cpp []
+class Solution {
+  public:
+    string largestSwap(string &s) {
+        char maxNum = '0';
+        int maxInd = -1;
+        int l = -1 , r = -1;
+        for(int i=s.size() - 1 ; i>=0 ; --i){
+            if(maxNum < s[i]){ 
+                maxNum = s[i];
+                maxInd = i;
+            }
+            else if(maxNum > s[i]){
+                l = i;
+                r = maxInd;
+            }
+        }
+        if(l != -1) swap(s[l] , s[r]);
+        return s;
+    }
+};
+```
+
+-----------------------------------------------
+
+
+
+
 
 
 
