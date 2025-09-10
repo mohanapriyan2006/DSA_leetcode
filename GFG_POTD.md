@@ -1447,7 +1447,8 @@ class Solution {
 
 ------------------------------------------------------------
 
-# Largest number in one swap
+# Largest number in one swap -> [GFG](https://www.geeksforgeeks.org/problems/largest-number-in-one-swap1520/1)
+
 Difficulty: Easy
 
 Given a string s, return the lexicographically largest string that can be obtained by swapping at most one pair of characters in s.
