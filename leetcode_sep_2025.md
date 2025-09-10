@@ -706,7 +706,7 @@ public:
 
 -----------------------------------------------------------
 
-# 1733. Minimum Number of People to Teach
+# 1733. Minimum Number of People to Teach -> [LeetCode](https://leetcode.com/problems/minimum-number-of-people-to-teach/description)
  
 Medium
 
