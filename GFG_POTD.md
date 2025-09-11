@@ -1513,7 +1513,8 @@ class Solution {
 
 -----------------------------------------------
 
-# Minimum Jumps
+# Minimum Jumps -> [GFG](https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1)
+
 Difficulty: Medium
 
 You are given an array arr[] of non-negative numbers. Each number tells you the maximum number of steps you can jump forward from that position.
