@@ -1595,7 +1595,8 @@ class Solution {
 ----------------------------------------
 
 
-# Minimize the Heights II
+# Minimize the Heights II -> [GFG](https://www.geeksforgeeks.org/problems/minimize-the-heights3351/1)
+
 Difficulty: Medium
 
 Given an array arr[] denoting heights of n towers and a positive integer k.
