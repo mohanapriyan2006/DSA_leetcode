@@ -1670,7 +1670,8 @@ public:
 ------------------------------------------------------------------
 
 
-# Minimum Cost to cut a board into squares
+# Minimum Cost to cut a board into squares -> [GFG](https://www.geeksforgeeks.org/problems/minimum-cost-to-cut-a-board-into-squares/1)
+
 Difficulty: Medium
 
 Given a board of dimensions n × m that needs to be cut into n*m squares. The cost of making a cut along a horizontal or vertical edge is provided in two arrays:
