@@ -947,3 +947,32 @@ public:
 
 
 
+
+# Code
+
+```cpp []
+class Solution {
+private:
+    bool isVowel(char c){
+        return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
+    }
+public:
+    int maxFreqSum(string s) {
+        unordered_map<char,int> freq;
+        for(const char c:s) freq[c]++;
+
+        int maxV = 0 , maxC = 0;
+
+        for(auto it:freq){
+            if(isVowel(it.first)) maxV = max(maxV , it.second);
+            else maxC = max(maxC , it.second);
+        }
+
+        return maxV + maxC;
+
+    }
+};
+```
+
+
+
