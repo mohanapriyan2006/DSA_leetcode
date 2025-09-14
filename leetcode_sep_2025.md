@@ -1023,7 +1023,7 @@ public:
 
 --------------------------------------------------------------
 
-# 966. Vowel Spellchecker
+# 966. Vowel Spellchecker -> [LeetCode](https://leetcode.com/problems/vowel-spellchecker/description)
  
 Medium
 
