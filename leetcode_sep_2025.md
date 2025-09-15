@@ -1125,4 +1125,43 @@ private:
 
 
 
+# Code
+```cpp []
+class Solution {
+public:
+    int canBeTypedWords(string text, string brokenLetters) {
+        vector<string> arr;
+        string str;
+        for(char c:text){
+            if(c == ' ' && !str.empty()){
+                arr.push_back(str);
+                str.clear();
+            }else str += c;
+        }
+
+        if(!str.empty()) arr.push_back(str);
+
+        int res = 0;
+
+        for(auto s:arr){
+            res++;
+            for(char c:s){
+                if(brokenLetters.find(c) < brokenLetters.size()){
+                    res--;
+                    break;
+                }
+            }
+        }
+
+        return res;
+
+    }
+};
+```
+
+-----------------------------------------------------------
+
+
+
+
 
