@@ -1879,7 +1879,8 @@ class Solution {
 ------------------------------------------------
 
 
-# String stack
+# String stack -> [GFG](https://www.geeksforgeeks.org/problems/string-stack--165812/1)
+
 Difficulty: Medium
 
 You are given two strings pat and tar consisting of lowercase English characters. You can construct a new string s by performing any one of the following operation for each character in pat:
