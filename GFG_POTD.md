@@ -1952,7 +1952,7 @@ class Solution {
 ------------------------------------------------------------------------
 
 
-# Postfix Evaluation
+# Postfix Evaluation -> [GFG](https://www.geeksforgeeks.org/problems/evaluation-of-postfix-expression1735/1)
 
 Difficulty: Medium
 
