@@ -1954,3 +1954,39 @@ class Solution {
 
 
 
+## code
+
+```cpp []
+class Solution {
+  public:
+    int evaluatePostfix(vector<string>& arr) {
+        stack<int> st;
+        for(const string i:arr){
+            if(i == "+" || i == "-" || i == "*" || i == "/" || i == "^"){
+                int n2 = st.top(); st.pop();
+                int n1 = st.top(); st.pop();
+                int ans = 0;
+                if(i == "+") ans = n1 + n2;
+                else if(i == "-") ans = n1 - n2;
+                else if(i == "*") ans = n1 * n2;
+                else if(i == "/"){
+                    if(n1 * n2 < 0 && n1 % n2 != 0) ans = (n1/n2) - 1;
+                    else ans = (n1/n2);
+                }
+                else if(i == "^") ans = pow(n1,n2);
+                st.push(ans);
+            }else{
+                st.push(stoi(i));
+            }
+        }
+        
+        return st.top();
+    }
+};
+```
+
+----------------------------------------------------------------------
+
+
+
+
