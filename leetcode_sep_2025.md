@@ -1298,7 +1298,7 @@ public:
 
 -----------------------------------------------------------
 
-# 2353. Design a Food Rating System
+# 2353. Design a Food Rating System -> [LeetCode](https://leetcode.com/problems/design-a-food-rating-system/description)
  
 Medium
  
