@@ -2031,7 +2031,8 @@ class Solution {
 
 ----------------------------------------------------------------------
 
-# Decode the string
+# Decode the string -> [GFG](https://www.geeksforgeeks.org/problems/decode-the-string2444/1)
+
 Difficulty: Medium
 
 Given an encoded string s, decode it by expanding the pattern k[substring], where the substring inside brackets is written k times. k is guaranteed to be a positive integer, and encodedString contains only lowercase english alphabets. Return the final decoded string.
