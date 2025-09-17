@@ -2031,6 +2031,103 @@ class Solution {
 
 ----------------------------------------------------------------------
 
+# Decode the string
+Difficulty: Medium
+
+Given an encoded string s, decode it by expanding the pattern k[substring], where the substring inside brackets is written k times. k is guaranteed to be a positive integer, and encodedString contains only lowercase english alphabets. Return the final decoded string.
+
+Note: The test cases are generated so that the length of the output string will never exceed 105 .
+
+Examples:
+
+Input: s = "3[b2[ca]]"
+
+Output: "bcacabcacabcaca"
+
+Explanation:
+
+Inner substring “2[ca]” breakdown into “caca”.
+Now, new string becomes “3[bcaca]”
+Similarly “3[bcaca]” becomes “bcacabcacabcaca” which is final result.
+
+
+Input: s = "3[ab]"
+
+Output: "ababab"
+
+Explanation: The substring "ab" is repeated 3 times giving "ababab".
+
+
+
+Constraints:
+
+1 ≤ |s| ≤ 105 
+1 ≤ k ≤ 100
+
+
+Expected Complexities
+
+Time Complexity: O(n)
+Auxiliary Space: O(n)
+
+
+Company Tags
+
+MicrosoftFacebook
+
+
+Topic Tags
+
+RecursionStackBacktrackingData StructuresAlgorithms
+
+
+## code
+```cpp []
+class Solution {
+  public:
+    string decodedString(string &s) {
+        string res;
+        stack<char> st;
+        
+        int n = s.size();
+        
+        
+        for(int i=0 ; i<n ; ++i){
+            if(s[i] != ']'){
+                st.push(s[i]);
+            }else{
+                string temp = "";
+                while(!st.empty() && st.top() != '['){
+                    temp = st.top() + temp;
+                    st.pop();
+                }
+                st.pop();
+                string cnt = "";
+                while(!st.empty() && isdigit(st.top())){
+                    cnt = st.top() + cnt;
+                    st.pop();
+                }
+                string repeat;
+                int count = stoi(cnt);
+                for(int i=0 ; i<count ; ++i){
+                    repeat += temp;
+                }
+                for(char ch:repeat) st.push(ch);
+                
+            }
+        }
+        
+        while(!st.empty()){
+            res = st.top() + res;
+            st.pop();
+        }
+        
+        return res;
+    }
+};
+```
+
+---------------------------------------------------------------------------
 
 
 
