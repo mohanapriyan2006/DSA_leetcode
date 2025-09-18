@@ -1561,3 +1561,28 @@ public:
 
 
 
+### code
+```cpp []
+class Solution {
+  public:
+    vector<int> nextGreater(vector<int> &arr) {
+        int n = arr.size();
+        
+        vector<int> ans(n,-1);
+        stack<int> st;
+        
+        for(int i=n*2-1 ; i>=0 ; --i){
+            int ind = i % n;
+            while(!st.empty() && st.top() <= arr[ind]) st.pop();
+            if(!st.empty()) ans[ind] = st.top();
+            st.push(arr[ind]);
+        }
+        
+        
+        return ans;
+    }
+};
+```
+
+----------------------------------------------------------------------
+
