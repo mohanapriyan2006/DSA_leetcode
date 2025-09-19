@@ -1642,7 +1642,7 @@ class Solution {
 
 ----------------------------------------------------------------------
 
-# 3484. Design Spreadsheet
+# 3484. Design Spreadsheet -> [LeetCode](https://leetcode.com/problems/design-spreadsheet/description/)
  
 Medium
  
