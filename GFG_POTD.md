@@ -2131,4 +2131,28 @@ class Solution {
 ---------------------------------------------------------------------------
 
 
+## code
+```cpp []
+class Solution {
+  public:
+    int minParentheses(string& s) {
+        int bal = 0 , unmatch = 0;
+        for(const char c:s){
+            if(c == '(') bal++;
+            else if(c == ')'){
+                bal--;
+                if(bal < 0){
+                    bal = 0;
+                    unmatch++;
+                }
+            }
+        }
+        return bal + unmatch;
+    }
+};
+```
+
+-------------------------------------------------------------------------
+
+
 
