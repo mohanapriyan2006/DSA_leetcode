@@ -2213,7 +2213,7 @@ class Solution {
 
 -------------------------------------------------------------------------
 
-# Longest Subarray Length
+# Longest Subarray Length -> [GFG](https://www.geeksforgeeks.org/problems/longest-subarray-length--202010/1)
 
 Difficulty: Medium
 
