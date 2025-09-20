@@ -2213,6 +2213,43 @@ class Solution {
 
 -------------------------------------------------------------------------
 
+# Longest Subarray Length
+
+Difficulty: Medium
+
+You are given an array of integers arr[]. Your task is to find the length of the longest subarray such that all the elements of the subarray are smaller than or equal to the length of the subarray.
+
+Examples:
+
+Input: arr[] = [1, 2, 3]
+
+Output: 3
+
+Explanation: The longest subarray is the entire array itself, which has a length of 3. All elements in the subarray are less than or equal to 3.
+
+
+Input: arr[] = [6, 4, 2, 5]
+
+Output: 0
+
+Explanation: There is no subarray where all elements are less than or equal to the length of the subarray. The longest subarray is empty, which has a length of 0.
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 105
+1 ≤ arr[i] ≤ 109
+
+
+Expected Complexities
+
+Time Complexity: O(n)
+Auxiliary Space: O(n)
+
+
+Topic Tags
+
+StackArrays
 
 ## code
 ```cpp []
