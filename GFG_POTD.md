@@ -2295,7 +2295,8 @@ class Solution {
 --------------------------------------------
 
 
-# Max rectangle
+# Max rectangle -> [GFG](https://www.geeksforgeeks.org/problems/max-rectangle/1)
+
 Difficulty: Hard
 
 You are given a 2D binary matrix mat[ ][ ], where each cell contains either 0 or 1. Your task is to find the maximum area of a rectangle that can be formed using only 1's within the matrix.
