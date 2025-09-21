@@ -1866,7 +1866,7 @@ public:
 
 --------------------------------------------------------------------------
 
-# 1912. Design Movie Rental System
+# 1912. Design Movie Rental System -> [LeetCode](https://leetcode.com/problems/design-movie-rental-system/description)
  
 Hard
  
