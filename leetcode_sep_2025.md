@@ -1994,3 +1994,34 @@ public:
 
 
 
+# Code
+```cpp []
+class Solution {
+public:
+    int maxFrequencyElements(vector<int>& nums) {
+
+        int ans = 0;
+        int maxFreq = 0;
+
+        unordered_map<int,int> freq;
+
+        for(const int i:nums){ 
+            freq[i]++;
+            maxFreq = max(maxFreq , freq[i]);
+        }
+
+        for(auto it:freq){
+            if(maxFreq == it.second) ans++;
+        }
+
+        return (ans * maxFreq);
+
+
+    }
+};
+```
+
+------------------------------------------------------
+
+
+
