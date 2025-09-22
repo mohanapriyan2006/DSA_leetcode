@@ -2407,7 +2407,8 @@ class Solution {
 
 ------------------------------------------------
 
-# Max of min for every window size
+# Max of min for every window size -> [GFG](https://www.geeksforgeeks.org/problems/maximum-of-minimum-for-every-window-size3453/1)
+
 Difficulty: Hard
 
 You are given an integer array arr[], the task is to find the maximum of minimum values for every window size k where 1≤ k ≤ arr.size().
