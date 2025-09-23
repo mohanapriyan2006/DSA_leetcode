@@ -2511,7 +2511,8 @@ class Solution {
 
 -----------------------------------------------------
 
-# Queue Reversal
+# Queue Reversal -> [GFG](https://www.geeksforgeeks.org/problems/queue-reversal/1)
+
 Difficulty: Easy
 
 Given a queue q containing integer elements, your task is to reverse the queue.
