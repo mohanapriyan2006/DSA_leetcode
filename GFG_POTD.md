@@ -2577,7 +2577,8 @@ class Solution {
 -------------------------------------------------
 
 
-# Design MinMax Queue
+# Design MinMax Queue -> [GFG](https://www.geeksforgeeks.org/problems/design-minmax-queue/1)
+
 Difficulty: Medium
 
 Design a SpecialQueue data structure that functions like a normal queue but with additional support for retrieving the minimum and maximum element efficiently.
