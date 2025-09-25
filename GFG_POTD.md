@@ -2701,4 +2701,30 @@ class SpecialQueue {
 
 
 
+### code
+```cpp []
+class Solution {
+  public:
+    vector<string> generateBinary(int n) {
+        vector<string> ans;
+        
+        queue<string> q;
+        q.push("1");
+        
+        for(int i=0 ; i<n ; ++i){
+            q.push(q.front() + "0");
+            q.push(q.front() + "1");
+            ans.push_back(q.front()); q.pop();
+        }
+        
+        
+        return ans;
+        
+    }
+};
+```
+
+-------------------------------------------
+
+
 
