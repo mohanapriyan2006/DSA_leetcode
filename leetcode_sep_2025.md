@@ -2224,7 +2224,7 @@ public:
 
 -------------------------------------------------------------
 
-# 120. Triangle
+# 120. Triangle -> [LeetCode](https://leetcode.com/problems/triangle/description/)
  
 Medium
  
