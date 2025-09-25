@@ -2698,7 +2698,8 @@ class SpecialQueue {
 
 -------------------------------------
 
-# Generate Binary Numbers
+# Generate Binary Numbers -> [GFG](https://www.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1)
+
 Difficulty: Easy
 
 Given a number n. The task is to generate all binary numbers with decimal values from 1 to n.
