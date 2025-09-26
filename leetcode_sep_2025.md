@@ -2293,7 +2293,7 @@ public:
 
 ------------------------------------
 
-# 611. Valid Triangle Number
+# 611. Valid Triangle Number -> [LeetCode](https://leetcode.com/problems/valid-triangle-number/description)
  
 Medium
  
