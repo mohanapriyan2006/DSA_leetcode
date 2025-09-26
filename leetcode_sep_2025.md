@@ -2292,3 +2292,37 @@ public:
 ```
 
 ------------------------------------
+
+
+
+
+# Code
+```cpp []
+class Solution {
+public:
+    int triangleNumber(vector<int>& nums) {
+        int ans = 0;
+
+        sort(nums.begin() , nums.end());
+
+        for(int r=nums.size()-1 ; r>=2 ; --r){
+            int l = 0;
+            int m = r - 1;
+            while(l<m){
+                if(nums[l] + nums[m] > nums[r]){
+                    ans += (m - l);
+                    m--;
+                }else{
+                    l++;
+                }
+            }
+        }
+
+        return ans;
+    }
+};
+```
+
+--------------------------------------------------
+
+
