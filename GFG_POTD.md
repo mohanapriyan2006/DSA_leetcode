@@ -2766,7 +2766,8 @@ class Solution {
 
 -------------------------------------------
 
-# Rotate Deque By K
+# Rotate Deque By K -> [GFG](https://www.geeksforgeeks.org/problems/rotate-deque-by-k/1)
+
 Difficulty: Easy
 
 You are given a deque dq[] (double-ended queue) containing non-negative integers, along with two positive integer type and k. The task is to rotate the deque circularly by k positions.
