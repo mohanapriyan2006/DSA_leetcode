@@ -2418,7 +2418,7 @@ public:
 
 -------------------------------------------------------------------------------------
 
-# 976. Largest Perimeter Triangle
+# 976. Largest Perimeter Triangle -> [LeetCode](https://leetcode.com/problems/largest-perimeter-triangle/description/)
  
 Easy
  
