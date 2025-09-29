@@ -2470,7 +2470,7 @@ public:
 
 -----------------------------------------------------------------------------------------
 
-# 1039. Minimum Score Triangulation of Polygon
+# 1039. Minimum Score Triangulation of Polygon -> [LeetCode](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/description)
  
 Medium
  
