@@ -2559,7 +2559,7 @@ Replace the array nums with newNums.
 Repeat the entire process starting from step 1.
 Return the triangular sum of nums.
 
- 
+![img](https://assets.leetcode.com/uploads/2022/02/22/ex1drawio.png) 
 
 Example 1:
 
