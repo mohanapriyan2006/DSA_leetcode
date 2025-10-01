@@ -2650,3 +2650,34 @@ public:
 
 
 
+# Code
+```cpp []
+class Solution {
+public:
+// //// Simple Math
+    // int numWaterBottles(int numBottles, int numExchange) {
+    //     return (numBottles*numExchange-1) / (numExchange-1);
+    // }
+
+
+    int numWaterBottles(int numBottles, int numExchange) {
+        int res = 0;
+        while(numBottles > 0){
+            if(numBottles >= numExchange){
+                res += numBottles - (numBottles % numExchange);
+                numBottles = (numBottles % numExchange) + (numBottles / numExchange);
+            }else{
+                res += numBottles;
+                numBottles = 0;
+            }
+        }
+
+        return res;
+    }
+};
+```
+
+--------------------------------------------
+
+
+
