@@ -2674,6 +2674,8 @@ Number of water bottles you can drink: 9 + 3 + 1 = 13.
 
 Example 2:
 
+![img](https://assets.leetcode.com/uploads/2020/07/01/sample_2_1875.png)
+
 Input: numBottles = 15, numExchange = 4
 
 Output: 19
