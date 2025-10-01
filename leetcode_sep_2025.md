@@ -2662,6 +2662,7 @@ Given the two integers numBottles and numExchange, return the maximum number of 
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2020/07/01/sample_1_1875.png)
 
 Input: numBottles = 9, numExchange = 3
 
