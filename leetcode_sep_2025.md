@@ -2719,7 +2719,7 @@ public:
 --------------------------------------------
 
 
-# 3100. Water Bottles II
+# 3100. Water Bottles II -> [LeetCode](https://leetcode.com/problems/water-bottles-ii/description)
  
 Medium
  
