@@ -2748,6 +2748,8 @@ Explanation: The table above shows the number of full water bottles, empty water
 
 Example 2:
 
+![img](https://assets.leetcode.com/uploads/2024/01/28/example231.png)
+
 Input: numBottles = 10, numExchange = 3
 
 Output: 13
