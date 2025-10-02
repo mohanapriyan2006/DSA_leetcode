@@ -2737,6 +2737,7 @@ Return the maximum number of water bottles you can drink.
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2024/01/28/exampleone1.png)
 
 Input: numBottles = 13, numExchange = 6
 
