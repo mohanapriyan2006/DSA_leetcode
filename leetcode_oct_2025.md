@@ -13,7 +13,7 @@ Given an m x n integer matrix heightMap representing the height of each unit cel
 
 Example 1:
 
-
+![img](https://assets.leetcode.com/uploads/2021/04/08/trap1-3d.jpg)
 
 Input: heightMap = [[1,4,3,1,3,2],[3,2,1,3,2,4],[2,3,3,2,3,1]]
 
