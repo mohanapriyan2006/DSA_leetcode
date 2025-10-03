@@ -6,6 +6,12 @@
 **My Leetcode link**
 [Click-here](https://leetcode.com/u/Mohanapriyan_M/)
 
+### Badges :
+
+![badge](https://assets.leetcode.com/static_assets/others/2550.gif)
+
+![badge](https://assets.leetcode.com/static_assets/others/25100.gif)
+
 -----
 
 # 📘 Java/c++ DSA Practice
