@@ -26,6 +26,8 @@ The total volume of water trapped is 4.
 
 Example 2:
 
+![img](https://assets.leetcode.com/uploads/2021/04/08/trap2-3d.jpg)
+
 Input: heightMap = [[3,3,3,3,3],[3,2,2,2,3],[3,2,1,2,3],[3,2,2,2,3],[3,3,3,3,3]]
 
 Output: 10
