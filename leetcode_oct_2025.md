@@ -99,4 +99,29 @@ public:
 --------------------------------------------------------------------------------
 
 
+# Code
+```cpp []
+class Solution {
+public:
+    int maxArea(vector<int>& arr) {
+        int ans = 0;
+        int n = arr.size();
+        int l = 0 , r = n - 1;
+
+        while(l<r){
+            ans = max(ans , min(arr[l] , arr[r]) * (r-l));
+            if(arr[l] <= arr[r]) l++;
+            else r--;
+        }
+       
+        return ans;
+    }
+};
+```
+
+----------------------------------------------------------------------------------
+
+
+
+
 
