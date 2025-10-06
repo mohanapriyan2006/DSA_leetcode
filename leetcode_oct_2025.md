@@ -283,6 +283,7 @@ Return the minimum time until you can reach the bottom right square (n - 1, n - 
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2021/06/29/swim1-grid.jpg)
 
 Input: grid = [[0,2],[1,3]]
 
