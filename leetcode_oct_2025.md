@@ -480,7 +480,7 @@ public:
 -------------------------------------------------------
 
 
-# 1488. Avoid Flood in The City
+# 1488. Avoid Flood in The City -> [LeetCome](https://leetcode.com/problems/avoid-flood-in-the-city/description)
  
 Medium
  
