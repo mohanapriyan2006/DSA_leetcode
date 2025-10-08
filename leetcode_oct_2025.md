@@ -601,7 +601,7 @@ public:
 
 ---------------------------------------------------------------
 
-# 2300. Successful Pairs of Spells and Potions
+# 2300. Successful Pairs of Spells and Potions -> [LeetCode](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description)
  
 Medium
  
