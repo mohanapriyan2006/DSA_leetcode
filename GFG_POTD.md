@@ -2854,12 +2854,16 @@ Note: A postorder traversal first visits the left child (including its entire su
 
 Examples:
 
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700199/Web/Other/blobid0_1752318711.webp)
+
 Input: root = [19, 10, 8, 11, 13]
 
 Output: [11, 13, 10, 8, 19]
 
 Explanation: The postorder traversal of the given binary tree is [11, 13, 10, 8, 19].
 
+
+![img](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700199/Web/Other/blobid1_1752318749.webp)
 
 Input: root = [11, 15, N, 7]
  
