@@ -2845,4 +2845,42 @@ class Solution {
 -------------------------------------------------------------
 
 
+# code
+```cpp []
+/*
+class Node {
+  public:
+    int data;
+    Node* left;
+    Node* right;
+
+    Node(int val) {
+        data = val;
+        left = NULL;
+        right = NULL;
+    }
+};
+*/
+
+class Solution {
+  private:
+    void helper(Node* root , vector<int> &ans){
+        if(!root) return;
+        helper(root->left , ans);
+        helper(root->right , ans);
+        ans.push_back(root->data);
+    }
+    
+  public:
+    vector<int> postOrder(Node* root) {
+        if(!root) {};
+        vector<int> ans;
+        helper(root ,ans);
+        return ans;
+    }
+};
+```
+
+--------------------------------------
+
 
