@@ -678,7 +678,7 @@ public:
 ------------------------------------------------
 
 
-# 3494. Find the Minimum Amount of Time to Brew Potions
+# 3494. Find the Minimum Amount of Time to Brew Potions -> [LeetCode](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/description)
  
 Medium
  
