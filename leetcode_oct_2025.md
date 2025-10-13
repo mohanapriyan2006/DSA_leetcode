@@ -1039,7 +1039,7 @@ public:
 
 -----------------------------------------------------------------------------------------------
 
-# 2273. Find Resultant Array After Removing Anagrams
+# 2273. Find Resultant Array After Removing Anagrams -> [LeetCode](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description)
  
 Easy
  
