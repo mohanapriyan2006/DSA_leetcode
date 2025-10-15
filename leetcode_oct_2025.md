@@ -1170,7 +1170,7 @@ public:
 
 -----------------------------------------------------------------------------------------------------
 
-# 3350. Adjacent Increasing Subarrays Detection II
+# 3350. Adjacent Increasing Subarrays Detection II -> [LeetCode](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/description)
  
 Medium
  
