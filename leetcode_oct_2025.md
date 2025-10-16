@@ -1241,7 +1241,7 @@ public:
 ```
 -------------------------------------------------------------------------------------------------
 
-# 2598. Smallest Missing Non-negative Integer After Operations
+# 2598. Smallest Missing Non-negative Integer After Operations -> [LeetCode](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/description)
  
 Medium
  
