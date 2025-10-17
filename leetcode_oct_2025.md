@@ -1306,7 +1306,7 @@ public:
 
 -------------------------------------------------------------------------------------------------
 
-# 3003. Maximize the Number of Partitions After Operations
+# 3003. Maximize the Number of Partitions After Operations -> [LeetCode](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/description/)
  
 Hard
  
