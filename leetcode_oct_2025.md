@@ -1489,7 +1489,7 @@ public:
 
 --------------------------------------------------------------------------------------------------------------
 
-# 1625. Lexicographically Smallest String After Applying Operations
+# 1625. Lexicographically Smallest String After Applying Operations -> [LeetCode](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/description)
  
 Medium
  
