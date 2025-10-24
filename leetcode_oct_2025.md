@@ -1894,7 +1894,7 @@ public:
 
 ----------------------------------------------------------------------------------------------------------
 
-# 2048. Next Greater Numerically Balanced Number
+# 2048. Next Greater Numerically Balanced Number -> [LeetCode](https://leetcode.com/problems/next-greater-numerically-balanced-number/description/)
  
 Medium
  
