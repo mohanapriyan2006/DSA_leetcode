@@ -2034,3 +2034,24 @@ Explanation: After the 20th day, the total is (1 + 2 + 3 + 4 + 5 + 6 + 7) + (2 +
 Constraints:
 
 1 <= n <= 1000
+
+
+# Code
+```cpp []
+class Solution {
+public:
+    int totalMoney(int n) {
+        int week_cnt = n / 7;
+        int rem_days = n % 7;
+
+        int total = ( (week_cnt * (week_cnt - 1)) / 2 ) * 7;
+        total += week_cnt * 28;
+        total += ( (rem_days * (rem_days + 1)) / 2 ) + (rem_days * week_cnt);
+
+        return total;
+    }
+};
+```
+
+
+---------------------------------------------------------------------------------------------------
