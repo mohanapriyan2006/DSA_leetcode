@@ -2056,7 +2056,7 @@ public:
 
 ---------------------------------------------------------------------------------------------------
 
-# 2043. Simple Bank System
+# 2043. Simple Bank System -> [LeetCode](https://leetcode.com/problems/simple-bank-system/description/)
  
 Medium
  
