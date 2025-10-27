@@ -2182,6 +2182,7 @@ This is because the 2nd row contains security devices, which breaks the second c
 
 Example 2:
 
+![img](https://assets.leetcode.com/uploads/2021/12/24/laser2.jpg)
 
 Input: bank = ["000","111","000"]
 
