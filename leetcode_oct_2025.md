@@ -2161,6 +2161,7 @@ Return the total number of laser beams in the bank.
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2021/12/24/laser1.jpg)
 
 Input: bank = ["011001","000000","010100","001000"]
 
