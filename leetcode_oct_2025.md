@@ -2143,7 +2143,7 @@ public:
 
 -------------------------------------------------------------------------------------------
 
-# 2125. Number of Laser Beams in a Bank -> LeetCode
+# 2125. Number of Laser Beams in a Bank -> [LeetCode](https://leetcode.com/problems/number-of-laser-beams-in-a-bank)
  
 Medium
  
