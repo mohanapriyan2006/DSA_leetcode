@@ -2383,7 +2383,7 @@ public:
 --------------------------------------------------------------------------------------------
 
 
-# 1526. Minimum Number of Increments on Subarrays to Form a Target Array
+# 1526. Minimum Number of Increments on Subarrays to Form a Target Array -> [LeetCode](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
  
 Hard
  
