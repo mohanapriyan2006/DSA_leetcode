@@ -2538,6 +2538,7 @@ Output: [4,5]
 
 Explanation:
 
+![img](https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample0.png)
 
 
 Remove the nodes with values 1, 2, and 3.
