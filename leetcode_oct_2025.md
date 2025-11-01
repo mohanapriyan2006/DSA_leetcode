@@ -2564,6 +2564,7 @@ Output: [1,2,3,4]
 
 Explanation:
 
+![img](https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample2.png)
 
 
 No node has value 5.
