@@ -2551,6 +2551,7 @@ Output: [2,2,2]
 
 Explanation:
 
+![img](https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample1.png)
 
 
 Remove the nodes with value 1.
