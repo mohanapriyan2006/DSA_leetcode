@@ -196,7 +196,7 @@ public:
 
 ----------------------------------------------------------------------------------------
 
-# 1578. Minimum Time to Make Rope Colorful
+# 1578. Minimum Time to Make Rope Colorful -> [LeetCode](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description)
  
 Medium
  
