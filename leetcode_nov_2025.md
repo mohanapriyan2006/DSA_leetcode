@@ -234,6 +234,8 @@ Explanation: The rope is already colorful. Bob does not need to remove any ballo
 
 Example 3:
 
+![img](https://assets.leetcode.com/uploads/2021/12/13/balloon3.jpg)
+
 Input: colors = "aabaa", neededTime = [1,2,3,4,1]
 
 Output: 2
