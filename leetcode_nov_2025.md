@@ -223,6 +223,8 @@ There are no longer two consecutive balloons of the same color. Total time = 3.
 
 Example 2:
 
+![img](https://assets.leetcode.com/uploads/2021/12/13/balloon2.jpg)
+
 Input: colors = "abc", neededTime = [1,2,3]
 
 Output: 0
