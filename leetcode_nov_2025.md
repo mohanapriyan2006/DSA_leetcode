@@ -210,6 +210,7 @@ Return the minimum time Bob needs to make the rope colorful.
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2021/12/13/ballon1.jpg)
 
 Input: colors = "abaac", neededTime = [1,2,3,4,5]
 
