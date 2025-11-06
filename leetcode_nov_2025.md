@@ -609,7 +609,7 @@ Output: [3,2,3]
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/04/15/powergrid.jpg)
 
 Initially, all stations {1, 2, 3, 4, 5} are online and form a single power grid.
 Query [1,3]: Station 3 is online, so the maintenance check is resolved by station 3.
