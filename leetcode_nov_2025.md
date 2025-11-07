@@ -729,7 +729,7 @@ public:
 ----------------------------------------------------------------------------------------------------------------
 
 
-# 2528. Maximize the Minimum Powered City
+# 2528. Maximize the Minimum Powered City -> [LeetCode](https://leetcode.com/problems/maximize-the-minimum-powered-city/description)
 
 Hard
  
