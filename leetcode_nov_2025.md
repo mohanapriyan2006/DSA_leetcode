@@ -960,7 +960,7 @@ public:
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-# 3542. Minimum Operations to Convert All Elements to Zero
+# 3542. Minimum Operations to Convert All Elements to Zero -> [Leetcode](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero)
 
 Medium
  
