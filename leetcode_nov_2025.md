@@ -1080,3 +1080,39 @@ Constraints:
 -10 <= nums[i] <= 10
 All the integers of nums are unique.
 
+
+# Code
+```cpp []
+class Solution {
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+           vector<vector<int>> res;
+           backtrack(nums , 0 , res);
+           return res;
+    }
+
+    void backtrack(vector<int>& nums , int st , vector<vector<int>> &res){
+        if(st == nums.size()){
+            res.push_back(nums);
+            return;
+        }
+        for(int i=st ; i<nums.size() ; ++i){
+            swap(nums[i] , nums[st]);
+            backtrack(nums , st + 1 , res);
+            swap(nums[i] , nums[st]);
+        }
+    }
+
+    void swap(int &a , int &b){
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+};
+```
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
