@@ -1046,7 +1046,7 @@ public:
 ------------------------------------------------------------------------------------------------------------------------------
 
 
-# 46. Permutations
+# 46. Permutations -> [LeetCode](https://leetcode.com/problems/permutations/description/)
  
 Medium
  
