@@ -1316,7 +1316,7 @@ public:
 
 ---------------------------------------------------------------------------------------------------
 
-# 2536. Increment Submatrices by One
+# 2536. Increment Submatrices by One -> [LeetCode](https://leetcode.com/problems/increment-submatrices-by-one)
  
 Topics
  
