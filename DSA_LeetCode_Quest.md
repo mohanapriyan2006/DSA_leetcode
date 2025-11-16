@@ -537,7 +537,7 @@ public:
 
 -----------------------------------------------------------------------------------
 
-# Q3. Exclusive Time of Functions
+# Q3. [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/description)
  
 Topics
  
@@ -607,5 +607,38 @@ No two start events will happen at the same timestamp.
 No two end events will happen at the same timestamp.
 Each function has an "end" log for each "start" log.
 
+# code 
+```cpp []
+class Solution {
+public:
+    vector<int> exclusiveTime(int n, vector<string>& logs) {
+       vector<int> ans(n , 0);
+       stack<int> st;
+       int prevTime = 0;
+
+       for(const string log : logs){
+        int p1 = log.find(":");
+        int p2 = log.rfind(":");
+        int id = stoi(log.substr(0 , p1));
+        string type = log.substr(p1+1 , p2 - p1 - 1);
+        int time = stoi(log.substr(p2 + 1));
+
+        if(type == "start"){
+            if(!st.empty()) ans[st.top()] += time - prevTime;
+            st.push(id);
+            prevTime = time;
+        }else{
+            ans[st.top()] += time - prevTime + 1;
+            st.pop();
+            prevTime = time + 1;
+        }
+       }
+       
+       return ans;
+    }
+};
+```
+
+---------------------------------------------------------------------------------------------------
 
 
