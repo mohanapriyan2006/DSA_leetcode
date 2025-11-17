@@ -1569,6 +1569,8 @@ Input: nums = [1,0,0,0,1,0,0,1], k = 2
 
 Output: true
 
+![img](https://assets.leetcode.com/uploads/2020/04/15/sample_1_1791.png)
+
 Explanation: Each of the 1s are at least 2 places away from each other.
 
 
@@ -1577,6 +1579,8 @@ Example 2:
 Input: nums = [1,0,0,1,0,1], k = 2
 
 Output: false
+
+![img](https://assets.leetcode.com/uploads/2020/04/15/sample_2_1791.png)
 
 Explanation: The second 1 and third 1 are only one apart from each other.
  
