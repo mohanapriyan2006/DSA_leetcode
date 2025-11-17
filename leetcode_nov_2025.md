@@ -1587,3 +1587,34 @@ Constraints:
 0 <= k <= nums.length
 nums[i] is 0 or 1
 
+# 
+# Code
+```cpp []
+class Solution {
+public:
+    bool kLengthApart(vector<int>& nums, int k) {
+        int n = nums.size();
+        int prevIdx;
+        bool notFound = true;
+        for(int i=0 ; i<n  ; ++i){
+            if(notFound && nums[i] == 1){
+                notFound = false;
+                prevIdx = i;
+                continue;
+            }
+            if(nums[i] == 1){
+                if(i - prevIdx - 1 >= k) prevIdx = i;
+                else return false;
+            }
+        }
+        return true;
+    }
+};
+```
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
