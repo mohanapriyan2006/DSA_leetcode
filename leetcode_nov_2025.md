@@ -1620,7 +1620,7 @@ public:
 -----------------------------------------------------------------------------------------------------------------
 
 
-# 717. 1-bit and 2-bit Characters
+# 717. 1-bit and 2-bit Characters -> [LeetCode](https://leetcode.com/problems/1-bit-and-2-bit-characters/description/)
  
 Easy
  
