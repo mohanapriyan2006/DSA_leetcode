@@ -1822,7 +1822,7 @@ public:
 --------------------------------------------------------------------------------------------------------------------------------
 
 
-# 1930. Unique Length-3 Palindromic Subsequences
+# 1930. Unique Length-3 Palindromic Subsequences -> [LeetCode](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/description)
  
 Medium
  
