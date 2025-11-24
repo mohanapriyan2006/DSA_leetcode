@@ -2079,4 +2079,25 @@ nums[i] is either 0 or 1.
 
 
 
+# Code
+```cpp []
+class Solution {
+public:
+    vector<bool> prefixesDivBy5(vector<int>& nums) {
+        int val = 0;
+        vector<bool> res;
+
+        for (auto& n : nums) {
+            val = ((val << 1) + n) % 5;
+            res.push_back(val == 0);
+        }
+
+        return res;
+    }
+};
+
+```
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
