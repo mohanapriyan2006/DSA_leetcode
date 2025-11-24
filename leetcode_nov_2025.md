@@ -2041,7 +2041,7 @@ public:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# 1018. Binary Prefix Divisible By 5
+# 1018. Binary Prefix Divisible By 5 -> [LeetCode](https://leetcode.com/problems/binary-prefix-divisible-by-5/)
 
 Easy
  
