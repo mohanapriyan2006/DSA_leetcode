@@ -2101,7 +2101,7 @@ public:
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-# 1015. Smallest Integer Divisible by K
+# 1015. Smallest Integer Divisible by K -> [LeetCode](https://leetcode.com/problems/smallest-integer-divisible-by-k/description/)
 
 Medium
  
