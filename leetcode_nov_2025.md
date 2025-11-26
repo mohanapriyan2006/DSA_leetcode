@@ -2164,7 +2164,7 @@ public:
 
 -----------------------------------------------------------------------------------------------------
 
-# 2435. Paths in Matrix Whose Sum Is Divisible by K
+# 2435. Paths in Matrix Whose Sum Is Divisible by K -> [LeetCode](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k)
 
 Hard
 
