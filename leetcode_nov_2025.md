@@ -2493,4 +2493,23 @@ Constraints:
 
 
 
+# Code
+```cpp []
+class Solution {
+public:
+    int minOperations(vector<int>& nums, int k) {
+        long long sum = 0;
+        for(const int n:nums) sum += n;
+        return sum % k;
+    }
+};
+```
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 
