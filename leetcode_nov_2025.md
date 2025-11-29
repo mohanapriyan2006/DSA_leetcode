@@ -2442,7 +2442,7 @@ private:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-# 3512. Minimum Operations to Make Array Sum Divisible by K
+# 3512. Minimum Operations to Make Array Sum Divisible by K -> [LeetCode](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description)
  
 Easy
  
@@ -2489,8 +2489,6 @@ Constraints:
 1 <= nums.length <= 1000
 1 <= nums[i] <= 1000
 1 <= k <= 100
-
-
 
 
 # Code
