@@ -12,6 +12,8 @@
 
 ![badge](https://assets.leetcode.com/static_assets/others/25100.gif)
 
+![badge](https://assets.leetcode.com/static_assets/others/200.gif)
+
 -----
 
 # 📘 Java/c++ DSA Practice
