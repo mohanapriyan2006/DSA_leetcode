@@ -78,7 +78,7 @@ public:
 
 ----------------------------------------------------------------------
 
-# 3623. Count Number of Trapezoids I
+# 3623. Count Number of Trapezoids I -> [LeetCode](https://leetcode.com/problems/count-number-of-trapezoids-i/description)
 
 Medium
  
@@ -100,6 +100,7 @@ Output: 3
 
 Explanation:
 
+![img](https://assets.leetcode.com/uploads/2025/05/01/desmos-graph-7.png)
 
 
 There are three distinct ways to pick four points that form a horizontal trapezoid:
@@ -118,7 +119,7 @@ Output: 1
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/04/29/desmos-graph-5.png)
 
 There is only one horizontal trapezoid that can be formed.
 
