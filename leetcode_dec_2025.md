@@ -154,7 +154,7 @@ public:
 
 --------------------------------------------------------------------------------------------
 
-# 3625. Count Number of Trapezoids II
+# 3625. Count Number of Trapezoids II -> [LeetCode](https://leetcode.com/problems/count-number-of-trapezoids-ii/description)
 
 Hard
 
@@ -174,7 +174,7 @@ Output: 2
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/04/29/desmos-graph-3.png)
 
 There are two distinct ways to pick four points that form a trapezoid:
 
@@ -191,7 +191,7 @@ Output: 1
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/04/29/desmos-graph-5.png)
 
 There is only one trapezoid which can be formed.
 
