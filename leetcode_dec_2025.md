@@ -409,3 +409,29 @@ Constraints:
 1 <= nums[i] <= 100
 
 
+# Code
+```cpp []
+class Solution {
+public:
+    int countPartitions(vector<int>& nums) {
+        int sum = accumulate(nums.begin() , nums.end() , 0);
+        int res = -1;
+
+        for(const int num:nums){
+            int rem = sum - num;
+            if(abs(num - rem) % 2 == 0) res++;
+        }
+
+        return (res == -1) ? 0 : res;
+    }
+};
+```
+
+--------------------------------------------------------------------------------------
+
+
+
+
+
+
+
