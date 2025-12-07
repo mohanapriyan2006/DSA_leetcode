@@ -517,7 +517,7 @@ public:
 
 ------------------------------------------------------------------------------------------------------------
 
-# 1523. Count Odd Numbers in an Interval Range
+# 1523. Count Odd Numbers in an Interval Range -> [LeetCode](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description)
 
 Easy
 
