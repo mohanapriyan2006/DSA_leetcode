@@ -566,7 +566,7 @@ public:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 1925. Count Square Sum Triples
+# 1925. Count Square Sum Triples -> [LeetCode](https://leetcode.com/problems/count-square-sum-triples)
 
 Easy
  
