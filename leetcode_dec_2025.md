@@ -624,7 +624,7 @@ public:
 -----------------------------------------------------------------------------------------------------------------------
 
 
-# 3583. Count Special Triplets
+# 3583. Count Special Triplets -> [LeetCode](https://leetcode.com/problems/count-special-triplets/)
 
 Medium
  
