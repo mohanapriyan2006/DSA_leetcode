@@ -728,7 +728,8 @@ public:
 ---------------------------------------------------------------------------------------------------------------------
 
 
-# 3577. Count the Number of Computer Unlocking Permutations
+
+# 3577. Count the Number of Computer Unlocking Permutations -> [LeetCode](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/)
 
 Medium
 
@@ -786,6 +787,9 @@ Constraints:
 
 2 <= complexity.length <= 105
 1 <= complexity[i] <= 109
+
+
+
 
 
 
