@@ -819,7 +819,7 @@ public:
 
 
 
-# 3531. Count Covered Buildings
+# 3531. Count Covered Buildings -> [LeetCode](https://leetcode.com/problems/count-covered-buildings/)
 
 Medium
 
@@ -833,7 +833,7 @@ Return the number of covered buildings.
 
 Example 1:
 
-
+![img](https://assets.leetcode.com/uploads/2025/03/04/telegram-cloud-photo-size-5-6212982906394101085-m.jpg)
 
 Input: n = 3, buildings = [[1,2],[2,2],[3,2],[2,1],[2,3]]
 
@@ -852,7 +852,7 @@ Thus, the count of covered buildings is 1.
 
 Example 2:
 
-
+![img](https://assets.leetcode.com/uploads/2025/03/04/telegram-cloud-photo-size-5-6212982906394101086-m.jpg)
 
 Input: n = 3, buildings = [[1,1],[1,2],[2,1],[2,2]]
 
@@ -866,7 +866,7 @@ No building has at least one building in all four directions.
 
 Example 3:
 
-
+![img](https://assets.leetcode.com/uploads/2025/03/16/telegram-cloud-photo-size-5-6248862251436067566-x.jpg)
 
 Input: n = 5, buildings = [[1,3],[3,2],[3,3],[3,5],[5,3]]
 
