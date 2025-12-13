@@ -1057,7 +1057,7 @@ public:
 
 
 
-# 3606. Coupon Code Validator
+# 3606. Coupon Code Validator -> [LeetCode](https://leetcode.com/problems/coupon-code-validator)
 
 Easy
 
@@ -1110,6 +1110,7 @@ n == code.length == businessLine.length == isActive.length
 0 <= code[i].length, businessLine[i].length <= 100
 code[i] and businessLine[i] consist of printable ASCII characters.
 isActive[i] is either true or false.
+
 
 
 
