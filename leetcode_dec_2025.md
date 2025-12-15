@@ -1164,9 +1164,7 @@ public:
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 
-
-
-# 2110. Number of Smooth Descent Periods of a Stock
+# 2110. Number of Smooth Descent Periods of a Stock -> [LeetCode](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock)
 
 Medium
  
