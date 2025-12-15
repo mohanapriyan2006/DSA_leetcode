@@ -1224,7 +1224,7 @@ public:
 
 ----------------------------------------------------------------------------------------------------------
 
-# 2147. Number of Ways to Divide a Long Corridor
+# 2147. Number of Ways to Divide a Long Corridor -> [LeetCode](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor)
 
 Hard
 
@@ -1240,6 +1240,7 @@ Return the number of ways to divide the corridor. Since the answer may be very l
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2021/12/04/1.png)
 
 Input: corridor = "SSPPSPS"
 Output: 3
@@ -1251,6 +1252,7 @@ Note that in each of the ways, each section has exactly two seats.
 
 Example 2:
 
+![img](https://assets.leetcode.com/uploads/2021/12/04/1.png)
 
 Input: corridor = "PPSPSP"
 Output: 1
@@ -1262,6 +1264,7 @@ Installing any would create some section that does not have exactly two seats.
 
 Example 3:
 
+![img](https://assets.leetcode.com/uploads/2021/12/12/3.png)
 
 Input: corridor = "S"
 Output: 0
