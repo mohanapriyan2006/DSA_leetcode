@@ -1310,7 +1310,7 @@ public:
 ---------------------------------------------------------------------------------------------------------------------------------
 
 
-# 3562. Maximum Profit from Trading Stocks with Discounts
+# 3562. Maximum Profit from Trading Stocks with Discounts -> [LeetCode](https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/)
 
 Hard
 
@@ -1340,7 +1340,7 @@ Output: 5
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/04/09/screenshot-2025-04-10-at-053641.png)
 
 Employee 1 buys the stock at price 1 and earns a profit of 4 - 1 = 3.
 Since Employee 1 is the direct boss of Employee 2, Employee 2 gets a discounted price of floor(2 / 2) = 1.
@@ -1357,7 +1357,7 @@ Output: 4
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/04/09/screenshot-2025-04-10-at-053641.png)
 
 Employee 2 buys the stock at price 4 and earns a profit of 8 - 4 = 4.
 Since both employees cannot buy together, the maximum profit is 4.
@@ -1372,7 +1372,7 @@ Output: 10
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/04/09/image.png)
 
 Employee 1 buys the stock at price 4 and earns a profit of 7 - 4 = 3.
 Employee 3 would get a discounted price of floor(8 / 2) = 4 and earns a profit of 11 - 4 = 7.
@@ -1388,7 +1388,7 @@ Output: 12
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/04/09/screenshot-2025-04-10-at-054114.png)
 
 Employee 1 buys the stock at price 5 and earns a profit of 8 - 5 = 3.
 Employee 2 would get a discounted price of floor(2 / 2) = 1 and earns a profit of 5 - 1 = 4.
