@@ -1686,7 +1686,7 @@ public:
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-# 2092. Find All People With Secret
+# 2092. Find All People With Secret -> [LeetCode](https://leetcode.com/problems/find-all-people-with-secret)
 
 Hard
 
