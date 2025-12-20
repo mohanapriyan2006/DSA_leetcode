@@ -1797,7 +1797,7 @@ public:
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# 944. Delete Columns to Make Sorted
+# 944. Delete Columns to Make Sorted -> [LeetCode](https://leetcode.com/problems/delete-columns-to-make-sorted)
 
 Easy
  
