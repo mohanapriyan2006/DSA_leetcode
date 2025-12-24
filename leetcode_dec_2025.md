@@ -2171,7 +2171,7 @@ public:
 ---------------------------------------------------------------------------------------------------------------------------------
 
 
-# 3074. Apple Redistribution into Boxes
+# 3074. Apple Redistribution into Boxes -> [LeetCode](https://leetcode.com/problems/apple-redistribution-into-boxes)
 
 Easy
 
