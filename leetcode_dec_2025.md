@@ -2319,7 +2319,7 @@ public:
 ------------------------------------------------------------------------------------------------------------------------------
 
 
-# 2483. Minimum Penalty for a Shop
+# 2483. Minimum Penalty for a Shop -> [LeetCode](https://leetcode.com/problems/minimum-penalty-for-a-shop)
 
 Medium
  
