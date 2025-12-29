@@ -2576,7 +2576,7 @@ public:
 --------------------------------------------------------------------------------------------------------------------------------
 
 
-# 756. Pyramid Transition Matrix
+# 756. Pyramid Transition Matrix -> [LeetCode](https://leetcode.com/problems/pyramid-transition-matrix)
 
 Medium
 
@@ -2593,6 +2593,7 @@ Given bottom and allowed, return true if you can build the pyramid all the way t
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2021/08/26/pyramid1-grid.jpg)
 
 Input: bottom = "BCD", allowed = ["BCC","CDE","CEA","FFF"]
 
@@ -2606,6 +2607,7 @@ There are three triangular patterns in the pyramid, which are "BCC", "CDE", and 
 
 Example 2:
 
+![img](https://assets.leetcode.com/uploads/2021/08/26/pyramid2-grid.jpg)
 
 Input: bottom = "AAAA", allowed = ["AAB","AAC","BCD","BBE","DEF"]
 
