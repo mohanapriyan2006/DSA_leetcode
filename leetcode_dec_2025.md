@@ -2659,7 +2659,7 @@ public:
 
 -------------------------------------------------------------------------------------------------------------
 
-# 840. Magic Squares In Grid
+# 840. Magic Squares In Grid -> [LeetCode](https://leetcode.com/problems/magic-squares-in-grid)
 
 Medium
 
@@ -2673,6 +2673,7 @@ Note: while a magic square can only contain numbers from 1 to 9, grid may contai
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2020/09/11/magic_main.jpg)
 
 Input: grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]
 
@@ -2689,6 +2690,8 @@ In total, there is only one magic square inside the given grid.
 
 
 Example 2:
+
+![img](https://assets.leetcode.com/uploads/2020/09/11/magic_valid.jpg)
 
 Input: grid = [[8]]
 
