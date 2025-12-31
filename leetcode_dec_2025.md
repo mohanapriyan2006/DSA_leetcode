@@ -2757,7 +2757,7 @@ public:
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# 1970. Last Day Where You Can Still Cross
+# 1970. Last Day Where You Can Still Cross -> [LeetCode](https://leetcode.com/problems/last-day-where-you-can-still-cross)
 
 Hard
 
@@ -2773,6 +2773,7 @@ Return the last day where it is possible to walk from the top to the bottom by o
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2021/07/27/1.png)
 
 Input: row = 2, col = 2, cells = [[1,1],[2,1],[1,2],[2,2]]
 
@@ -2782,10 +2783,9 @@ Explanation: The above image depicts how the matrix changes each day starting fr
 The last day where it is possible to cross from top to bottom is on day 2.
 
 
-
-
 Example 2:
 
+![img](https://assets.leetcode.com/uploads/2021/07/27/2.png)
 
 Input: row = 2, col = 2, cells = [[1,1],[1,2],[2,1],[2,2]]
 
@@ -2798,6 +2798,7 @@ The last day where it is possible to cross from top to bottom is on day 1.
 
 Example 3:
 
+![img](https://assets.leetcode.com/uploads/2021/07/27/3.png)
 
 Input: row = 3, col = 3, cells = [[1,2],[2,1],[3,3],[2,2],[1,1],[1,3],[2,3],[3,2],[3,1]]
 
