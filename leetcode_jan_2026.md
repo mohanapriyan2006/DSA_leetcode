@@ -3,7 +3,7 @@
 -----------------------------------------------------------
 
 
-# 66. Plus One
+# 66. Plus One -> [LeetCode](https://leetcode.com/problems/plus-one)
 
 Easy
 
