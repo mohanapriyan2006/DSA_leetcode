@@ -154,7 +154,6 @@ You have a grid of size n x 3 and you want to paint each cell of the grid with e
 
 Given n the number of rows of the grid, return the number of ways you can paint this grid. As the answer may grow large, the answer must be computed modulo 109 + 7.
 
- 
 
 Example 1:
 
@@ -179,6 +178,31 @@ Constraints:
 
 n == grid.length
 1 <= n <= 5000
+
+
+
+# Code
+```cpp []
+class Solution {
+public:
+    int numOfWays(int n) {
+        const int MOD = 1000000007;
+        long long x = 6, y = 6;
+
+        for (int i = 2; i <= n; i++) {
+            long long new_x = (3 * x + 2 * y) % MOD;
+            long long new_y = (2 * x + 2 * y) % MOD;
+            x = new_x;
+            y = new_y;
+        }
+
+        return (x + y) % MOD;
+    }
+};
+```
+
+-----------------------------------------------------------------------------------------------------------
+
 
 
 
