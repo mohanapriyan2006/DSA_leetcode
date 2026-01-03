@@ -146,7 +146,7 @@ public:
 
 
 
-# 1411. Number of Ways to Paint N × 3 Grid
+# [1411. Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)
 
 Hard
 
@@ -158,6 +158,7 @@ Given n the number of rows of the grid, return the number of ways you can paint 
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2020/03/26/e1.png)
 
 Input: n = 1
 
