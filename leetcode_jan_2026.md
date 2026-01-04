@@ -204,7 +204,7 @@ public:
 -----------------------------------------------------------------------------------------------------------
 
 
-# 1390. Four Divisors
+# [1390. Four Divisors](https://leetcode.com/problems/four-divisors/)
 
 Medium
  
