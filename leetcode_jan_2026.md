@@ -293,7 +293,7 @@ public:
 -----------------------------------------------------------------------------------------------------------------------
 
 
-# 1975. Maximum Matrix Sum
+# [1975. Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/)
 
 Medium
  
@@ -308,6 +308,7 @@ Your goal is to maximize the summation of the matrix's elements. Return the maxi
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2021/07/16/pc79-q2ex1.png)
 
 Input: matrix = [[1,-1],[-1,1]]
 
@@ -321,6 +322,7 @@ Explanation: We can follow the following steps to reach sum equals 4:
 
 Example 2:
 
+![img](https://assets.leetcode.com/uploads/2021/07/16/pc79-q2ex2.png)
 
 Input: matrix = [[1,2,3],[-1,-2,-3],[1,2,3]]
 
