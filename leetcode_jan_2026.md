@@ -369,7 +369,7 @@ public:
 ------------------------------------------------------------------------------------------------------------------------
 
 
-# 1161. Maximum Level Sum of a Binary Tree
+# [1161. Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree)
 
 Medium
 
@@ -381,9 +381,9 @@ Return the smallest level x such that the sum of all the values of nodes at leve
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2019/05/03/capture.JPG)
 
 Input: root = [1,7,0,7,-8,null,null]
-
 
 Output: 2
 
