@@ -557,7 +557,7 @@ public:
 
 
 
-# 865. Smallest Subtree with all the Deepest Nodes
+# [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes)
 
 Medium
 
@@ -573,6 +573,7 @@ The subtree of a node is a tree consisting of that node, plus the set of all des
 
 Example 1:
 
+![img](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/01/sketch1.png)
 
 Input: root = [3,5,1,6,2,0,8,null,null,7,4]
 
