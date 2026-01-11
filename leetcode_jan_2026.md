@@ -744,7 +744,7 @@ public:
 ----------------------------------------------------------------------------------------------------------------------------
 
 
- # 85. Maximal Rectangle
+ # [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
  
 Hard
  
@@ -754,6 +754,7 @@ Given a rows x cols binary matrix filled with 0's and 1's, find the largest rect
 
 Example 1:
 
+![img](https://leetcode.com/problems/maximal-rectangle/)
 
 Input: matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
 
