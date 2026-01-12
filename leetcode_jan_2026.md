@@ -825,7 +825,7 @@ public:
 -------------------------------------------------------------------------------------------------------------------------
 
 
-# 1266. Minimum Time Visiting All Points
+# [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points)
 
 Easy
  
@@ -847,6 +847,8 @@ Example 1:
 Input: points = [[1,1],[3,4],[-1,0]]
 
 Output: 7
+
+![img](https://assets.leetcode.com/uploads/2019/11/14/1626_example_1.PNG)
 
 Explanation: One optimal path is [1,1] -> [2,2] -> [3,3] -> [3,4] -> [2,3] -> [1,2] -> [0,1] -> [-1,0]   
 Time from [1,1] to [3,4] = 3 seconds 
