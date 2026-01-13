@@ -895,7 +895,7 @@ public:
 --------------------------------------------------------------------------------------------------------------------------
 
 
-# 3453. Separate Squares I
+# [3453. Separate Squares I](https://leetcode.com/problems/separate-squares-i/)
 
 Medium
  
@@ -917,7 +917,7 @@ Output: 1.00000
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/01/06/4062example1drawio.png)
 
 Any horizontal line between y = 1 and y = 2 will have 1 square unit above it and 1 square unit below it. The lowest option is 1.
 
@@ -931,7 +931,7 @@ Output: 1.16667
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/01/15/4062example2drawio.png)
 
 The areas are:
 
@@ -949,6 +949,8 @@ squares[i].length == 3
 0 <= xi, yi <= 109
 1 <= li <= 109
 The total area of all the squares will not exceed 1012.
+
+
 
 
 
