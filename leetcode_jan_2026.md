@@ -998,7 +998,7 @@ public:
 
 -------------------------------------------------------------------------------------------------------------------------
 
-# 3454. Separate Squares II
+# [3454. Separate Squares II](https://leetcode.com/problems/separate-squares-ii)
 
 Hard
  
@@ -1020,7 +1020,7 @@ Output: 1.00000
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/01/15/4065example1drawio.png)
 
 Any horizontal line between y = 1 and y = 2 results in an equal split, with 1 square unit above and 1 square unit below. The minimum y-value is 1.
 
@@ -1035,7 +1035,7 @@ Output: 1.00000
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/01/15/4065example2drawio.png)
 
 Since the blue square overlaps with the red square, it will not be counted again. Thus, the line y = 1 splits the squares into two equal parts.
 
