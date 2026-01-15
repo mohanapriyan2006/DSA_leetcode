@@ -1130,7 +1130,7 @@ class Solution {
 ----------------------------------------------------------------------------------------------------------------------------
 
 
-# 2943. Maximize Area of Square Hole in Grid
+# [2943. Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/)
 
 Medium
  
@@ -1144,7 +1144,7 @@ Return an integer denoting the maximum area of a square-shaped hole in the grid,
 
 Example 1:
 
-
+![img](https://assets.leetcode.com/uploads/2023/11/05/screenshot-from-2023-11-05-22-40-25.png)
 
 Input: n = 2, m = 1, hBars = [2,3], vBars = [2]
 
@@ -1160,7 +1160,7 @@ One way to get the maximum square-shaped hole is by removing horizontal bar 2 an
 
 Example 2:
 
-
+![img](https://assets.leetcode.com/uploads/2023/11/04/screenshot-from-2023-11-04-17-01-02.png)
 
 Input: n = 1, m = 1, hBars = [2], vBars = [2]
 
