@@ -1227,7 +1227,7 @@ public:
 --------------------------------------------------------------------------------------------------------------------------
 
 
-# 2975. Maximum Square Area by Removing Fences From a Field
+# [2975. Maximum Square Area by Removing Fences From a Field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)
 
 Medium
  
@@ -1245,7 +1245,7 @@ Note: The field is surrounded by two horizontal fences from the coordinates (1, 
 
 Example 1:
 
-
+![img](https://assets.leetcode.com/uploads/2023/11/05/screenshot-from-2023-11-05-22-40-25.png)
 
 Input: m = 4, n = 3, hFences = [2,3], vFences = [2]
 Output: 4
@@ -1255,7 +1255,7 @@ Explanation: Removing the horizontal fence at 2 and the vertical fence at 2 will
 
 Example 2:
 
-
+![img](https://assets.leetcode.com/uploads/2023/11/22/maxsquareareaexample1.png)
 
 Input: m = 6, n = 7, hFences = [2], vFences = [4]
 Output: -1
@@ -1269,8 +1269,6 @@ Constraints:
 1 < hFences[i] < m
 1 < vFences[i] < n
 hFences and vFences are unique.
-
-
 
 
 
