@@ -1307,7 +1307,7 @@ public:
 ------------------------------------------------------------------------------------------------------------------------
 
 
-# 3047. Find the Largest Area of Square Inside Two Rectangles
+# [3047. Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles)
 
 Medium
  
@@ -1319,6 +1319,7 @@ You need to find the maximum area of a square that can fit inside the intersecti
 
 Example 1:
 
+![img](https://assets.leetcode.com/uploads/2024/01/05/example12.png)
 
 Input: bottomLeft = [[1,1],[2,2],[3,1]], topRight = [[3,3],[4,4],[6,6]]
 
@@ -1332,6 +1333,7 @@ A square with side length 1 can fit inside either the intersecting region of rec
 
 Example 2:
 
+![img](https://assets.leetcode.com/uploads/2024/07/15/diag.png)
 
 Input: bottomLeft = [[1,1],[1,3],[1,5]], topRight = [[5,5],[5,7],[5,9]]
 
@@ -1345,6 +1347,7 @@ A square with side length 2 can fit inside either the intersecting region of rec
 
 Example 3:
 
+![img](https://assets.leetcode.com/uploads/2024/01/04/rectanglesexample2.png)
   
 Input: bottomLeft = [[1,1],[2,2],[1,2]], topRight = [[3,3],[4,4],[3,4]]
 
@@ -1358,6 +1361,7 @@ A square with side length 1 can fit inside the intersecting region of any two re
 
 Example 4:
 
+![img](https://assets.leetcode.com/uploads/2024/01/04/rectanglesexample3.png)
   
 Input: bottomLeft = [[1,1],[3,3],[3,1]], topRight = [[2,2],[4,4],[4,2]]
 
