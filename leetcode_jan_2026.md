@@ -1419,7 +1419,7 @@ auto init = []() {
 ---------------------------------------------------------------------------------------------------------------------------
 
 
-# 1895. Largest Magic Square
+# [1895. Largest Magic Square](https://leetcode.com/problems/largest-magic-square/)
 
 Medium
  
@@ -1431,6 +1431,7 @@ Given an m x n integer grid, return the size (i.e., the side length k) of the la
 
 Example 1:
 
+![img](http://assets.leetcode.com/uploads/2021/05/29/magicsquare-grid.jpg)
 
 Input: grid = [[7,1,4,5,6],[2,5,1,6,4],[1,5,4,3,2],[1,2,7,3,4]]
 
@@ -1444,8 +1445,9 @@ Every row sum, column sum, and diagonal sum of this magic square is equal to 12.
 
 
 
-
 Example 2:
+
+![img](https://assets.leetcode.com/uploads/2021/05/29/magicsquare2-grid.jpg)
 
 Input: grid = [[5,1,3,1],[9,3,3,1],[1,3,3,8]]
 
