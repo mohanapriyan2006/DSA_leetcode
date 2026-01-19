@@ -1513,7 +1513,7 @@ public:
 -----------------------------------------------------------------------------------------------------------------
 
 
-# 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
+# [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold)
 
 Medium
  
@@ -1528,6 +1528,7 @@ Input: mat = [[1,1,3,2,4,3,2],[1,1,3,2,4,3,2],[1,1,3,2,4,3,2]], threshold = 4
 
 Output: 2
 
+![img](https://assets.leetcode.com/uploads/2019/12/05/e1.png)
 
 Explanation: The maximum side length of square with sum less than 4 is 2 as shown.
 
