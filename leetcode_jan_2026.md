@@ -2175,7 +2175,7 @@ auto init = atexit( [](){ ofstream("display_runtime.txt") <<'0'; });
 -------------------------------------------------------------------------------------------------------
 
 
-# 3650. Minimum Cost Path with Edge Reversals
+# [3650. Minimum Cost Path with Edge Reversals](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals)
 
 Medium
  
@@ -2198,7 +2198,7 @@ Output: 5
 
 Explanation:
 
-
+![img](https://assets.leetcode.com/uploads/2025/05/07/e1drawio.png)
 
 Use the path 0 → 1 (cost 3).
 At node 1 reverse the original edge 3 → 1 into 1 → 3 and traverse it at cost 2 * 1 = 2.
