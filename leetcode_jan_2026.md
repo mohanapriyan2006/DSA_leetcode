@@ -2384,8 +2384,7 @@ public:
 
 ----------------------------------------------------------------------------------------
 
-# 2976. Minimum Cost to Convert String I
-
+# [2976. Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i)
 Medium
  
 You are given two 0-indexed strings source and target, both of length n and consisting of lowercase English letters. You are also given two 0-indexed character arrays original and changed, and an integer array cost, where cost[i] represents the cost of changing the character original[i] to the character changed[i].
@@ -2422,10 +2421,16 @@ Input: source = "aaaa", target = "bbbb", original = ["a","c"], changed = ["c","b
 Output: 12
 
 Explanation: To change the character 'a' to 'b' change the character 'a' to 'c' at a cost of 1, followed by changing the character 'c' to 'b' at a cost of 2, for a total cost of 1 + 2 = 3. To change all occurrences of 'a' to 'b', a total cost of 3 * 4 = 12 is incurred.
+
+
+
+
 Example 3:
 
 Input: source = "abcd", target = "abce", original = ["a"], changed = ["e"], cost = [10000]
+
 Output: -1
+
 Explanation: It is impossible to convert source to target because the value at index 3 cannot be changed from 'd' to 'e'.
  
 
