@@ -2506,8 +2506,7 @@ public:
 -------------------------------------------------------------------------------------------------
 
 
-# 2977. Minimum Cost to Convert String II
-
+# [2977. Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/)
 Hard
  
 You are given two 0-indexed strings source and target, both of length n and consisting of lowercase English characters. You are also given two 0-indexed string arrays original and changed, and an integer array cost, where cost[i] represents the cost of converting the string original[i] to the string changed[i].
