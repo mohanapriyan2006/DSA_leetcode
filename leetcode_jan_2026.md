@@ -2705,4 +2705,30 @@ target is a lowercase English letter.
 
 
 
+# Code
+```cpp []
+class Solution {
+public:
+    char nextGreatestLetter(vector<char>& letters, char target) {
+        char ans = CHAR_MAX;
+        for(int i=0 ; i<letters.size() ; ++i){
+            if(letters[i] > target && letters[i] < ans){
+                ans = letters[i];
+            }
+        }
+
+        if(ans == CHAR_MAX) ans = letters[0];
+
+        return ans;
+    }
+};
+```
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
