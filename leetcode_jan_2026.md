@@ -2656,7 +2656,7 @@ public:
 ------------------------------------------------------------------------------------------------------------
 
 
-# 744. Find Smallest Letter Greater Than Target
+# [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description)
 
 Easy
  
@@ -2702,6 +2702,7 @@ letters[i] is a lowercase English letter.
 letters is sorted in non-decreasing order.
 letters contains at least two different characters.
 target is a lowercase English letter.
+
 
 
 
